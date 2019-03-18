@@ -1,0 +1,33 @@
+# Altium report files
+*.REP
+*Status Report*
+# STEP models 
+*.step
+# Archives (including history) 
+*.zip
+# Temporary data 
+*.dat
+*.Dat
+*.log
+# Unwanted data from Gerber files 
+*.LDP
+*.RUL
+# Previews and additional Altium outputs
+__Previews
+*Project Logs*
+*Project Outputs*
+*History*
+#FreeCAD temp data
+*FCStd1
+# Draftsight backup files
+*bak
+*.PrjPCBStructure
+*.PrjPcbStructure
+# Windows thumbnails
+Thumb*
+# SVN files from collaborative design.
+.svn
+#Open office temporary files
+*ods\#
+#vim swap files
+*.swp
