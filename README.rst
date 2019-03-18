@@ -1,0 +1,53 @@
+=====================
+Jetson Nano Baseboard
+=====================
+
+.. image:: Images/jetson-nano-baseboard.png
+   :scale: 40%
+
+Overview
+========
+
+This repository contains open hardware design files created by `Antmicro <www.antmicro.com>`_ which is an official Jetson eco-system partner for `NVIDIA <www.nvidia.com>`_.
+The design files define a baseboard supporting the NVIDIA Jetson Nano SoM.
+The board allows to interface with MIPI CSI-2 video devices through a unified Flexible Flat Cable (FFC) connector.
+It allows to connect up to 4 sensors in 2-lane configuration or 3 sensors in 4-lane configuration.
+Please refer to the `Jetson Nano OEM Product Design Guide` for more details regarding the supported CSI lane mappings.
+
+Key features
+============
+
+* Jetson Nano SO-DIMM connector 
+* Gigabit Ethernet RJ45 connector
+* Micro USB debug connector
+* USB-C DFP (Host) port
+* Mini HDMI video output interface
+* Mini Displayport video output interface 
+* 2x 50-pin FFC connectors exposing MIPI CSI-2 camera interfaces
+
+The PCB project files were prepared in Altium Designer 14.1.
+
+Board layout & dimensions
+=========================
+
+The picture below presents the general layout of the PCB with IO interfaces marked.
+
+.. figure:: Images/jetson-nano-layout.png
+
+Getting started
+===============
+
+The board can be produced and assembled using the provided design files.
+Please take a look at the mechanical layers for more information regarding the PCB stackup recommended for fabrication.
+The board accepts power supply voltage in range of 6-36VDC.
+It is recommended to use a 12V 2A DC supply to power the board.
+The board has integrated power sequencer that starts the module automatically right after applying the power supply.
+
+Debug UART connection
+---------------------
+
+Most of the debug messages are provided through the serial console.
+The board is equipped with a FTDI chip offering both UART interface to the host PC.
+Please refer to the schematic sheets for more details.
+The default debug UART channel is accessible through ``/dev/ttyUSB0`` (assuming that there are no other FTDI units connected to your PC).
+The default baudrate for serial debug connection is 115200 baud with 8-bit transmission, 1 stop bit and with no flow control.
