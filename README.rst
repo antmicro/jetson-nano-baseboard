@@ -1,5 +1,5 @@
 =====================
-Jetson Nano Baseboard
+Jetson Nano baseboard
 =====================
 
 .. image:: Images/jetson-nano-baseboard.png
