@@ -45,7 +45,7 @@ Debug UART connection
 ---------------------
 
 Most of the debug messages are provided through the serial console.
-The board is equipped with an FTDI chip offering both UART interface to the host PC.
+The board is equipped with an FTDI chip exposing both UART interfaces to the host PC.
 Please refer to the schematic sheets for more details.
 The default debug UART channel is accessible through ``/dev/ttyUSB0`` (assuming that there are no other FTDI units connected to your PC).
-The default baudrate for serial debug connection is 115200 baud with 8-bit transmission, 1 stop bit and with no flow control.
+The default baudrate for the serial debug connection is 115200 baud with 8-bit transmission, 1 stop bit and with no flow control.
