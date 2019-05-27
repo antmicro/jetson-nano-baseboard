@@ -1,6 +1,6 @@
-=====================
-Jetson Nano baseboard
-=====================
+================================
+Antmicro's Jetson Nano baseboard
+================================
 
 .. image:: Images/jetson-nano-baseboard.png
    :scale: 40%
