@@ -227,7 +227,7 @@ Value=
 
 [Parameter3]
 Name=AM_Revision
-Value=1.1
+Value=1.2
 
 [Parameter4]
 Name=AM_Status
