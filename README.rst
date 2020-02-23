@@ -22,15 +22,9 @@ Key features
 * Mini HDMI video output interface
 * Mini Displayport video output interface 
 * 2x 50-pin FFC connectors exposing MIPI CSI-2 camera interfaces
+* M.2 connector exposing PCIe (NVME) interface
 
 The PCB project files were prepared in Altium Designer 14.1.
-
-Board layout & dimensions
-=========================
-
-The picture below presents the general layout of the PCB with IO interfaces marked.
-
-.. figure:: Images/jetson-nano-layout.png
 
 Getting started
 ===============
