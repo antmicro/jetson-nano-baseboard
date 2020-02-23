@@ -1,6 +1,6 @@
-================================
-Antmicro's Jetson Nano baseboard
-================================
+=====================
+Jetson Nano baseboard
+=====================
 
 .. image:: Images/jetson-nano-baseboard.png
    :scale: 40%
@@ -22,9 +22,17 @@ Key features
 * Mini HDMI video output interface
 * Mini Displayport video output interface 
 * 2x 50-pin FFC connectors exposing MIPI CSI-2 camera interfaces
-* M.2 connector exposing PCIe (NVME) interface
+* SD/MMC card interface
+* M.2 PCIe connector
 
 The PCB project files were prepared in Altium Designer 14.1.
+
+Board layout & dimensions
+=========================
+
+The picture below presents the general layout of the PCB with IO interfaces marked.
+
+.. figure:: Images/jetson-nano-layout.png
 
 Getting started
 ===============
@@ -39,7 +47,7 @@ Debug UART connection
 ---------------------
 
 Most of the debug messages are provided through the serial console.
-The board is equipped with an FTDI chip exposing both UART interfaces to the host PC.
+The board is equipped with an FTDI chip offering both UART interface to the host PC.
 Please refer to the schematic sheets for more details.
 The default debug UART channel is accessible through ``/dev/ttyUSB0`` (assuming that there are no other FTDI units connected to your PC).
-The default baudrate for the serial debug connection is 115200 baud with 8-bit transmission, 1 stop bit and with no flow control.
+The default baudrate for serial debug connection is 115200 baud with 8-bit transmission, 1 stop bit and with no flow control.
