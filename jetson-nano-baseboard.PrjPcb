@@ -218,24 +218,24 @@ Variation31=Designator=R56|UniqueId=\YNTAXILS|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=AM_Approved
-Value=
+Name=AM_Title
+Value=Jetson Nano Baseboard
 
 [Parameter2]
-Name=AM_Author
-Value=
-
-[Parameter3]
-Name=AM_Revision
-Value=1.2
-
-[Parameter4]
 Name=AM_Status
 Value=Prototype
 
+[Parameter3]
+Name=AM_Revision
+Value=1.3
+
+[Parameter4]
+Name=AM_Author
+Value=
+
 [Parameter5]
-Name=AM_Title
-Value=Jetson Nano Baseboard
+Name=AM_Approved
+Value=
 
 [Configuration1]
 Name=Default Configuration
