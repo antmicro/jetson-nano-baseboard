@@ -1,6 +1,6 @@
-=====================
-Jetson Nano baseboard
-=====================
+=================================
+Jetson Nano / Xavier NX baseboard
+=================================
 
 .. image:: Images/jetson-nano-baseboard.png
    :scale: 40%
@@ -8,14 +8,14 @@ Jetson Nano baseboard
 Overview
 ========
 
-This repository contains open hardware design files for a baseboard supporting the NVIDIA Jetson Nano SoM, created by `Antmicro <www.antmicro.com>`_, Jetson ecosystem partner of `NVIDIA <www.nvidia.com>`_.
+This repository contains open hardware design files for a baseboard supporting the NVIDIA Jetson Nano SoM (as well as the upcoming Xavier NX SoM), created by `Antmicro <www.antmicro.com>`_, a custom hardware, software and AI engineering company and Jetson ecosystem partner of `NVIDIA <www.nvidia.com>`_.
 The board allows to interface with MIPI CSI-2 video devices through a unified Flexible Flat Cable (FFC) connector, supporting up to 4 sensors in a 2-lane configuration or 3 sensors in a 4-lane configuration.
 Please refer to the ``Jetson Nano OEM Product Design Guide`` for more details regarding the supported CSI lane mappings.
 
 Key features
 ============
 
-* Jetson Nano SO-DIMM connector 
+* Jetson Nano / Xavier NX SO-DIMM connector 
 * Gigabit Ethernet RJ45 connector
 * Micro USB debug connector
 * USB-C DFP (Host) port
