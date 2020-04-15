@@ -21,7 +21,7 @@ Key features
 * USB-C DFP (Host) port
 * Mini HDMI video output interface
 * Mini Displayport video output interface 
-* 2x 50-pin FFC connectors exposing MIPI CSI-2 camera interfaces
+* 2x 50-pin FFC connectors exposing up to 4 MIPI CSI-2 camera interfaces
 * SD/MMC card interface
 * M.2 PCIe connector
 
