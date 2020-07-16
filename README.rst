@@ -88,3 +88,8 @@ The latest revision of the PCB includes the following changes and amendments:
 * Added EEPROM for SN/ID storage
 
 Please check the `releases <https://github.com/antmicro/jetson-nano-baseboard/releases>`_ for a brief summary of major changes introduced in previous revisions.
+
+License
+=======
+
+[MIT](LICENSE)
