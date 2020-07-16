@@ -92,4 +92,4 @@ Please check the `releases <https://github.com/antmicro/jetson-nano-baseboard/re
 License
 =======
 
-[MIT](LICENSE)
+`MIT <LICENSE>`_
