@@ -24,7 +24,7 @@ The remaining files are stored in the following directories:
 * ``Libraries`` - contains the component libraries
 * ``Documentation`` - contains selected files for device fabrication (schematic in PDF, BoM) generated from the Altium project
 * ``Images`` - contains graphics for this README
-* ``3DModels`` - contains files defining the mechanical model of the assembled board
+* ``3DModels`` - contains files defining the `mechanical model <3DModels/Jetson_Nano_Baseboard-Rev.1.4.2.stl>`_ of the assembled board
 
 Key features
 ============
