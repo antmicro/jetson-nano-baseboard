@@ -2,7 +2,7 @@
 *.REP
 *Status Report*
 # STEP models 
-# *.step 
+*.step
 # Archives (including history) 
 *.zip
 # Temporary data 
@@ -31,3 +31,5 @@ Thumb*
 *ods\#
 #vim swap files
 *.swp
+# old releases
+*release*
