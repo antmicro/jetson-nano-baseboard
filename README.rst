@@ -14,6 +14,8 @@ This repository contains open hardware design files for a baseboard supporting t
 The board can be interfaced with MIPI CSI-2 video devices through a unified Flexible Flat Cable (FFC) connector, supporting up to 4 sensors in a 2-lane configuration or 3 sensors in a 4-lane configuration.
 Please refer to the ``Jetson Nano OEM Product Design Guide`` for more details regarding the supported CSI lane mappings.
 
+The baseboard, its custom variants designed by Antmicro per customer's specification, and essential accessories can be purchased from `Capable Robot Components <https://capablerobot.com/products/nx-baseboard/>`_.
+
 Repository structure:
 ---------------------
 
