@@ -60,6 +60,12 @@ The board can be powered by a voltage in the 6-36VDC range.
 It is recommended to use a 12V 2A DC supply to power the board.
 The board has an integrated power sequencer that starts the module automatically right after applying power supply.
 
+BSP
+---
+
+The IO interfaces implemented on board are supported in a `Linux for Tegra (L4T) BSP <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Xavier NX / Nano. The BSP supports the Jetson Nano / Xavier NX Baseboard out of the box, however, it needs to be modified for the camera accessories to work with it. Antmicro’s services involve BSP development so you can hire us to make the necessary modifications. 
+It is possible to upload the BSP image to the SoM already installed on the board via USB OTG interface connector.
+
 Debug UART connection
 ---------------------
 
