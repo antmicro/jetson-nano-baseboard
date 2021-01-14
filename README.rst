@@ -63,7 +63,8 @@ The board has an integrated power sequencer that starts the module automatically
 BSP
 ---
 
-The IO interfaces implemented on board are supported in a `Linux for Tegra (L4T) BSP <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Xavier NX / Nano. The BSP supports the Jetson Nano / Xavier NX Baseboard out of the box, however, it needs to be modified for the camera accessories to work with it. Antmicro’s services involve BSP development so you can hire us to make the necessary modifications. 
+The IO interfaces implemented on the board are supported in the `Linux for Tegra (L4T) BSPs <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Xavier NX / Nano. The BSP should work with the Jetson Nano / Xavier NX Baseboard out of the box, however, to support various camera and other accessories to work with the baseboard you may need to make modifications. Antmicro's services involve BSP development so you can hire us to do this for you.
+
 It is possible to upload the BSP image to the SoM already installed on the board via USB OTG interface connector.
 
 Debug UART connection
