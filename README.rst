@@ -2,7 +2,7 @@
 Jetson Nano / Xavier NX baseboard
 =================================
 
-Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: Images/jetson-nano-baseboard.png
    :scale: 40%
