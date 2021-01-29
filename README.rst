@@ -101,4 +101,4 @@ Please check the `releases <https://github.com/antmicro/jetson-nano-baseboard/re
 License
 =======
 
-`MIT <LICENSE>`_
+`Apache-2.0 <LICENSE>`_
