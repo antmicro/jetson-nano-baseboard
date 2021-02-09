@@ -63,15 +63,15 @@ The board has an integrated power sequencer that starts the module automatically
 BSP
 ---
 
-The IO interfaces implemented on the board are supported in the `Linux for Tegra (L4T) BSPs <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Xavier NX / Nano. The BSP should work with the Jetson Nano / Xavier NX Baseboard out of the box, however, to support various camera and other accessories to work with the baseboard you may need to make modifications. Antmicro's services involve BSP development so you can hire us to do this for you.
+The baseboard's IO interfaces are supported in the `Linux for Tegra (L4T) BSPs <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Xavier NX / Nano. The BSP should work with the Jetson Nano / Xavier NX Baseboard out of the box, however, to support various camera and other accessories to work with the baseboard you may need to make modifications. Antmicro's services involve BSP development so you can hire us to do this for you.
 
-It is possible to upload the BSP image to the SoM already installed on the board via USB OTG interface connector.
+You can use the USB OTG interface connector to upload a BSP image to a SoM inserted into the baseboard.
 
 Debug UART connection
 ---------------------
 
 Most of the debug messages are provided through the serial console.
-The board is equipped with an FTDI chip providing the UART interface to the host PC.
+The board includes an FTDI chip providing the UART interface to the host PC.
 Please refer to the schematic sheets for more details.
 The default debug UART channel is accessible through ``/dev/ttyUSB0`` (assuming that there are no other FTDI units connected to your PC).
 The default baudrate for serial debug connection is 115200 baud with an 8-bit transmission, 1 stop bit and with no flow control.
