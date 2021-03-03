@@ -1,0 +1,539 @@
+From e1b0a7e8b44c19d88d7208a323b3b03ef687e743 Mon Sep 17 00:00:00 2001
+From: Maciej Sobkowski <msobkowski@antmicro.com>
+Date: Mon, 14 Sep 2020 23:43:04 +0200
+Subject: [PATCH] dts: xavier-nx: instantiate 2 AVT cameras on Antmicro Nano
+ Baseboard
+
+---
+ .../platform/t19x/jakku/kernel-dts/Makefile   |   1 +
+ ...era-jakku-avt-csi2-antmicro-baseboard.dtsi | 313 ++++++++++++++++++
+ ...194-p3509-0000-a00-antmicro-baseboard.dtsi | 152 +++++++++
+ ...3668-all-p3509-0000-antmicro-baseboard.dts |  25 ++
+ 4 files changed, 491 insertions(+)
+ create mode 100644 hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-camera-jakku-avt-csi2-antmicro-baseboard.dtsi
+ create mode 100644 hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-p3509-0000-a00-antmicro-baseboard.dtsi
+ create mode 100644 hardware/nvidia/platform/t19x/jakku/kernel-dts/tegra194-p3668-all-p3509-0000-antmicro-baseboard.dts
+
+diff --git a/hardware/nvidia/platform/t19x/jakku/kernel-dts/Makefile b/hardware/nvidia/platform/t19x/jakku/kernel-dts/Makefile
+index bfadb61b4e14..8b97cef9a773 100644
+--- a/hardware/nvidia/platform/t19x/jakku/kernel-dts/Makefile
++++ b/hardware/nvidia/platform/t19x/jakku/kernel-dts/Makefile
+@@ -5,6 +5,7 @@ dtbo-y :=
+ makefile-path := platform/t19x/jakku/kernel-dts
+ 
+ dtb-$(CONFIG_ARCH_TEGRA_19x_SOC) += tegra194-p3668-all-p3509-0000.dtb
++dtb-$(CONFIG_ARCH_TEGRA_19x_SOC) += tegra194-p3668-all-p3509-0000-antmicro-baseboard.dtb
+ dtbo-$(CONFIG_ARCH_TEGRA_19x_SOC) += tegra194-p3668-all-p3509-0000-hdr40.dtbo
+ dtbo-$(CONFIG_ARCH_TEGRA_19x_SOC) += tegra194-p3668-all-p3509-0000-adafruit-sph0645lm4h.dtbo
+ dtbo-$(CONFIG_ARCH_TEGRA_19x_SOC) += tegra194-p3668-all-p3509-0000-fe-pi-audio-z-v2.dtbo
+diff --git a/hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-camera-jakku-avt-csi2-antmicro-baseboard.dtsi b/hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-camera-jakku-avt-csi2-antmicro-baseboard.dtsi
+new file mode 100644
+index 000000000000..9202b8feca88
+--- /dev/null
++++ b/hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-camera-jakku-avt-csi2-antmicro-baseboard.dtsi
+@@ -0,0 +1,313 @@
++/*
++ * Copyright (c) 2018-2020, NVIDIA CORPORATION.  All rights reserved.
++ *
++ * This program is free software; you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation; either version 2 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful, but WITHOUT
++ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
++ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
++ * more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++#include <dt-bindings/media/camera.h>
++
++#define CAMERA_I2C_MUX_BUS(x) (0x1E + x)
++
++/ {
++	host1x {
++		vi@15c10000  {
++			num-channels = <2>;
++			ports {
++				#address-cells = <1>;
++				#size-cells = <0>;
++				vi_port0: port@0 {
++					reg = <0>;
++					avt_csi2_vi_in0: endpoint {
++						port-index = <0>;
++						bus-width = <2>;
++						remote-endpoint = <&avt_csi2_csi_out0>;
++					};
++				};
++				vi_port1: port@1 {
++					reg = <1>;
++					avt_csi2_vi_in1: endpoint {
++						port-index = <4>;
++						bus-width = <2>;
++						remote-endpoint = <&avt_csi2_csi_out1>;
++					};
++				};
++			};
++		};
++
++		nvcsi@15a00000 {
++			num-channels = <2>;
++			#address-cells = <1>;
++			#size-cells = <0>;
++			csi_chan0: channel@0 {
++				reg = <0>;
++				ports {
++					#address-cells = <1>;
++					#size-cells = <0>;
++					csi_chan0_port0: port@0 {
++						reg = <0>;
++						avt_csi2_csi_in0: endpoint@0 {
++							port-index = <0>;
++							bus-width = <2>;
++							remote-endpoint = <&avt_csi2_out0>;
++						};
++					};
++					csi_chan0_port1: port@1 {
++						reg = <1>;
++						avt_csi2_csi_out0: endpoint@1 {
++							remote-endpoint = <&avt_csi2_vi_in0>;
++						};
++					};
++				};
++			};
++			csi_chan1: channel@1 {
++				reg = <1>;
++				ports {
++					#address-cells = <1>;
++					#size-cells = <0>;
++					csi_chan1_port0: port@0 {
++						reg = <0>;
++						avt_csi2_csi_in1: endpoint@0 {
++							port-index = <4>;
++							bus-width = <2>;
++							remote-endpoint = <&avt_csi2_out1>;
++						};
++					};
++					csi_chan1_port1: port@1 {
++						reg = <1>;
++						avt_csi2_csi_out1: endpoint@1 {
++							remote-endpoint = <&avt_csi2_vi_in1>;
++						};
++					};
++				};
++			};
++		};
++	};
++
++	i2c@3180000 {
++		avt_pca9548: avt_pca9548@70 {
++			compatible = "nxp,pca9548";
++			status = "okay";
++			reg = <0x70>;
++			#address-cells = <1>;
++			#size-cells = <0>;
++			vcc-supply = <&battery_reg>;
++			force_bus_start = <CAMERA_I2C_MUX_BUS(0)>;
++			i2c@2 {
++				reg = <2>;
++				i2c-mux,deselect-on-exit;
++				#address-cells = <1>;
++				#size-cells = <0>;
++				avt_csi2@3c {
++					compatible = "alliedvision,avt_csi2";
++					/* I2C device address */
++					reg = <0x3c>;
++
++					status = "okay";
++
++					/* V4L2 device node location */
++					devnode = "video0";
++
++					mode0 {
++						num_lanes = "2";
++						tegra_sinterface = "serial_a";
++						discontinuous_clk = "no";
++						cil_settletime = "0";
++						embedded_metadata_height = "0";
++
++						/* not verified: */
++						mclk_khz = "24000";
++						phy_mode = "DPHY";
++						dpcm_enable = "false";
++
++						active_w = "5488";
++						active_h = "4112";
++						pixel_t = "bayer_bggr";
++						readout_orientation = "0";
++						line_length = "5488";
++						inherent_gain = "1";
++						mclk_multiplier = "31.25";
++						pix_clk_hz = "750000000";
++
++						gain_factor = "16";
++						framerate_factor = "1000000";
++						exposure_factor = "1000000";
++						min_gain_val = "16"; /* 1.0 */
++						max_gain_val = "256"; /* 16.0 */
++						step_gain_val = "1"; /* 0.125 */
++						min_hdr_ratio = "1";
++						max_hdr_ratio = "64";
++						min_framerate = "1500000"; /* 1.5 */
++						max_framerate = "30000000"; /* 30 */
++						step_framerate = "1";
++						min_exp_time = "34"; /* us */
++						max_exp_time = "550385"; /* us */
++						step_exp_time = "1";
++					};
++
++					ports {
++						#address-cells = <1>;
++						#size-cells = <0>;
++						port@0 {
++							reg = <0>;
++							avt_csi2_out0: endpoint {
++								port-index = <0>;
++								bus-width = <2>;
++								remote-endpoint = <&avt_csi2_csi_in0>;
++							};
++						};
++					};
++				};
++			};
++
++			i2c@3 {
++				reg = <3>;
++				i2c-mux,deselect-on-exit;
++				#address-cells = <1>;
++				#size-cells = <0>;
++
++				avt_csi2@3c {
++					compatible = "alliedvision,avt_csi2";
++					/* I2C device address */
++					reg = <0x3c>;
++
++					status = "okay";
++
++					/* V4L2 device node location */
++					devnode = "video1";
++
++					mode0 {
++						num_lanes = "2";
++						tegra_sinterface = "serial_e";
++						discontinuous_clk = "no";
++						cil_settletime = "0";
++						embedded_metadata_height = "0";
++
++						/* not verified: */
++						mclk_khz = "24000";
++						phy_mode = "DPHY";
++						dpcm_enable = "false";
++
++						active_w = "5488";
++						active_h = "4112";
++						pixel_t = "bayer_bggr";
++						readout_orientation = "0";
++						line_length = "5488";
++						inherent_gain = "1";
++						mclk_multiplier = "31.25";
++						pix_clk_hz = "750000000";
++
++						gain_factor = "16";
++						framerate_factor = "1000000";
++						exposure_factor = "1000000";
++						min_gain_val = "16"; /* 1.0 */
++						max_gain_val = "256"; /* 16.0 */
++						step_gain_val = "1"; /* 0.125 */
++						min_hdr_ratio = "1";
++						max_hdr_ratio = "64";
++						min_framerate = "1500000"; /* 1.5 */
++						max_framerate = "30000000"; /* 30 */
++						step_framerate = "1";
++						min_exp_time = "34"; /* us */
++						max_exp_time = "550385"; /* us */
++						step_exp_time = "1";
++					};
++
++					ports {
++						#address-cells = <1>;
++						#size-cells = <0>;
++						port@0 {
++							reg = <0>;
++							avt_csi2_out1: endpoint {
++								status = "okay";
++								port-index = <4>;
++								bus-width = <2>;
++								remote-endpoint = <&avt_csi2_csi_in1>;
++							};
++						};
++					};
++				};
++			};
++		};
++	};
++
++	tcp: tegra-camera-platform {
++		compatible = "nvidia, tegra-camera-platform";
++		/**
++		* Physical settings to calculate max ISO BW
++		*
++		* num_csi_lanes = <>;
++		* Total number of CSI lanes when all cameras are active
++		*
++		* max_lane_speed = <>;
++		* Max lane speed in Kbit/s
++		*
++		* min_bits_per_pixel = <>;
++		* Min bits per pixel
++		*
++		* vi_peak_byte_per_pixel = <>;
++		* Max byte per pixel for the VI ISO case
++		*
++		* vi_bw_margin_pct = <>;
++		* Vi bandwidth margin in percentage
++		*
++		* max_pixel_rate = <>;
++		* Max pixel rate in Kpixel/s for the ISP ISO case
++		*
++		* isp_peak_byte_per_pixel = <>;
++		* Max byte per pixel for the ISP ISO case
++		*
++		* isp_bw_margin_pct = <>;
++		* Isp bandwidth margin in percentage
++		*/
++		num_csi_lanes = <4>;
++		max_lane_speed = <1500000>;
++		min_bits_per_pixel = <10>;
++		vi_peak_byte_per_pixel = <2>;
++		vi_bw_margin_pct = <25>;
++		max_pixel_rate = <240000>;
++		isp_peak_byte_per_pixel = <5>;
++		isp_bw_margin_pct = <25>;
++
++		/**
++		 * The general guideline for naming badge_info contains 3 parts, and is as follows,
++		 * The first part is the camera_board_id for the module; if the module is in a FFD
++		 * platform, then use the platform name for this part.
++		 * The second part contains the position of the module, ex. "rear" or "front".
++		 * The third part contains the last 6 characters of a part number which is found
++		 * in the module's specsheet from the vendor.
++		 */
++		modules {
++			cam_module0: module0 {
++				badge = "jakku_front_RBP194";
++				position = "front";
++				orientation = "1";
++				cam_module0_drivernode0: drivernode0 {
++					pcl_id = "v4l2_sensor";
++					devname = "imx219 9-0010";
++					proc-device-tree = "/proc/device-tree/cam_i2cmux/i2c@0/rbpcv2_imx219_a@10";
++				};
++			};
++			cam_module1: module1 {
++				badge = "jakku_rear_RBP194";
++				position = "rear";
++				orientation = "1";
++				cam_module1_drivernode0: drivernode0 {
++					pcl_id = "v4l2_sensor";
++					devname = "imx219 10-0010";
++					proc-device-tree = "/proc/device-tree/cam_i2cmux/i2c@1/rbpcv2_imx219_c@10";
++				};
++			};
++		};
++	};
++};
++
+diff --git a/hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-p3509-0000-a00-antmicro-baseboard.dtsi b/hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-p3509-0000-a00-antmicro-baseboard.dtsi
+new file mode 100644
+index 000000000000..fba4e2077f55
+--- /dev/null
++++ b/hardware/nvidia/platform/t19x/jakku/kernel-dts/common/tegra194-p3509-0000-a00-antmicro-baseboard.dtsi
+@@ -0,0 +1,152 @@
++/*
++ * Copyright (c) 2019, NVIDIA CORPORATION.  All rights reserved.
++ *
++ * This program is free software; you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation; version 2 of the License.
++ *
++ * This program is distributed in the hope that it will be useful, but WITHOUT
++ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
++ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
++ * more details.
++ */
++#include <dt-bindings/gpio/tegra194-gpio.h>
++#include "dt-bindings/input/input.h"
++#include "tegra194-fixed-regulator-p3509-0000-a00.dtsi"
++#include "tegra194-p3509-disp.dtsi"
++#include "tegra194-audio-p3668.dtsi"
++#include "tegra194-super-module-e2614-p3509.dtsi"
++#include "tegra194-camera-jakku-avt-csi2-antmicro-baseboard.dtsi"
++/ {
++	gpio-keys {
++		compatible = "gpio-keys";
++		gpio-keys,name = "gpio-keys";
++
++		forcerecovery {
++			label = "force-recovery";
++			gpios = <&tegra_main_gpio TEGRA194_MAIN_GPIO(G, 0) GPIO_ACTIVE_LOW>;
++			linux,code = <BTN_1>;
++		};
++
++		power_key {
++			label = "power-key";
++			gpios = <&tegra_aon_gpio TEGRA194_AON_GPIO(EE, 4) GPIO_ACTIVE_LOW>;
++			linux,code = <KEY_POWER>;
++			gpio-key,wakeup;
++		};
++	};
++	eeprom-manager {
++		data-size = <0x100>;
++		bus@0 {
++			i2c-bus = <&gen1_i2c>;
++			eeprom@1 {
++				slave-address = <0x57>;
++				label = "cvb";
++			};
++		};
++
++		bus@1 {
++			i2c-bus = <&gen2_i2c>;
++			eeprom@1 {
++				slave-address = <0x50>;
++				label = "super-module";
++			};
++		};
++	};
++	pwm-fan {
++		pwms = <&tegra_pwm6 0 45334>;
++		vdd-fan-supply = <&p3509_vdd_fan>;
++		profiles {
++			default = "quiet";
++			quiet {
++				state_cap = <4>;
++				active_pwm = <0 130 160 200 255 255 255 255 255 255>;
++			};
++			cool {
++				state_cap = <4>;
++				active_pwm = <0 140 170 200 255 255 255 255 255 255>;
++			};
++		};
++	};
++	thermal-fan-est {
++		profiles {
++			default = "quiet";
++			quiet {
++				active_trip_temps = <0 46000 60000 68000 76000
++						140000 150000 160000 170000 180000>;
++				active_hysteresis = <0 8000 8000 7000 7000
++						0 0 0 0 0>;
++			};
++			cool {
++				active_trip_temps = <0 35000 45000 53000 61000
++						140000 150000 160000 170000 180000>;
++				active_hysteresis = <0 8000 8000 7000 7000
++						0 0 0 0 0>;
++			};
++		};
++	};
++	serial@3110000 {
++		status = "okay";
++	};
++	tachometer@39c0000 {
++		status = "okay";
++	};
++	pwm@3280000 {
++		status = "okay";
++	};
++
++	pwm@32c0000 {
++		status = "okay";
++	};
++
++	pwm@32d0000 {
++		status = "okay";
++	};
++
++	pwm@32f0000 {
++		status = "okay";
++	};
++	spi@c260000 {
++		status = "disabled";
++	};
++
++	spi@3300000 {
++		status = "disabled";
++	};
++
++	gpio@2200000 {
++		/* gpio-name for 40-pin header, gpio-name given as COL(10) x ROW(24),
++		   Tegra-GPIO starts from 288 */
++		gpio-line-names = "",   "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "GPIO13",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "GPIO01",     "GPIO11",     "",     "GPIO07",     "",     "",     "",
++		"UART1_RTS",     "UART1_CTS",     "",     "",     "",     "",     "",     "",     "GPIO09",     "",
++		"",     "",     "",     "",     "",     "",     "",     "I2S0_SCLK",     "I2S0_DOUT",     "I2S0_DIN",
++		"I2S0_FS",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "SPI1_SCK",     "SPI1_MISO",     "SPI1_MOSI",     "SPI1_CS0",     "SPI1_CS1",     "",     "",     "",
++		"",     "",     "",     "SPI0_SCK",     "SPI0_MISO",     "SPI0_MOSI",     "SPI0_CS0",     "SPI0_CS1",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "";
++	};
++
++	gpio@c2f0000 {
++		/* gpio-name for 40-pin header, gpio-name given as COL(10) x ROW(2),
++		   Tegra-AON-GPIO starts from 248 */
++		gpio-line-names = "",   "",     "",     "",     "",     "",     "",     "",     "",     "",
++		"",     "",     "",     "",     "",     "",     "",     "",     "",     "",     "GPIO12";
++	};
++};
+diff --git a/hardware/nvidia/platform/t19x/jakku/kernel-dts/tegra194-p3668-all-p3509-0000-antmicro-baseboard.dts b/hardware/nvidia/platform/t19x/jakku/kernel-dts/tegra194-p3668-all-p3509-0000-antmicro-baseboard.dts
+new file mode 100644
+index 000000000000..93f394d2338d
+--- /dev/null
++++ b/hardware/nvidia/platform/t19x/jakku/kernel-dts/tegra194-p3668-all-p3509-0000-antmicro-baseboard.dts
+@@ -0,0 +1,25 @@
++/*
++ * Top level DTS file for CVM:P3668-0001 and CVB:P3509-0000.
++ *
++ * Copyright (c) 2019-2020, NVIDIA CORPORATION.  All rights reserved.
++ *
++ * This program is free software; you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation; version 2 of the License.
++ *
++ * This program is distributed in the hope that it will be useful, but WITHOUT
++ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
++ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
++ * more details.
++ */
++
++/dts-v1/;
++#include "common/tegra194-p3668-common.dtsi"
++#include "common/tegra194-p3509-0000-a00-antmicro-baseboard.dtsi"
++
++/ {
++	nvidia,dtsfilename = __FILE__;
++	nvidia,dtbbuildtime = __DATE__, __TIME__;
++
++	compatible = "nvidia,p3449-0000+p3668-0000", "nvidia,p3449-0000+p3668-0001", "nvidia,p3509-0000+p3668-0000", "nvidia,p3509-0000+p3668-0001", "nvidia,tegra194";
++};
+-- 
+2.21.0
+

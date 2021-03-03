@@ -98,6 +98,13 @@ The latest revision of the PCB includes the following changes and amendments:
 
 Please check the `releases <https://github.com/antmicro/jetson-nano-baseboard/releases>`_ for a brief summary of major changes introduced in previous revisions.
 
+Linux patches
+=============
+
+The ``linux-patches`` directory contains patch files that add support for the Allied Vision cameras for this baseboard with the Nano NX module.
+The patches are named with the L4T release and can be applied to corresponding branches of the `Linux repository released by Allied Vision <https://github.com/alliedvision/linux_nvidia_jetson>`_.
+
+
 License
 =======
 
