@@ -10,7 +10,7 @@ Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 Overview
 ========
 
-This repository contains open hardware design files for a baseboard supporting the NVIDIA Jetson Nano SoM as well as the recently released Xavier NX SoM. It's been created by `Antmicro <https://antmicro.com>`_, a custom hardware, software and AI engineering company and a Jetson ecosystem partner of `NVIDIA <https://nvidia.com>`_.
+This repository contains open hardware design files for a baseboard supporting the NVIDIA Jetson Nano and Xavier NX SoMs. It's been created by `Antmicro <https://antmicro.com>`_, a custom hardware, software and AI engineering company and a Jetson ecosystem partner of `NVIDIA <https://nvidia.com>`_.
 The board can be interfaced with MIPI CSI-2 video devices through a unified Flexible Flat Cable (FFC) connector, supporting up to 4 sensors in a 2-lane configuration or 3 sensors in a 4-lane configuration.
 Please refer to the ``Jetson Nano OEM Product Design Guide`` for more details regarding the supported CSI lane mappings.
 
@@ -63,7 +63,9 @@ The board has an integrated power sequencer that starts the module automatically
 BSP
 ---
 
-The baseboard's IO interfaces are supported in the `Linux for Tegra (L4T) BSPs <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Xavier NX / Nano. The BSP should work with the Jetson Nano / Xavier NX Baseboard out of the box, however, to support various camera and other accessories to work with the baseboard you may need to make modifications. Antmicro's services involve BSP development so you can hire us to do this for you.
+The baseboard's IO interfaces are supported in the standard `Linux for Tegra (L4T) BSPs <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Xavier NX / Nano. The BSP should work with the open source Jetson Nano / Xavier NX Baseboard out of the box. However, to use the baseboard with various cameras and other accessories you may need to make modifications. If you plan to use the board with Allied Vision `Alvium <https://www.alliedvision.com/en/products/embedded-vision-solutions/alvium-camera-modules-for-embedded-and-machine-vision-applications.html>`_ image sensors, there is a ``linux-patches`` directory, which contains patch files that add support for the Allied Vision cameras for this baseboard with the Nano NX module.
+The patches are named with the L4T release and can be applied to corresponding branches of the Linux `repository <https://github.com/alliedvision/linux_nvidia_jetson>`_ released by Allied Vision. 
+Antmicro's services involve BSP development so you can hire us to the necessary modifications for you.
 
 You can use the USB OTG interface connector to upload a BSP image to a SoM inserted into the baseboard.
 
@@ -97,13 +99,6 @@ The latest revision of the PCB includes the following changes and amendments:
 * Added EEPROM for SN/ID storage
 
 Please check the `releases <https://github.com/antmicro/jetson-nano-baseboard/releases>`_ for a brief summary of major changes introduced in previous revisions.
-
-Linux patches
-=============
-
-The ``linux-patches`` directory contains patch files that add support for the Allied Vision cameras for this baseboard with the Nano NX module.
-The patches are named with the L4T release and can be applied to corresponding branches of the `Linux repository released by Allied Vision <https://github.com/alliedvision/linux_nvidia_jetson>`_.
-
 
 License
 =======
