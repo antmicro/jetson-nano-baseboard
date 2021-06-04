@@ -22,9 +22,7 @@ Repository structure:
 The main repository directory contains the Altium PCB project file, the Outjob file, LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``PCB`` -  contains all Altium design files
-* ``Libraries`` - contains the component libraries
-* ``Documentation`` - contains selected files for device fabrication (schematic in PDF, BoM) generated from the Altium project
+* ``Altium`` -  contains the design files of the latest (1.4.7) revision prepared in Altium Designer
 * ``Images`` - contains graphics for this README
 * ``3DModels`` - contains files defining the `mechanical model <3DModels/Jetson_Nano_Baseboard-Rev.1.4.7.stl>`_ of the assembled board
 
