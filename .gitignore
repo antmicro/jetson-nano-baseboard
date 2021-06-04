@@ -1,8 +1,6 @@
 # Altium report files
 *.REP
 *Status Report*
-# STEP models 
-*.step
 # Archives (including history) 
 *.zip
 # Temporary data 
