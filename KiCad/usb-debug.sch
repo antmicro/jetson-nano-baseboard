@@ -2277,4 +2277,8 @@ F 7 "DNP" H 3800 8725 50  0000 C CNN "DNP"
 	1    3800 8625
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4400 9750 4400 9700
+Wire Wire Line
+	4400 10100 4400 10050
 $EndSCHEMATC
