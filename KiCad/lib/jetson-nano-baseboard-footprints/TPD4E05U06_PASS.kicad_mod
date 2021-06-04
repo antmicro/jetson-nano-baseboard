@@ -1,4 +1,4 @@
-(module TPD4E05U06_PASS (layer F.Cu) (tedit 605DF744)
+(module TPD4E05U06_PASS (layer F.Cu) (tedit 5E7229CA)
   (attr smd)
   (fp_text reference D7 (at 0 0 180) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -6,7 +6,6 @@
   (fp_text value ~ (at 0 0 180) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
   )
-  (fp_circle (center -0.98 1) (end -0.88 1) (layer F.SilkS) (width 0.2))
   (pad 2 smd rect (at -0.5 -0.385) (size 0.3 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1 -0.385) (size 0.3 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1 0.385) (size 0.3 0.55) (layers F.Cu F.Paste F.Mask))
@@ -17,9 +16,9 @@
   (pad 4 smd rect (at 0.5 -0.385) (size 0.3 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1 -0.385) (size 0.3 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 0.385) (size 0.4 0.55) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/TPD4E05U06QDQARQ1.step
+  (model ./wrlshp/DFE6F5A1-CB5C.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )

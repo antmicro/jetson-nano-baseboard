@@ -59,4 +59,26 @@ U 610ACCAB
 F0 "SoM" 50
 F1 "som.sch" 50
 $EndSheet
+$Comp
+L jetson-nano-baseboard:antmicro_logo N1
+U 1 1 60BDCA6D
+P 15100 9725
+F 0 "N1" H 15314 9818 50  0000 L CNN
+F 1 "antmicro_logo" H 15314 9727 50  0000 L CNN
+F 2 "jetson-nano-baseboard-footprints:antmicro-logo_scaled_15mm" H 15000 9975 50  0001 C CNN
+F 3 "" H 15100 10075 50  0001 C CNN
+	1    15100 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:oshw_logo N2
+U 1 1 60BDCE33
+P 15125 9425
+F 0 "N2" H 15319 9428 50  0000 L CNN
+F 1 "oshw_logo" H 15319 9337 50  0000 L CNN
+F 2 "jetson-nano-baseboard-footprints:oshw-logo" H 15145 9185 50  0001 C CNN
+F 3 "" H 15125 9425 50  0001 C CNN
+	1    15125 9425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

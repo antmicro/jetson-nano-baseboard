@@ -1,7 +1,7 @@
-(module VQFN-24 (layer F.Cu) (tedit 606DB746)
+(module VQFN-24 (layer F.Cu) (tedit 5E73893E)
   (attr smd)
-  (fp_text reference REF** (at -2.71 -0.01 270) (layer F.SilkS)
-    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  (fp_text reference IC1 (at 0 0 270) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
   )
   (fp_text value TCA9548ARGER (at 0 0 270) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -31,7 +31,7 @@
   (pad 2 smd rect (at -1.9 -0.75 90) (size 0.25 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.9 -1.25 90) (size 0.25 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 0 smd rect (at 0 -0.00001) (size 2.1 2.1) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/VQFN-24.step
+  (model ${KIPRJMOD}/nano-baseboard-3dmodels/VQFN-24.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

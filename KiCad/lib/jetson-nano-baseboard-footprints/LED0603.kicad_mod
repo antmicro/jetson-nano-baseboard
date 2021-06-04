@@ -1,14 +1,14 @@
-(module LED0603 (layer F.Cu) (tedit 5E68CE1B)
+(module LED0603 (layer F.Cu) (tedit 5E73657F)
   (attr smd)
-  (fp_text reference USB (at 0.05 0 90) (layer F.SilkS) hide
+  (fp_text reference USER1 (at 0 0 270) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
   )
-  (fp_text value "LED Green 0603 case" (at 0.05 0 90) (layer F.SilkS) hide
+  (fp_text value ~ (at 0 0 270) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
   )
-  (pad A smd rect (at -0.6485 0) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask))
-  (pad K smd rect (at 0.7485 0) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/LED0603.step
+  (pad A smd rect (at 0.6985 0 180) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask))
+  (pad K smd rect (at -0.6985 0 180) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/nano-baseboard-3dmodels/LED0603.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
