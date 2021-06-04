@@ -1,0 +1,15 @@
+(module molex_2223-2021 (layer F.Cu) (tedit 5E74A83D)
+  (fp_text reference FAN1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (fp_text value ~ (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (pad 2 thru_hole circle (at 1.27 0) (size 1.5 1.5) (drill 1.01999) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at -1.27 0) (size 1.5 1.5) (drill 1.01999) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/nano-baseboard-3dmodels/22232021.stp
+    (offset (xyz 0 0 1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

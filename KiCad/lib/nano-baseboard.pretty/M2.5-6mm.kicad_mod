@@ -1,0 +1,15 @@
+(module M2.5-6mm (layer F.Cu) (tedit 5E736B84)
+  (attr smd)
+  (fp_text reference SP1 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value 9774060151 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 1 thru_hole circle (at 0 0 180) (size 6 6) (drill 3.7) (layers F.Cu F.Mask))
+  (model ${KIPRJMOD}/nano-baseboard-3dmodels/9774060151.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
