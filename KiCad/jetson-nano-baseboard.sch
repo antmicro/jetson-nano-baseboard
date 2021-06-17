@@ -81,4 +81,15 @@ F 3 "" H 15125 9425 50  0001 C CNN
 	1    15125 9425
 	1    0    0    -1  
 $EndComp
+$Comp
+L jetson-nano-baseboard:crc_logo N?
+U 1 1 60CB08FE
+P 15125 9200
+F 0 "N?" H 15319 9203 50  0000 L CNN
+F 1 "crc_logo" H 15319 9112 50  0000 L CNN
+F 2 "jetson-nano-baseboard-footprints:CRC_logo_15mm" H 15145 8960 50  0001 C CNN
+F 3 "" H 15125 9200 50  0001 C CNN
+	1    15125 9200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1754,6 +1754,18 @@ T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
+# crc_logo
+#
+DEF crc_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "crc_logo" 30 -150 50 H V C CNN
+F2 "jetson-nano-baseboard-footprints:CRC_logo_15mm" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # AT24CS01
 #
 DEF AT24CS01 IC 0 40 Y Y 1 F N
