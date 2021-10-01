@@ -1097,10 +1097,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 1875 4900 1875
 Wire Wire Line
-	14125 2050 14275 2050
-Wire Wire Line
-	14675 2050 14800 2050
-Wire Wire Line
 	14800 2200 14800 2050
 Connection ~ 14800 2050
 Wire Wire Line
@@ -1572,20 +1568,6 @@ F 6 "330u" H 13918 1397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:Fuse F1
-U 1 1 5E71040C
-P 14475 2050
-F 0 "F1" H 14375 2125 60  0000 L BNN
-F 1 "~" H 14475 2050 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:Fuse-1206" H 14475 2050 50  0001 C CNN
-F 3 "" H 14475 2050 50  0001 C CNN
-F 4 "1206L450SLWR" V 10375 -4143 60  0001 C CNN "PartSymbol"
-F 5 "1206L450SLWR" H 14450 1850 50  0000 C CNN "MPN"
-F 6 "Littelfuse" H 14350 1950 50  0000 C CNN "Manufacturer"
-	1    14475 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:R_470R_0402 R14
 U 1 1 62CD1118
 P 11525 4225
@@ -1668,4 +1650,21 @@ Wire Wire Line
 	14100 5200 14350 5200
 Wire Wire Line
 	14650 5200 14750 5200
+Wire Wire Line
+	14125 2050 14400 2050
+Wire Wire Line
+	14600 2050 14800 2050
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 618512B9
+P 14500 2050
+AR Path="/608DC6E9/618512B9" Ref="FB?"  Part="1" 
+AR Path="/610ACCAB/618512B9" Ref="FB2"  Part="1" 
+F 0 "FB2" V 14375 2050 50  0000 C CNN
+F 1 "742792022 " V 14625 2050 50  0000 C CNN
+F 2 "antmicro-footprints:0805-cap" V 14430 2050 50  0001 C CNN
+F 3 "~" H 14500 2050 50  0001 C CNN
+	1    14500 2050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
