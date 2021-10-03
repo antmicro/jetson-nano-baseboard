@@ -1,6 +1,219 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device_Ferrite_Bead_Small
+#
+DEF Device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
+F0 "FB" 75 50 50 H V L CNN
+F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -31 N
+P 2 0 1 0 0 35 0 51 N
+P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
+X ~ 1 0 100 50 D 50 50 1 1 P
+X ~ 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0402_C_100n_0402
+#
+DEF antmicroCapacitors0402_C_100n_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_100n_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
+F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0402_C_1u_0402
+#
+DEF antmicroCapacitors0402_C_1u_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_1u_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0402_C_2u2_0402
+#
+DEF antmicroCapacitors0402_C_2u2_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_2u2_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X5R1A225K050BC" 200 300 60 H I L CNN "MPN"
+F6 "2u2" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0603_C_22u_0603
+#
+DEF antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0603_C_22u_0603" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
+F5 "GRM188R60J226MEA0D" 200 300 60 H I L CNN "MPN"
+F6 "22u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroDCDCConverters_AP62301Z6-7
+#
+DEF antmicroDCDCConverters_AP62301Z6-7 U 0 40 Y Y 1 F N
+F0 "U" -300 350 50 H V L CNN
+F1 "antmicroDCDCConverters_AP62301Z6-7" -300 -350 50 H V L CNN
+F2 "antmicro-footprints:SOT-563" -50 -650 50 H I C CNN
+F3 "" -50 -350 50 H I C CNN
+F4 "AP62301Z6-7" -50 -550 50 H I C CNN "MPN"
+F5 "Diodes Incorporated" -50 -450 50 H I C CNN "Manufacturer"
+DRAW
+S -300 300 300 -300 0 1 0 f
+X VIN 1 -400 200 100 R 50 50 1 1 W
+X SW 2 400 200 100 L 50 50 1 1 w
+X GND 3 -400 -200 100 R 50 50 1 1 W
+X BST 4 400 0 100 L 50 50 1 1 O
+X EN 5 -400 0 100 R 50 50 1 1 I
+X FB 6 400 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# antmicroFixedInductors_XEL4030-332MEC
+#
+DEF antmicroFixedInductors_XEL4030-332MEC L 0 40 Y Y 1 F N
+F0 "L" -225 100 50 H V L BNN
+F1 "antmicroFixedInductors_XEL4030-332MEC" -200 -100 50 H V L BNN
+F2 "antmicro-footprints:Coilcraft-XEL4030" 800 250 60 H I C CNN
+F3 "" 55 30 60 H I C CNN
+F4 "XEL4030-332MEC" 200 500 50 H I C CNN "MPN"
+F5 "Coilcraft" 300 600 50 H I C CNN "Manufacturer"
+F6 "3u3/5.9A" 225 100 50 H V C CNN "Val"
+F7 "5.9A" 75 425 50 H I C CNN "MaxCur"
+F8 "4x4" 125 325 50 H I C CNN "Size"
+DRAW
+A -75 0 25 0 600 1 1 10 N -50 0 -62 21
+A -75 0 25 600 1200 1 1 10 N -62 21 -87 21
+A -75 0 25 1200 1800 1 1 10 N -87 21 -100 0
+A -25 0 25 0 600 1 1 10 N 0 0 -12 21
+A -25 0 25 600 1200 1 1 10 N -12 21 -37 21
+A -25 0 25 1200 1800 1 1 10 N -37 21 -50 0
+A 25 0 25 573 1195 1 1 10 N 38 21 13 21
+A 25 0 25 1195 -1783 1 1 10 N 13 21 1 0
+A 25 0 25 -49 573 1 1 10 N 49 -2 38 21
+A 75 0 25 589 1194 1 1 10 N 87 21 62 21
+A 75 0 25 1194 1800 1 1 10 N 62 21 50 0
+A 75 0 25 -16 589 1 1 10 N 99 0 87 21
+C -125 35 11 0 1 0 N
+X P 1 -150 0 50 R 1 1 0 1 P
+X P 2 150 0 50 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroPMICVoltageRegulatorsLinear_TPS7A0518PDBVT
+#
+DEF antmicroPMICVoltageRegulatorsLinear_TPS7A0518PDBVT IC 0 40 Y Y 1 F N
+F0 "IC" -250 200 50 H V C CNN
+F1 "antmicroPMICVoltageRegulatorsLinear_TPS7A0518PDBVT" -65 -190 39 H V C CNN
+F2 "antmicro-footprints:SOT-23-5" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TPS7A0518PDBVT" -150 300 50 H V C CNN "MPN"
+F5 "Texas Instruments" -50 400 50 H V C CNN "Manufacturer"
+DRAW
+S -300 150 300 -150 1 1 0 f
+X VIN 1 -400 50 100 R 50 50 1 1 P
+X GND 2 400 -50 100 L 50 50 1 1 P
+X EN 3 -400 -50 100 R 50 50 1 1 P
+X VOUT 5 400 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_0R_0402
+#
+DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_10k_0402
+#
+DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_33k2_0402
+#
+DEF antmicroResistors0402_R_33k2_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_33k2_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2RKF3322X" 200 300 60 H I L CNN "MPN"
+F6 "33k2" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # jetson-nano-baseboard_74HC00PW
 #
 DEF jetson-nano-baseboard_74HC00PW IC 0 40 Y Y 1 F N
@@ -530,23 +743,6 @@ X CBUS4 9 800 -300 300 L 70 70 0 1 B
 ENDDRAW
 ENDDEF
 #
-# jetson-nano-baseboard_Fuse
-#
-DEF jetson-nano-baseboard_Fuse F 0 40 Y Y 1 F N
-F0 "F" -350 -200 60 H V L BNN
-F1 "jetson-nano-baseboard_Fuse" 0 0 60 H I C CNN
-F2 "jetson-nano-baseboard-footprints:Fuse-1206" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Littelfuse" 0 0 50 H I C CNN "Manufacturer"
-F5 "1206L450SLWR" 0 0 50 H I C CNN "MPN"
-DRAW
-S -100 -50 100 50 0 1 10 f
-P 2 0 1 10 100 0 -100 0 N
-X 1 1 -200 0 100 R 1 1 0 1 P
-X 2 2 200 0 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # jetson-nano-baseboard_GND
 #
 DEF jetson-nano-baseboard_GND #PWR 0 0 Y Y 1 F P
@@ -602,36 +798,6 @@ X TXp 6 -300 -1500 300 R 70 70 0 1 P
 X TXn 7 -300 -1600 300 R 70 70 0 1 P
 X VCC33 8 1400 -300 300 L 70 70 0 1 P
 X RXp 9 -300 -1700 300 R 70 70 0 1 P
-ENDDRAW
-ENDDEF
-#
-# jetson-nano-baseboard_IHLP1212AEERR47M11
-#
-DEF jetson-nano-baseboard_IHLP1212AEERR47M11 L 0 40 Y Y 1 F N
-F0 "L" -200 150 60 H V L BNN
-F1 "jetson-nano-baseboard_IHLP1212AEERR47M11" -200 50 60 H V L BNN
-F2 "jetson-nano-baseboard-footprints:IHLP-1212AE" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Vishay" 0 0 50 H I C CNN "Manufacturer"
-F5 "IHLP1212AEERR47M11" 0 0 50 H I C CNN "MPN"
-DRAW
-A -80 0 25 0 600 1 1 10 N -55 0 -67 21
-A -80 0 25 600 1200 1 1 10 N -67 21 -92 21
-A -80 0 25 1200 1800 1 1 10 N -92 21 -105 0
-A -40 0 25 0 600 1 1 10 N -15 0 -27 21
-A -40 0 25 600 1200 1 1 10 N -27 21 -52 21
-A -40 0 25 1200 1800 1 1 10 N -52 21 -65 0
-A 0 0 25 573 1195 1 1 10 N 13 21 -12 21
-A 0 0 25 1195 -1783 1 1 10 N -12 21 -24 0
-A 0 0 25 -49 573 1 1 10 N 24 -2 13 21
-A 40 0 25 589 1194 1 1 10 N 52 21 27 21
-A 40 0 25 1194 1800 1 1 10 N 27 21 15 0
-A 40 0 25 -16 589 1 1 10 N 64 0 52 21
-A 80 0 25 0 600 1 1 10 N 105 0 92 21
-A 80 0 25 600 1200 1 1 10 N 92 21 67 21
-A 80 0 25 1200 1800 1 1 10 N 67 21 55 0
-X P 1 -200 0 100 R 1 1 0 1 P
-X P 2 200 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1776,27 +1942,6 @@ X SW 9 600 0 200 L 70 70 0 1 P
 ENDDRAW
 ENDDEF
 #
-# jetson-nano-baseboard_TPS62823
-#
-DEF jetson-nano-baseboard_TPS62823 IC 0 40 Y Y 1 F N
-F0 "IC" -400 500 60 H V L BNN
-F1 "jetson-nano-baseboard_TPS62823" -400 -600 60 H V L BNN
-F2 "jetson-nano-baseboard-footprints:TPS62823" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer"
-F5 "TPS62823DLCT" 0 0 50 H I C CNN "MPN"
-DRAW
-S -400 -500 500 500 0 1 10 f
-X EN 1 -700 100 300 R 70 70 0 1 P
-X FB 2 800 -100 300 L 70 70 0 1 P
-X AGND 3 -700 -300 300 R 70 70 0 1 P
-X PGND 5 800 -300 300 L 70 70 0 1 P
-X SW 6 800 300 300 L 70 70 0 1 P
-X VIN 7 -700 300 300 R 70 70 0 1 P
-X PG 8 -700 -100 300 R 70 70 0 1 P
-ENDDRAW
-ENDDEF
-#
 # jetson-nano-baseboard_Testpad
 #
 DEF jetson-nano-baseboard_Testpad TP 0 40 Y Y 1 F N
@@ -2246,6 +2391,18 @@ X SHIELD S 700 -600 200 L 70 70 0 1 P
 ENDDRAW
 ENDDEF
 #
+# jetson-nano-baseboard_antmicro_logo
+#
+DEF jetson-nano-baseboard_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "jetson-nano-baseboard_antmicro_logo" 0 -200 50 H V C CNN
+F2 "jetson-nano-baseboard-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # jetson-nano-baseboard_battery
 #
 DEF jetson-nano-baseboard_battery BAT 0 40 Y Y 1 F N
@@ -2263,6 +2420,18 @@ P 2 0 1 20 -50 -50 50 -50 N
 P 2 0 1 10 0 -100 0 -50 N
 X + + 0 100 100 D 1 1 0 1 P
 X - - 0 -200 100 U 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# jetson-nano-baseboard_crc_logo
+#
+DEF jetson-nano-baseboard_crc_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "jetson-nano-baseboard_crc_logo" 30 -150 50 H V C CNN
+F2 "jetson-nano-baseboard-footprints:CRC_logo_15mm" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
@@ -2338,6 +2507,18 @@ P 9 0 1 10 200 100 400 100 400 -30 370 -30 370 -80 400 -80 400 -200 200 -200 200
 P 10 0 1 10 200 90 200 100 400 100 400 -30 370 -30 370 -80 400 -80 400 -200 200 -200 200 90 N
 X 1 1 0 0 250 R 70 1 0 1 P
 X 2 2 0 -100 250 R 70 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# jetson-nano-baseboard_oshw_logo
+#
+DEF jetson-nano-baseboard_oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "jetson-nano-baseboard_oshw_logo" 30 -150 50 H V C CNN
+F2 "jetson-nano-baseboard-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
