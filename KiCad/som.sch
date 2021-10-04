@@ -226,19 +226,6 @@ F 3 "" H 11300 2250 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:SPACER SP1
-U 1 1 5E710413
-P 13900 8775
-F 0 "SP1" H 13795 8912 60  0000 L BNN
-F 1 "9774060151" H 13800 8575 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 13800 8575 60  0001 C CNN
-F 3 "" H 13800 8575 60  0001 C CNN
-F 4 "Wurth Elektronik" H 13900 8775 50  0001 C CNN "Manufacturer"
-F 5 "9774060151" H 13900 8775 50  0001 C CNN "MPN"
-	1    13900 8775
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:Testpad TP28
 U 1 1 5E710412
 P 4575 3175
@@ -304,19 +291,6 @@ F 4 "KPT-1608SGC" H -11380 -4437 50  0001 C CNN "MPN"
 F 5 "Kingbright" H -11380 -4437 50  0001 C CNN "Manufacturer"
 	1    12800 4525
 	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:SPACER SP4
-U 1 1 5E710408
-P 13925 9225
-F 0 "SP4" H 13825 9350 60  0000 L BNN
-F 1 "9774060151" H 13825 9025 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 13825 9025 60  0001 C CNN
-F 3 "" H 13825 9025 60  0001 C CNN
-F 4 "Wurth Elektronik" H 13925 9225 50  0001 C CNN "Manufacturer"
-F 5 "9774060151" H 13925 9225 50  0001 C CNN "MPN"
-	1    13925 9225
-	1    0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:Testpad TP39
@@ -449,19 +423,6 @@ F 5 "Vishay" H -11380 -4462 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L jetson-nano-baseboard:SPACER SP5
-U 1 1 5E7103F2
-P 14600 9225
-F 0 "SP5" H 14500 9350 60  0000 L BNN
-F 1 "9774060151" H 14500 9025 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 14500 9025 60  0001 C CNN
-F 3 "" H 14500 9025 60  0001 C CNN
-F 4 "Wurth Elektronik" H 14600 9225 50  0001 C CNN "Manufacturer"
-F 5 "9774060151" H 14600 9225 50  0001 C CNN "MPN"
-	1    14600 9225
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:TL3340AF160QG USR1
 U 1 1 5E7103F1
 P 11625 7875
@@ -499,32 +460,6 @@ F 3 "" H 11650 1675 50  0001 C CNN
 F 4 "PCA-10" H -9930 -4187 50  0001 C CNN "MPN"
 F 5 "Adam Tech" H -9930 -4187 50  0001 C CNN "Manufacturer"
 	1    11650 1675
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:SPACER SP3
-U 1 1 5E7103EE
-P 15300 8775
-F 0 "SP3" H 15195 8912 60  0000 L BNN
-F 1 "9774060151" H 15200 8575 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 15200 8575 60  0001 C CNN
-F 3 "" H 15200 8575 60  0001 C CNN
-F 4 "Wurth Elektronik" H 15300 8775 50  0001 C CNN "Manufacturer"
-F 5 "9774060151" H 15300 8775 50  0001 C CNN "MPN"
-	1    15300 8775
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:SPACER SP6
-U 1 1 5E7103ED
-P 15300 9225
-F 0 "SP6" H 15200 9350 60  0000 L BNN
-F 1 "9774060151" H 15200 9025 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 15200 9025 60  0001 C CNN
-F 3 "" H 15200 9025 60  0001 C CNN
-F 4 "Wurth Elektronik" H 15300 9225 50  0001 C CNN "Manufacturer"
-F 5 "9774060151" H 15300 9225 50  0001 C CNN "MPN"
-	1    15300 9225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -624,19 +559,6 @@ F 4 "2309413-1" V 1500 1882 60  0001 C CNN "PartSymbol"
 F 5 "2309413-1" H -15230 -1087 50  0001 C CNN "MPN"
 F 6 "TE" H -15230 -1087 50  0001 C CNN "Manufacturer"
 	1    1500 1475
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:SPACER SP2
-U 1 1 5E7103FD
-P 14600 8775
-F 0 "SP2" H 14470 8912 60  0000 L BNN
-F 1 "9774060151" H 14500 8575 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 14500 8575 60  0001 C CNN
-F 3 "" H 14500 8575 60  0001 C CNN
-F 4 "Wurth Elektronik" H 14600 8775 50  0001 C CNN "Manufacturer"
-F 5 "9774060151" H 14600 8775 50  0001 C CNN "MPN"
-	1    14600 8775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1666,5 +1588,83 @@ F 2 "antmicro-footprints:0805-cap" V 14430 2050 50  0001 C CNN
 F 3 "~" H 14500 2050 50  0001 C CNN
 	1    14500 2050
 	0    1    1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:SPACER SP6
+U 1 1 5E7103ED
+P 15300 9225
+F 0 "SP6" H 15200 9350 60  0000 L BNN
+F 1 "9774060151" H 15200 9025 60  0000 L BNN
+F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 15200 9025 60  0001 C CNN
+F 3 "" H 15200 9025 60  0001 C CNN
+F 4 "Wurth Elektronik" H 15300 9225 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 15300 9225 50  0001 C CNN "MPN"
+	1    15300 9225
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:SPACER SP3
+U 1 1 5E7103EE
+P 15300 8775
+F 0 "SP3" H 15195 8912 60  0000 L BNN
+F 1 "9774060151" H 15200 8575 60  0000 L BNN
+F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 15200 8575 60  0001 C CNN
+F 3 "" H 15200 8575 60  0001 C CNN
+F 4 "Wurth Elektronik" H 15300 8775 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 15300 8775 50  0001 C CNN "MPN"
+	1    15300 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:SPACER SP5
+U 1 1 5E7103F2
+P 14600 9225
+F 0 "SP5" H 14500 9350 60  0000 L BNN
+F 1 "9774060151" H 14500 9025 60  0000 L BNN
+F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 14500 9025 60  0001 C CNN
+F 3 "" H 14500 9025 60  0001 C CNN
+F 4 "Wurth Elektronik" H 14600 9225 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 14600 9225 50  0001 C CNN "MPN"
+	1    14600 9225
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:SPACER SP2
+U 1 1 5E7103FD
+P 14600 8775
+F 0 "SP2" H 14470 8912 60  0000 L BNN
+F 1 "9774060151" H 14500 8575 60  0000 L BNN
+F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 14500 8575 60  0001 C CNN
+F 3 "" H 14500 8575 60  0001 C CNN
+F 4 "Wurth Elektronik" H 14600 8775 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 14600 8775 50  0001 C CNN "MPN"
+	1    14600 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:SPACER SP4
+U 1 1 5E710408
+P 13925 9225
+F 0 "SP4" H 13825 9350 60  0000 L BNN
+F 1 "9774060151" H 13825 9025 60  0000 L BNN
+F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 13825 9025 60  0001 C CNN
+F 3 "" H 13825 9025 60  0001 C CNN
+F 4 "Wurth Elektronik" H 13925 9225 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 13925 9225 50  0001 C CNN "MPN"
+	1    13925 9225
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:SPACER SP1
+U 1 1 5E710413
+P 13900 8775
+F 0 "SP1" H 13795 8912 60  0000 L BNN
+F 1 "9774060151" H 13800 8575 60  0000 L BNN
+F 2 "jetson-nano-baseboard-footprints:M2.5-6mm" H 13800 8575 60  0001 C CNN
+F 3 "" H 13800 8575 60  0001 C CNN
+F 4 "Wurth Elektronik" H 13900 8775 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 13900 8775 50  0001 C CNN "MPN"
+	1    13900 8775
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
