@@ -670,8 +670,8 @@ $Comp
 L jetson-nano-baseboard:BLM18SG121TN1D L7
 U 1 1 5E71031F
 P 9475 6600
-F 0 "L7" H 9175 6900 60  0000 L BNN
-F 1 "BLM18SG121TN1D" H 9175 6700 60  0000 L BNN
+F 0 "L7" H 9475 6814 60  0000 C CNN
+F 1 "BLM18SG121TN1D" H 9475 6708 60  0000 C CNN
 F 2 "jetson-nano-baseboard-footprints:0603" H 9175 6700 60  0001 C CNN
 F 3 "" H 9175 6700 60  0001 C CNN
 F 4 "Murata" V 6075 -1793 60  0001 C CNN "Manufacturer"
@@ -812,45 +812,6 @@ F 5 "TE" H -33616 -15093 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jetson-nano-baseboard:TPD2E009 D3
-U 1 1 5E7102F4
-P 13375 7325
-F 0 "D3" V 13875 7025 60  0000 L BNN
-F 1 "TPD2E009DBZR" V 13975 7025 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 13975 7025 60  0001 C CNN
-F 3 "" H 13975 7025 60  0001 C CNN
-F 4 "TPD2E009DBZR" H -24885 -20787 50  0001 C CNN "MPN"
-F 5 "NXP" H -24885 -20787 50  0001 C CNN "Manufacturer"
-	1    13375 7325
-	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:TPD2E009 D5
-U 1 1 5E7102F3
-P 10425 4475
-F 0 "D5" H 10425 4575 60  0000 L BNN
-F 1 "TPD2E009DBZR" H 10425 4075 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 10425 4075 60  0001 C CNN
-F 3 "" H 10425 4075 60  0001 C CNN
-F 4 "TPD2E009DBZR" H -31446 -14030 50  0001 C CNN "MPN"
-F 5 "NXP" H -31446 -14030 50  0001 C CNN "Manufacturer"
-	1    10425 4475
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:TPD2E009 D8
-U 1 1 5E7102F2
-P 8025 6700
-F 0 "D8" V 8525 6400 60  0000 L BNN
-F 1 "TPD2E009DBZR" V 8625 6400 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 8625 6400 60  0001 C CNN
-F 3 "" H 8625 6400 60  0001 C CNN
-F 4 "TPD2E009DBZR" H -31546 -13405 50  0001 C CNN "MPN"
-F 5 "NXP" H -31546 -13405 50  0001 C CNN "Manufacturer"
-	1    8025 6700
-	0    1    1    0   
-$EndComp
-$Comp
 L jetson-nano-baseboard:BLM18EG221SN1D L3
 U 1 1 5E7102ED
 P 13375 6525
@@ -862,19 +823,6 @@ F 4 "BLM18EG221SN1D" H -24985 -20787 50  0001 C CNN "MPN"
 F 5 "Murata" H -24985 -20787 50  0001 C CNN "Manufacturer"
 	1    13375 6525
 	0    -1   -1   0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:TPD2E009 D9
-U 1 1 5E7102F1
-P 6625 6700
-F 0 "D9" V 7120 6796 60  0000 R BNN
-F 1 "TPD2E009DBZR" V 7245 6796 60  0000 R BNN
-F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 6025 6600 60  0001 C CNN
-F 3 "" H 6025 6600 60  0001 C CNN
-F 4 "TPD2E009DBZR" H -31346 -13405 50  0001 C CNN "MPN"
-F 5 "NXP" H -31346 -13405 50  0001 C CNN "Manufacturer"
-	1    6625 6700
-	0    -1   1    0   
 $EndComp
 Text GLabel 1675 5250 1    50   Input ~ 0
 5V0_SYS
@@ -986,7 +934,7 @@ $Comp
 L jetson-nano-baseboard:Micro_USB_B J5
 U 1 1 5E710320
 P 8775 6250
-F 0 "J5" H 8579 6855 60  0000 R TNN
+F 0 "J5" H 9055 6188 60  0000 L CNN
 F 1 "~" H 8775 6250 50  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:CON-Molex-047346-0001" H 8775 6250 50  0001 C CNN
 F 3 "" H 8775 6250 50  0001 C CNN
@@ -2306,5 +2254,57 @@ F 6 "0R" V 3000 9125 50  0000 C CNN "Val"
 F 7 "DNP" H 3050 9325 50  0000 C CNN "DNP"
 	1    3050 9225
 	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTVSDiodes:PESD2USB5UV-TR D9
+U 1 1 61BF6079
+P 6825 6700
+F 0 "D9" V 6865 6830 60  0000 L CNN
+F 1 "PESD2USB5UV-TR" V 6971 6830 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23s" H 6875 6900 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 6825 6700 60  0001 C CNN
+F 4 "PESD2USB5UV-TR " H 6525 7000 50  0001 C CNN "MPN"
+F 5 "Nexperia " H 6525 7100 50  0001 C CNN "Manufacturer"
+	1    6825 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTVSDiodes:PESD2USB5UV-TR D8
+U 1 1 61BFA215
+P 8025 6700
+F 0 "D8" V 8065 6830 60  0000 L CNN
+F 1 "PESD2USB5UV-TR" V 8171 6830 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23s" H 8075 6900 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 8025 6700 60  0001 C CNN
+F 4 "PESD2USB5UV-TR " H 7725 7000 50  0001 C CNN "MPN"
+F 5 "Nexperia " H 7725 7100 50  0001 C CNN "Manufacturer"
+	1    8025 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTVSDiodes:PESD2USB5UV-TR D5
+U 1 1 61C529C6
+P 10425 4475
+F 0 "D5" H 10518 4764 60  0000 C CNN
+F 1 "PESD2USB5UV-TR" H 10518 4658 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-23s" H 10475 4675 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 10425 4475 60  0001 C CNN
+F 4 "PESD2USB5UV-TR " H 10125 4775 50  0001 C CNN "MPN"
+F 5 "Nexperia " H 10125 4875 50  0001 C CNN "Manufacturer"
+	1    10425 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTVSDiodes:PESD2USB5UV-TR D3
+U 1 1 61C696B4
+P 13375 7325
+F 0 "D3" V 13858 7225 60  0000 C CNN
+F 1 "PESD2USB5UV-TR" V 13964 7225 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-23s" H 13425 7525 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 13375 7325 60  0001 C CNN
+F 4 "PESD2USB5UV-TR " H 13075 7625 50  0001 C CNN "MPN"
+F 5 "Nexperia " H 13075 7725 50  0001 C CNN "Manufacturer"
+	1    13375 7325
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
