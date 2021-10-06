@@ -2258,22 +2258,22 @@ $EndComp
 $Comp
 L antmicroTVSDiodes:PESD2USB5UV-TR D9
 U 1 1 61BF6079
-P 6825 6700
-F 0 "D9" V 6865 6830 60  0000 L CNN
-F 1 "PESD2USB5UV-TR" V 6971 6830 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23s" H 6875 6900 60  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 6825 6700 60  0001 C CNN
-F 4 "PESD2USB5UV-TR " H 6525 7000 50  0001 C CNN "MPN"
-F 5 "Nexperia " H 6525 7100 50  0001 C CNN "Manufacturer"
-	1    6825 6700
-	0    1    1    0   
+P 6625 6700
+F 0 "D9" V 7108 6600 60  0000 C CNN
+F 1 "PESD2USB5UV-TR" V 7214 6600 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-23s" H 6675 6900 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 6625 6700 60  0001 C CNN
+F 4 "PESD2USB5UV-TR " H 6325 7000 50  0001 C CNN "MPN"
+F 5 "Nexperia " H 6325 7100 50  0001 C CNN "Manufacturer"
+	1    6625 6700
+	0    -1   1    0   
 $EndComp
 $Comp
 L antmicroTVSDiodes:PESD2USB5UV-TR D8
 U 1 1 61BFA215
 P 8025 6700
-F 0 "D8" V 8065 6830 60  0000 L CNN
-F 1 "PESD2USB5UV-TR" V 8171 6830 60  0000 L CNN
+F 0 "D8" V 8508 6600 60  0000 C CNN
+F 1 "PESD2USB5UV-TR" V 8614 6600 60  0000 C CNN
 F 2 "antmicro-footprints:SOT-23s" H 8075 6900 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 8025 6700 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 7725 7000 50  0001 C CNN "MPN"
