@@ -898,20 +898,6 @@ Wire Wire Line
 	5025 3150 5375 3150
 Wire Wire Line
 	4050 3150 5025 3150
-$Comp
-L antmicroCapacitors0603:C_47u_0603 C94
-U 1 1 619E2469
-P 5150 2025
-F 0 "C94" H 5265 2070 60  0000 L CNN
-F 1 "C_47u_0603" H 5150 1875 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5350 2225 60  0001 L CNN
-F 3 "" H 5150 2025 50  0001 C CNN
-F 4 "MURATA" H 5350 2425 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 5350 2325 60  0001 L CNN "MPN"
-F 6 "47u" H 5265 1972 50  0000 L CNN "Val"
-	1    5150 2025
-	1    0    0    -1  
-$EndComp
 Text GLabel 5575 2500 2    50   Input ~ 0
 5V0_SYS
 $Comp
@@ -1002,9 +988,6 @@ Wire Wire Line
 Connection ~ 5375 2500
 Text GLabel 5125 1875 0    50   Input ~ 0
 5V0_SYS
-Wire Wire Line
-	5125 1875 5150 1875
-Connection ~ 5150 1875
 $Comp
 L Device:Ferrite_Bead_Small FB4
 U 1 1 61C66316
@@ -1207,20 +1190,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 5800 4975 5800
 $Comp
-L antmicroCapacitors0603:C_47u_0603 C91
-U 1 1 61E2F969
-P 4900 4650
-F 0 "C91" H 5015 4695 60  0000 L CNN
-F 1 "C_47u_0603" H 4900 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5100 4850 60  0001 L CNN
-F 3 "" H 4900 4650 50  0001 C CNN
-F 4 "MURATA" H 5100 5050 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 5100 4950 60  0001 L CNN "MPN"
-F 6 "47u" H 5015 4597 50  0000 L CNN "Val"
-	1    4900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:GND #GND_0163
 U 1 1 61E2F985
 P 5325 6100
@@ -1301,9 +1270,6 @@ Connection ~ 1975 4850
 Wire Wire Line
 	1975 4850 1550 4850
 Connection ~ 5325 5150
-Wire Wire Line
-	4875 4500 4900 4500
-Connection ~ 4900 4500
 $Comp
 L Device:Ferrite_Bead_Small FB3
 U 1 1 61E2F9C4
@@ -1413,10 +1379,10 @@ $EndComp
 Text GLabel 1775 5550 0    50   Input ~ 0
 #RESET
 $Comp
-L jetson-nano-baseboard:R_10k_0402 R?
+L jetson-nano-baseboard:R_10k_0402 R44
 U 1 1 620FA0ED
 P 2200 5550
-F 0 "R?" H 2200 5450 60  0000 C CNN
+F 0 "R44" H 2200 5450 60  0000 C CNN
 F 1 "R_10k_0402" H 2200 5400 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-res" H 2400 5750 60  0001 L CNN
 F 3 "" H 2200 5550 50  0001 C CNN
@@ -1431,10 +1397,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 5550 2675 5550
 $Comp
-L jetson-nano-baseboard:R_0R_0402 R?
+L jetson-nano-baseboard:R_0R_0402 R45
 U 1 1 6216200E
 P 2675 5250
-F 0 "R?" V 2766 5320 60  0000 L CNN
+F 0 "R45" V 2766 5320 60  0000 L CNN
 F 1 "R_0R_0402" H 2675 5100 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-res" H 2875 5450 60  0001 L CNN
 F 3 "" H 2675 5250 50  0001 C CNN
@@ -1592,34 +1558,6 @@ F 6 "1u" H 4040 9122 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_47u_0603 C96
-U 1 1 61A02D24
-P 5600 2025
-F 0 "C96" H 5715 2070 60  0000 L CNN
-F 1 "C_47u_0603" H 5600 1875 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5800 2225 60  0001 L CNN
-F 3 "" H 5600 2025 50  0001 C CNN
-F 4 "MURATA" H 5800 2425 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 5800 2325 60  0001 L CNN "MPN"
-F 6 "47u" H 5715 1972 50  0000 L CNN "Val"
-	1    5600 2025
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroCapacitors0603:C_47u_0603 C98
-U 1 1 61A14F82
-P 6025 2025
-F 0 "C98" H 6140 2070 60  0000 L CNN
-F 1 "C_47u_0603" H 6025 1875 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 6225 2225 60  0001 L CNN
-F 3 "" H 6025 2025 50  0001 C CNN
-F 4 "MURATA" H 6225 2425 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 6225 2325 60  0001 L CNN "MPN"
-F 6 "47u" H 6140 1972 50  0000 L CNN "Val"
-	1    6025 2025
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:GND #GND_0156
 U 1 1 61AC273D
 P 5600 2175
@@ -1639,39 +1577,6 @@ F 1 "GND" H 6028 2032 30  0000 C CNN
 F 2 "" H 6025 2175 70  0001 C CNN
 F 3 "" H 6025 2175 70  0001 C CNN
 	1    6025 2175
-	1    0    0    -1  
-$EndComp
-Connection ~ 5600 1875
-Wire Wire Line
-	5150 1875 5600 1875
-Wire Wire Line
-	5600 1875 6025 1875
-$Comp
-L antmicroCapacitors0603:C_47u_0603 C95
-U 1 1 61E2F972
-P 5350 4650
-F 0 "C95" H 5465 4695 60  0000 L CNN
-F 1 "C_47u_0603" H 5350 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5550 4850 60  0001 L CNN
-F 3 "" H 5350 4650 50  0001 C CNN
-F 4 "MURATA" H 5550 5050 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 5550 4950 60  0001 L CNN "MPN"
-F 6 "47u" H 5465 4597 50  0000 L CNN "Val"
-	1    5350 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroCapacitors0603:C_47u_0603 C97
-U 1 1 61E2F97B
-P 5775 4650
-F 0 "C97" H 5890 4695 60  0000 L CNN
-F 1 "C_47u_0603" H 5775 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5975 4850 60  0001 L CNN
-F 3 "" H 5775 4650 50  0001 C CNN
-F 4 "MURATA" H 5975 5050 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 5975 4950 60  0001 L CNN "MPN"
-F 6 "47u" H 5890 4597 50  0000 L CNN "Val"
-	1    5775 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1697,14 +1602,109 @@ F 3 "" H 5775 4800 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 4500 5775 4500
-Wire Wire Line
-	4900 4500 5350 4500
-Connection ~ 5350 4500
-Wire Wire Line
 	4000 5550 4400 5550
 Text Notes 1250 4175 0    59   ~ 12
 3V3 DC/DC
 Text Notes 1250 4300 0    59   ~ 12
 3V3/4A
+$Comp
+L antmicroCapacitorsmisc:C_47u_0805 C?
+U 1 1 624E69E4
+P 4900 4650
+F 0 "C?" H 5015 4695 60  0000 L CNN
+F 1 "C_47u_0805" H 4900 4500 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5100 4850 60  0001 L CNN
+F 3 "" H 4900 4650 50  0001 C CNN
+F 4 "KEMET" H 5100 5050 60  0001 L CNN "Manufacturer"
+F 5 "C0805C476M9PACTU" H 5100 4950 60  0001 L CNN "MPN"
+F 6 "47u" H 5015 4597 50  0000 L CNN "Val"
+	1    4900 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 4500 4900 4500
+Connection ~ 4900 4500
+$Comp
+L antmicroCapacitorsmisc:C_47u_0805 C?
+U 1 1 624FD21A
+P 5350 4650
+F 0 "C?" H 5465 4695 60  0000 L CNN
+F 1 "C_47u_0805" H 5350 4500 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5550 4850 60  0001 L CNN
+F 3 "" H 5350 4650 50  0001 C CNN
+F 4 "KEMET" H 5550 5050 60  0001 L CNN "Manufacturer"
+F 5 "C0805C476M9PACTU" H 5550 4950 60  0001 L CNN "MPN"
+F 6 "47u" H 5465 4597 50  0000 L CNN "Val"
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_47u_0805 C?
+U 1 1 62508FB8
+P 5775 4650
+F 0 "C?" H 5890 4695 60  0000 L CNN
+F 1 "C_47u_0805" H 5775 4500 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5975 4850 60  0001 L CNN
+F 3 "" H 5775 4650 50  0001 C CNN
+F 4 "KEMET" H 5975 5050 60  0001 L CNN "Manufacturer"
+F 5 "C0805C476M9PACTU" H 5975 4950 60  0001 L CNN "MPN"
+F 6 "47u" H 5890 4597 50  0000 L CNN "Val"
+	1    5775 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_47u_0805 C?
+U 1 1 62515712
+P 5150 2025
+F 0 "C?" H 5265 2070 60  0000 L CNN
+F 1 "C_47u_0805" H 5150 1875 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5350 2225 60  0001 L CNN
+F 3 "" H 5150 2025 50  0001 C CNN
+F 4 "KEMET" H 5350 2425 60  0001 L CNN "Manufacturer"
+F 5 "C0805C476M9PACTU" H 5350 2325 60  0001 L CNN "MPN"
+F 6 "47u" H 5265 1972 50  0000 L CNN "Val"
+	1    5150 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_47u_0805 C?
+U 1 1 62521314
+P 5600 2025
+F 0 "C?" H 5715 2070 60  0000 L CNN
+F 1 "C_47u_0805" H 5600 1875 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5800 2225 60  0001 L CNN
+F 3 "" H 5600 2025 50  0001 C CNN
+F 4 "KEMET" H 5800 2425 60  0001 L CNN "Manufacturer"
+F 5 "C0805C476M9PACTU" H 5800 2325 60  0001 L CNN "MPN"
+F 6 "47u" H 5715 1972 50  0000 L CNN "Val"
+	1    5600 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_47u_0805 C?
+U 1 1 6252D09E
+P 6025 2025
+F 0 "C?" H 6140 2070 60  0000 L CNN
+F 1 "C_47u_0805" H 6025 1875 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 6225 2225 60  0001 L CNN
+F 3 "" H 6025 2025 50  0001 C CNN
+F 4 "KEMET" H 6225 2425 60  0001 L CNN "Manufacturer"
+F 5 "C0805C476M9PACTU" H 6225 2325 60  0001 L CNN "MPN"
+F 6 "47u" H 6140 1972 50  0000 L CNN "Val"
+	1    6025 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 1875 5150 1875
+Connection ~ 5150 1875
+Wire Wire Line
+	5150 1875 5600 1875
+Connection ~ 5600 1875
+Wire Wire Line
+	5600 1875 6025 1875
+Wire Wire Line
+	4900 4500 5350 4500
+Connection ~ 5350 4500
+Wire Wire Line
+	5350 4500 5775 4500
 $EndSCHEMATC
