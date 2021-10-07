@@ -805,13 +805,6 @@ Wire Wire Line
 	4050 2200 4200 2200
 Wire Wire Line
 	4050 2500 4200 2500
-Wire Wire Line
-	4200 2500 4450 2500
-Connection ~ 4200 2500
-Wire Wire Line
-	4200 2600 4200 2500
-Wire Wire Line
-	4050 2600 4200 2600
 Text GLabel 4500 2900 2    50   Input ~ 0
 PWR_GOOD
 Wire Wire Line
@@ -884,7 +877,6 @@ Connection ~ 5375 3150
 Connection ~ 4075 2900
 Wire Wire Line
 	4075 2900 4450 2900
-Connection ~ 4450 2500
 Connection ~ 4450 2900
 Wire Wire Line
 	4450 2900 4500 2900
@@ -1121,13 +1113,6 @@ Wire Wire Line
 	4000 4850 4150 4850
 Wire Wire Line
 	4000 5150 4150 5150
-Wire Wire Line
-	4150 5150 4400 5150
-Connection ~ 4150 5150
-Wire Wire Line
-	4150 5250 4150 5150
-Wire Wire Line
-	4000 5250 4150 5250
 $Comp
 L antmicroResistors0402:R_100k_0402 R94
 U 1 1 61E2F935
@@ -1178,7 +1163,6 @@ F 6 "100k_1%" V 5378 5370 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	5325 5450 5325 5800
-Connection ~ 4400 5150
 Wire Wire Line
 	4400 5150 4550 5150
 Connection ~ 4975 5150
@@ -1608,10 +1592,10 @@ Text Notes 1250 4175 0    59   ~ 12
 Text Notes 1250 4300 0    59   ~ 12
 3V3/4A
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C16
 U 1 1 624E69E4
 P 4900 4650
-F 0 "C?" H 5015 4695 60  0000 L CNN
+F 0 "C16" H 5015 4695 60  0000 L CNN
 F 1 "C_47u_0805" H 4900 4500 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 5100 4850 60  0001 L CNN
 F 3 "" H 4900 4650 50  0001 C CNN
@@ -1625,10 +1609,10 @@ Wire Wire Line
 	4875 4500 4900 4500
 Connection ~ 4900 4500
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C18
 U 1 1 624FD21A
 P 5350 4650
-F 0 "C?" H 5465 4695 60  0000 L CNN
+F 0 "C18" H 5465 4695 60  0000 L CNN
 F 1 "C_47u_0805" H 5350 4500 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 5550 4850 60  0001 L CNN
 F 3 "" H 5350 4650 50  0001 C CNN
@@ -1639,10 +1623,10 @@ F 6 "47u" H 5465 4597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C20
 U 1 1 62508FB8
 P 5775 4650
-F 0 "C?" H 5890 4695 60  0000 L CNN
+F 0 "C20" H 5890 4695 60  0000 L CNN
 F 1 "C_47u_0805" H 5775 4500 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 5975 4850 60  0001 L CNN
 F 3 "" H 5775 4650 50  0001 C CNN
@@ -1653,10 +1637,10 @@ F 6 "47u" H 5890 4597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C17
 U 1 1 62515712
 P 5150 2025
-F 0 "C?" H 5265 2070 60  0000 L CNN
+F 0 "C17" H 5265 2070 60  0000 L CNN
 F 1 "C_47u_0805" H 5150 1875 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 5350 2225 60  0001 L CNN
 F 3 "" H 5150 2025 50  0001 C CNN
@@ -1667,10 +1651,10 @@ F 6 "47u" H 5265 1972 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C19
 U 1 1 62521314
 P 5600 2025
-F 0 "C?" H 5715 2070 60  0000 L CNN
+F 0 "C19" H 5715 2070 60  0000 L CNN
 F 1 "C_47u_0805" H 5600 1875 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 5800 2225 60  0001 L CNN
 F 3 "" H 5600 2025 50  0001 C CNN
@@ -1681,10 +1665,10 @@ F 6 "47u" H 5715 1972 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C21
 U 1 1 6252D09E
 P 6025 2025
-F 0 "C?" H 6140 2070 60  0000 L CNN
+F 0 "C21" H 6140 2070 60  0000 L CNN
 F 1 "C_47u_0805" H 6025 1875 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 6225 2225 60  0001 L CNN
 F 3 "" H 6025 2025 50  0001 C CNN
@@ -1707,4 +1691,18 @@ Wire Wire Line
 Connection ~ 5350 4500
 Wire Wire Line
 	5350 4500 5775 4500
+Wire Wire Line
+	4225 5250 4225 5150
+Wire Wire Line
+	4225 5150 4400 5150
+Wire Wire Line
+	4000 5250 4225 5250
+Connection ~ 4400 5150
+Wire Wire Line
+	4300 2600 4300 2500
+Wire Wire Line
+	4300 2500 4450 2500
+Wire Wire Line
+	4050 2600 4300 2600
+Connection ~ 4450 2500
 $EndSCHEMATC
