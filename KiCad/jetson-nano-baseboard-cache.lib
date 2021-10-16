@@ -171,7 +171,7 @@ ENDDEF
 DEF antmicroDCDCConverters_LM60440AQRPKRQ1 U 0 40 Y Y 1 F N
 F0 "U" 450 850 50 H V C CNN
 F1 "antmicroDCDCConverters_LM60440AQRPKRQ1" -150 850 50 H V C CNN
-F2 "LM60440AQRPKRQ1" -150 850 50 H I C CNN
+F2 "antmicro-footprints:LM60440AQRPKRQ1" -150 850 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Texas Instruments" -600 -750 50 H V C CNN "Manufacturer"
 F5 "LM60440AQRPKRQ1" -150 850 50 H V C CNN "MPN"
@@ -201,7 +201,7 @@ F1 "antmicroFixedInductors_7443251000" -300 -100 60 H V L BNN
 F2 "antmicro-footprints:WE_7443251000" 850 575 60 H I C CNN
 F3 "" 55 30 60 H I C CNN
 F4 "Wurth Elektronik" 300 925 50 H I C CNN "Manufacturer"
-F5 "https://www.we-online.com/katalog/datasheet/7443251000.pdf" 250 850 50 H I C CNN "MPN"
+F5 "7443251000" 250 850 50 H I C CNN "MPN"
 F6 "10u/7.2A" 200 100 50 H V C CNN "Val"
 F7 "7.92" 75 775 50 H I C CNN "MaxCur"
 F8 "10.5x10.2" 125 675 50 H I C CNN "Size"
@@ -286,6 +286,7 @@ F1 "antmicroPMICPowerDistributionSwitchesLoadDrivers_AP22652W6-7" 200 250 50 H V
 F2 "antmicro-footprints:SOT-23-6" 0 -250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Diodes Incorporated " 0 -350 50 H I C CNN "Manufacturer"
+F5 "AP22652W6-7" 0 0 50 H I C CNN "MPN"
 DRAW
 S -300 200 300 -200 1 1 6 f
 X IN 1 -400 100 100 R 40 40 1 1 B

@@ -1,4 +1,4 @@
-20897444010964986
+20913803644713986
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81647,34 +81647,6 @@ test point THT pad
 0
 1
 1
-Tmp
-BEL_0826-1K1T-43-F
-
-
-0
-18
-18
-Tmp
-BEL_0826-1X1T-GH-F
-
-
-0
-22
-22
-Tmp
-BEL_SI-51005-FB
-
-
-0
-16
-16
-Tmp
-LM60440AQRPKRQ1
-
-
-0
-13
-13
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
@@ -83440,6 +83412,13 @@ antmicro-footprints
 8
 7
 antmicro-footprints
+48393-001
+USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
+USB 3.0 type A right angle
+0
+13
+10
+antmicro-footprints
 51049_CONN_30PIN_MALE
 
 
@@ -83572,6 +83551,20 @@ https://www.molex.com/pdm_docs/sd/022053041_sd.pdf
 0
 4
 4
+antmicro-footprints
+395011003
+
+
+0
+3
+3
+antmicro-footprints
+395011006
+
+
+0
+6
+6
 antmicro-footprints
 529910508
 
@@ -83838,6 +83831,13 @@ antmicro-footprints
 0
 10
 10
+antmicro-footprints
+1825660000
+
+
+0
+8
+4
 antmicro-footprints
 62000311121
 
@@ -85260,6 +85260,20 @@ GD25Q16CWIG
 12
 9
 antmicro-footprints
+GPS-ANT047-mounting-pad
+
+
+0
+1
+1
+antmicro-footprints
+GPS-ANT050-mounting-pad
+
+
+0
+1
+1
+antmicro-footprints
 GPS_Module_CAM-M8C-0
 
 
@@ -85399,6 +85413,13 @@ HTQFP-100_14x14mm
 0
 182
 101
+antmicro-footprints
+HTSOP-J8
+
+
+0
+9
+9
 antmicro-footprints
 HTSSOP-20_TI-PWP
 
@@ -86702,6 +86723,13 @@ PRO-OB-572
 6
 5
 antmicro-footprints
+PRO-OB-572_2
+
+
+0
+5
+5
+antmicro-footprints
 PROBE_PAD_0603
 
 
@@ -87472,6 +87500,13 @@ QFN50P900X900X80-65N
 65
 65
 antmicro-footprints
+QFN50P900X900X90-65N
+
+
+0
+65
+65
+antmicro-footprints
 QFN50P900X900X100-65N
 
 
@@ -87877,6 +87912,20 @@ SHF-105-01-X-D-SM
 0
 10
 10
+antmicro-footprints
+SIC46XED-T1-GE3
+
+
+0
+26
+26
+antmicro-footprints
+SIC47XED-T1-GE3
+
+
+0
+26
+26
 antmicro-footprints
 SIM_473080001
 
@@ -88872,6 +88921,13 @@ http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
 3
 3
 antmicro-footprints
+TE_1-1734248-5
+
+
+0
+30
+15
+antmicro-footprints
 TE_1-1734248-5_FLEX
 
 
@@ -89733,6 +89789,13 @@ usb A plug horizontal
 11
 10
 antmicro-footprints
+USB5534B-5000JZX
+USB5534B 64 Pin QFN
+Integrated Circuit
+0
+65
+65
+antmicro-footprints
 USB_A_Female_AU-Y1006-3
 
 
@@ -90026,6 +90089,13 @@ VSON-10-1EP_3x3mm
 0
 15
 11
+antmicro-footprints
+VSSOP-8
+
+
+0
+8
+8
 antmicro-footprints
 VSSOP8-Texas_Instruments-DGK0008A
 
