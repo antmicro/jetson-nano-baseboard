@@ -685,7 +685,7 @@ F 5 "N/A" H -5232 -11836 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDCDCConverters:LM60440AQRPKRQ1 U1
+L jetson-nano-baseboard:LM60440AQRPKRQ1 U1
 U 1 1 616ACE1D
 P 3400 2900
 F 0 "U1" H 3400 3957 50  0000 C CNN
@@ -698,12 +698,12 @@ F 5 "" H 3400 2900 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_220n_0603_25V C86
+L jetson-nano-baseboard:C_220n_0603_25V C86
 U 1 1 616D6749
 P 2425 2475
 F 0 "C86" H 2540 2520 60  0000 L CNN
 F 1 "C_220n_0603_25V" H 2425 2325 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 2625 2675 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0603-cap" H 2625 2675 60  0001 L CNN
 F 3 "" H 2425 2475 50  0001 C CNN
 F 4 "TDK" H 2625 2875 60  0001 L CNN "Manufacturer"
 F 5 "C1608X7R1E224K080AC" H 2625 2775 60  0001 L CNN "MPN"
@@ -712,12 +712,12 @@ F 6 "220n" H 2540 2422 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_220n_0603_25V C84
+L jetson-nano-baseboard:C_220n_0603_25V C84
 U 1 1 616DF494
 P 2000 2475
 F 0 "C84" H 2115 2520 60  0000 L CNN
 F 1 "C_220n_0603_25V" H 2000 2325 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 2200 2675 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0603-cap" H 2200 2675 60  0001 L CNN
 F 3 "" H 2000 2475 50  0001 C CNN
 F 4 "TDK" H 2200 2875 60  0001 L CNN "Manufacturer"
 F 5 "C1608X7R1E224K080AC" H 2200 2775 60  0001 L CNN "MPN"
@@ -726,12 +726,12 @@ F 6 "220n" H 2115 2422 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_4u7_0603 C82
+L jetson-nano-baseboard:C_4u7_0603 C82
 U 1 1 616EFCD7
 P 1600 2475
 F 0 "C82" H 1715 2520 60  0000 L CNN
 F 1 "C_4u7_0603" H 1600 2325 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1800 2675 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0603-cap" H 1800 2675 60  0001 L CNN
 F 3 "" H 1600 2475 50  0001 C CNN
 F 4 "TDK" H 1800 2875 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 1800 2775 60  0001 L CNN "MPN"
@@ -740,12 +740,12 @@ F 6 "4u7" H 1715 2422 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C88
+L jetson-nano-baseboard:C_1u_0402 C88
 U 1 1 616F2B39
 P 2700 3350
 F 0 "C88" H 2815 3395 60  0000 L CNN
 F 1 "C_1u_0402" H 2700 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2900 3550 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 2900 3550 60  0001 L CNN
 F 3 "" H 2700 3350 50  0001 C CNN
 F 4 "TDK" H 2900 3750 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 2900 3650 60  0001 L CNN "MPN"
@@ -784,12 +784,12 @@ F 3 "" H 3250 3900 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C90
+L jetson-nano-baseboard:C_100n_0402 C90
 U 1 1 61765519
 P 4200 2350
 F 0 "C90" H 4085 2305 60  0000 R CNN
 F 1 "C_100n_0402" H 4200 2200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4400 2550 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 4400 2550 60  0001 L CNN
 F 3 "" H 4200 2350 50  0001 C CNN
 F 4 "Walsin" H 4400 2750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4400 2650 60  0001 L CNN "MPN"
@@ -806,12 +806,12 @@ PWR_GOOD
 Wire Wire Line
 	4050 2900 4075 2900
 $Comp
-L antmicroResistors0402:R_100k_0402 R117
+L jetson-nano-baseboard:R_100k_0402 R117
 U 1 1 6189DA0A
 P 4450 2700
 F 0 "R117" V 4405 2770 60  0000 L CNN
 F 1 "R_100k_0402" H 4450 2550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4650 2900 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 4650 2900 60  0001 L CNN
 F 3 "" H 4450 2700 50  0001 C CNN
 F 4 "VISHAY" H 4650 3100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4650 3000 60  0001 L CNN "MPN"
@@ -824,12 +824,12 @@ Wire Wire Line
 Wire Wire Line
 	4450 2500 4450 2550
 $Comp
-L antmicroCapacitors0402:C_15p_0402 C93
+L jetson-nano-baseboard:C_15p_0402 C93
 U 1 1 618F659D
 P 5025 2650
 F 0 "C93" H 5140 2695 60  0000 L CNN
 F 1 "C_15p_0402" H 5025 2500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5225 2850 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 5225 2850 60  0001 L CNN
 F 3 "" H 5025 2650 50  0001 C CNN
 F 4 "MULTICOMP" H 5225 3050 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N150J500CT" H 5225 2950 60  0001 L CNN "MPN"
@@ -840,12 +840,12 @@ $EndComp
 Wire Wire Line
 	5025 2800 5025 3150
 $Comp
-L antmicroResistors0402:R_100k_1%_0402 R120
+L jetson-nano-baseboard:R_100k_1%_0402 R120
 U 1 1 6191AE40
 P 5375 2650
 F 0 "R120" V 5330 2720 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 5375 2500 60  0001 C CNN
-F 2 "antmicro-footprints:0402" H 5575 2850 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402" H 5575 2850 60  0001 L CNN
 F 3 "" H 5375 2650 50  0001 C CNN
 F 4 "PANASONIC" H 5575 3050 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 5575 2950 60  0001 L CNN "MPN"
@@ -854,12 +854,12 @@ F 6 "100k_1%" V 5428 2720 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_24k9_0.1%_0402 R121
+L jetson-nano-baseboard:R_24k9_0.1%_0402 R121
 U 1 1 6191C0DB
 P 5375 3300
 F 0 "R121" V 5330 3370 60  0000 L CNN
 F 1 "R_24k9_0.1%_0402" H 5375 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5575 3500 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5575 3500 60  0001 L CNN
 F 3 "" H 5375 3300 50  0001 C CNN
 F 4 "YAGEO" H 5575 3700 60  0001 L CNN "Manufacturer"
 F 5 "RT0402BRE0724K9L" H 5575 3600 60  0001 L CNN "MPN"
@@ -977,12 +977,12 @@ Connection ~ 5375 2500
 Text GLabel 5125 1875 0    50   Input ~ 0
 5V0_SYS
 $Comp
-L Device:Ferrite_Bead_Small FB4
+L jetson-nano-baseboard:Ferrite_Bead_Small FB4
 U 1 1 61C66316
 P 1375 2200
 F 0 "FB4" V 1250 2200 50  0000 C CNN
 F 1 "742792022 " V 1475 2200 50  0000 C CNN
-F 2 "antmicro-footprints:0805-cap" V 1305 2200 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" V 1305 2200 50  0001 C CNN
 F 3 "~" H 1375 2200 50  0001 C CNN
 	1    1375 2200
 	0    1    1    0   
@@ -1006,12 +1006,12 @@ Connection ~ 2725 2300
 Wire Wire Line
 	2750 2900 2725 2900
 $Comp
-L antmicroCapacitors0603:C_220n_0603_25V C85
+L jetson-nano-baseboard:C_220n_0603_25V C85
 U 1 1 61E2F8EF
 P 1975 5125
 F 0 "C85" H 2090 5170 60  0000 L CNN
 F 1 "C_220n_0603_25V" H 1975 4975 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 2175 5325 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0603-cap" H 2175 5325 60  0001 L CNN
 F 3 "" H 1975 5125 50  0001 C CNN
 F 4 "TDK" H 2175 5525 60  0001 L CNN "Manufacturer"
 F 5 "C1608X7R1E224K080AC" H 2175 5425 60  0001 L CNN "MPN"
@@ -1020,12 +1020,12 @@ F 6 "220n" H 2090 5072 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_220n_0603_25V C83
+L jetson-nano-baseboard:C_220n_0603_25V C83
 U 1 1 61E2F8F8
 P 1550 5125
 F 0 "C83" H 1665 5170 60  0000 L CNN
 F 1 "C_220n_0603_25V" H 1550 4975 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1750 5325 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0603-cap" H 1750 5325 60  0001 L CNN
 F 3 "" H 1550 5125 50  0001 C CNN
 F 4 "TDK" H 1750 5525 60  0001 L CNN "Manufacturer"
 F 5 "C1608X7R1E224K080AC" H 1750 5425 60  0001 L CNN "MPN"
@@ -1034,12 +1034,12 @@ F 6 "220n" H 1665 5072 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_4u7_0603 C81
+L jetson-nano-baseboard:C_4u7_0603 C81
 U 1 1 61E2F901
 P 1150 5125
 F 0 "C81" H 1265 5170 60  0000 L CNN
 F 1 "C_4u7_0603" H 1150 4975 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1350 5325 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0603-cap" H 1350 5325 60  0001 L CNN
 F 3 "" H 1150 5125 50  0001 C CNN
 F 4 "TDK" H 1350 5525 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 1350 5425 60  0001 L CNN "MPN"
@@ -1048,12 +1048,12 @@ F 6 "4u7" H 1265 5072 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C87
+L jetson-nano-baseboard:C_1u_0402 C87
 U 1 1 61E2F90A
 P 2650 6000
 F 0 "C87" H 2765 6045 60  0000 L CNN
 F 1 "C_1u_0402" H 2650 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2850 6200 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 2850 6200 60  0001 L CNN
 F 3 "" H 2650 6000 50  0001 C CNN
 F 4 "TDK" H 2850 6400 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 2850 6300 60  0001 L CNN "MPN"
@@ -1092,12 +1092,12 @@ F 3 "" H 3200 6550 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C89
+L jetson-nano-baseboard:C_100n_0402 C89
 U 1 1 61E2F924
 P 4150 5000
 F 0 "C89" H 4035 4955 60  0000 R CNN
 F 1 "C_100n_0402" H 4150 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4350 5200 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 4350 5200 60  0001 L CNN
 F 3 "" H 4150 5000 50  0001 C CNN
 F 4 "Walsin" H 4350 5400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4350 5300 60  0001 L CNN "MPN"
@@ -1110,12 +1110,12 @@ Wire Wire Line
 Wire Wire Line
 	4000 5150 4150 5150
 $Comp
-L antmicroResistors0402:R_100k_0402 R94
+L jetson-nano-baseboard:R_100k_0402 R94
 U 1 1 61E2F935
 P 4400 5350
 F 0 "R94" V 4355 5420 60  0000 L CNN
 F 1 "R_100k_0402" H 4400 5200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4600 5550 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 4600 5550 60  0001 L CNN
 F 3 "" H 4400 5350 50  0001 C CNN
 F 4 "VISHAY" H 4600 5750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4600 5650 60  0001 L CNN "MPN"
@@ -1128,12 +1128,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 5150 4400 5200
 $Comp
-L antmicroCapacitors0402:C_15p_0402 C92
+L jetson-nano-baseboard:C_15p_0402 C92
 U 1 1 61E2F940
 P 4975 5300
 F 0 "C92" H 5090 5345 60  0000 L CNN
 F 1 "C_15p_0402" H 4975 5150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5175 5500 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 5175 5500 60  0001 L CNN
 F 3 "" H 4975 5300 50  0001 C CNN
 F 4 "MULTICOMP" H 5175 5700 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N150J500CT" H 5175 5600 60  0001 L CNN "MPN"
@@ -1144,12 +1144,12 @@ $EndComp
 Wire Wire Line
 	4975 5450 4975 5800
 $Comp
-L antmicroResistors0402:R_100k_1%_0402 R118
+L jetson-nano-baseboard:R_100k_1%_0402 R118
 U 1 1 61E2F94A
 P 5325 5300
 F 0 "R118" V 5280 5370 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 5325 5150 60  0001 C CNN
-F 2 "antmicro-footprints:0402" H 5525 5500 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402" H 5525 5500 60  0001 L CNN
 F 3 "" H 5325 5300 50  0001 C CNN
 F 4 "PANASONIC" H 5525 5700 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 5525 5600 60  0001 L CNN "MPN"
@@ -1251,12 +1251,12 @@ Wire Wire Line
 	1975 4850 1550 4850
 Connection ~ 5325 5150
 $Comp
-L Device:Ferrite_Bead_Small FB3
+L jetson-nano-baseboard:Ferrite_Bead_Small FB3
 U 1 1 61E2F9C4
 P 925 4850
 F 0 "FB3" V 800 4850 50  0000 C CNN
 F 1 "742792022 " V 1025 4850 50  0000 C CNN
-F 2 "antmicro-footprints:0805-cap" V 855 4850 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" V 855 4850 50  0001 C CNN
 F 3 "~" H 925 4850 50  0001 C CNN
 	1    925  4850
 	0    1    1    0   
@@ -1293,12 +1293,12 @@ Wire Wire Line
 	5800 5400 5825 5400
 Connection ~ 5800 5275
 $Comp
-L antmicroResistors0402:R_44k2_0402 R119
+L jetson-nano-baseboard:R_44k2_0402 R119
 U 1 1 61FF4E81
 P 5325 5950
 F 0 "R119" V 5280 6020 60  0000 L CNN
 F 1 "R_44k2_0402" H 5325 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5525 6150 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5525 6150 60  0001 L CNN
 F 3 "" H 5325 5950 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5525 6350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF4422X" H 5525 6250 60  0001 L CNN "MPN"
@@ -1308,12 +1308,12 @@ F 6 "44k2" V 5378 6020 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 5325 5800
 $Comp
-L antmicroFixedInductors:7447709150 L11
+L jetson-nano-baseboard:7447709150 L11
 U 1 1 620527DC
 P 4750 2500
 F 0 "L11" H 4650 2675 60  0000 C CNN
 F 1 "7447709150" H 4850 2575 60  0000 C CNN
-F 2 "antmicro-footprints:WE_7447709150" H 5600 3075 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:WE_7447709150" H 5600 3075 60  0001 C CNN
 F 3 "https://www.we-online.com/katalog/datasheet/7447709150.pdf" H 4805 2530 60  0001 C CNN
 F 4 "Wurth Elektronik" H 5050 3425 50  0001 C CNN "Manufacturer"
 F 5 "7447709150" H 5000 3350 50  0001 C CNN "MPN"
@@ -1326,12 +1326,12 @@ $EndComp
 Wire Wire Line
 	4900 2500 5025 2500
 $Comp
-L antmicroFixedInductors:7443251000 L12
+L jetson-nano-baseboard:7443251000 L12
 U 1 1 620BE0BF
 P 4700 5150
 F 0 "L12" H 4600 5350 60  0000 C CNN
 F 1 "7443251000" H 4825 5250 60  0000 C CNN
-F 2 "antmicro-footprints:WE_7443251000" H 5550 5725 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:WE_7443251000" H 5550 5725 60  0001 C CNN
 F 3 "https://www.we-online.com/katalog/datasheet/7443251000.pdf" H 4755 5180 60  0001 C CNN
 F 4 "Wurth Elektronik" H 5000 6075 50  0001 C CNN "Manufacturer"
 F 5 "https://www.we-online.com/katalog/datasheet/7443251000.pdf" H 4950 6000 50  0001 C CNN "MPN"
@@ -1344,7 +1344,7 @@ $EndComp
 Wire Wire Line
 	4850 5150 4975 5150
 $Comp
-L antmicroDCDCConverters:LM60440AQRPKRQ1 U2
+L jetson-nano-baseboard:LM60440AQRPKRQ1 U2
 U 1 1 61E2F8E6
 P 3350 5550
 F 0 "U2" H 3350 6607 50  0000 C CNN
@@ -1478,12 +1478,12 @@ Wire Wire Line
 Wire Wire Line
 	2900 8825 2900 8925
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:TPS7A0518PDBVT IC4
+L jetson-nano-baseboard:TPS7A0518PDBVT IC4
 U 1 1 615E9D15
 P 3300 8975
 F 0 "IC4" H 3300 9380 50  0000 C CNN
 F 1 "TPS7A0518PDBVT" H 3300 9373 39  0001 C CNN
-F 2 "antmicro-footprints:SOT-23-5" H 3300 8725 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23-5" H 3300 8725 50  0001 C CNN
 F 3 "" H 3300 8975 50  0001 C CNN
 F 4 "TPS7A0518PDBVT" H 3300 9289 50  0000 C CNN "MPN"
 F 5 "Texas Instruments" H 3300 9198 50  0000 C CNN "Manufacturer"
@@ -1493,12 +1493,12 @@ $EndComp
 Wire Wire Line
 	1750 8825 1850 8825
 $Comp
-L antmicroCapacitors0402:C_2u2_0402 C60
+L jetson-nano-baseboard:C_2u2_0402 C60
 U 1 1 6173ABED
 P 1850 8975
 F 0 "C60" H 1965 9020 60  0000 L CNN
 F 1 "C_2u2_0402" H 1850 8825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2050 9175 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 2050 9175 60  0001 L CNN
 F 3 "" H 1850 8975 50  0001 C CNN
 F 4 "TDK" H 2050 9375 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 2050 9275 60  0001 L CNN "MPN"
@@ -1510,12 +1510,12 @@ Connection ~ 1850 8825
 Wire Wire Line
 	1850 8825 2900 8825
 $Comp
-L antmicroResistors0402:R_0R_0402 R92
+L jetson-nano-baseboard:R_0R_0402 R92
 U 1 1 6173BBE4
 P 2675 9025
 F 0 "R92" H 2675 8925 60  0000 C CNN
 F 1 "R_0R_0402" H 2675 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2875 9225 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 2875 9225 60  0001 L CNN
 F 3 "" H 2675 9025 50  0001 C CNN
 F 4 "PANASONIC" H 2875 9425 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 2875 9325 60  0001 L CNN "MPN"
@@ -1524,12 +1524,12 @@ F 6 "0R" H 2675 9125 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C65
+L jetson-nano-baseboard:C_1u_0402 C65
 U 1 1 6173EACE
 P 3925 9175
 F 0 "C65" H 4040 9220 60  0000 L CNN
 F 1 "C_1u_0402" H 3925 9025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4125 9375 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 4125 9375 60  0001 L CNN
 F 3 "" H 3925 9175 50  0001 C CNN
 F 4 "TDK" H 4125 9575 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 4125 9475 60  0001 L CNN "MPN"
@@ -1588,12 +1588,12 @@ Text Notes 1250 4175 0    59   ~ 12
 Text Notes 1250 4300 0    59   ~ 12
 3V3/4A
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C16
+L jetson-nano-baseboard:C_47u_0805 C16
 U 1 1 624E69E4
 P 4900 4650
 F 0 "C16" H 5015 4695 60  0000 L CNN
 F 1 "C_47u_0805" H 4900 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 5100 4850 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" H 5100 4850 60  0001 L CNN
 F 3 "" H 4900 4650 50  0001 C CNN
 F 4 "KEMET" H 5100 5050 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 5100 4950 60  0001 L CNN "MPN"
@@ -1605,12 +1605,12 @@ Wire Wire Line
 	4875 4500 4900 4500
 Connection ~ 4900 4500
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C18
+L jetson-nano-baseboard:C_47u_0805 C18
 U 1 1 624FD21A
 P 5350 4650
 F 0 "C18" H 5465 4695 60  0000 L CNN
 F 1 "C_47u_0805" H 5350 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 5550 4850 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" H 5550 4850 60  0001 L CNN
 F 3 "" H 5350 4650 50  0001 C CNN
 F 4 "KEMET" H 5550 5050 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 5550 4950 60  0001 L CNN "MPN"
@@ -1619,12 +1619,12 @@ F 6 "47u" H 5465 4597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C20
+L jetson-nano-baseboard:C_47u_0805 C20
 U 1 1 62508FB8
 P 5775 4650
 F 0 "C20" H 5890 4695 60  0000 L CNN
 F 1 "C_47u_0805" H 5775 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 5975 4850 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" H 5975 4850 60  0001 L CNN
 F 3 "" H 5775 4650 50  0001 C CNN
 F 4 "KEMET" H 5975 5050 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 5975 4950 60  0001 L CNN "MPN"
@@ -1633,12 +1633,12 @@ F 6 "47u" H 5890 4597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C17
+L jetson-nano-baseboard:C_47u_0805 C17
 U 1 1 62515712
 P 5150 2025
 F 0 "C17" H 5265 2070 60  0000 L CNN
 F 1 "C_47u_0805" H 5150 1875 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 5350 2225 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" H 5350 2225 60  0001 L CNN
 F 3 "" H 5150 2025 50  0001 C CNN
 F 4 "KEMET" H 5350 2425 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 5350 2325 60  0001 L CNN "MPN"
@@ -1647,12 +1647,12 @@ F 6 "47u" H 5265 1972 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C19
+L jetson-nano-baseboard:C_47u_0805 C19
 U 1 1 62521314
 P 5600 2025
 F 0 "C19" H 5715 2070 60  0000 L CNN
 F 1 "C_47u_0805" H 5600 1875 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 5800 2225 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" H 5800 2225 60  0001 L CNN
 F 3 "" H 5600 2025 50  0001 C CNN
 F 4 "KEMET" H 5800 2425 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 5800 2325 60  0001 L CNN "MPN"
@@ -1661,12 +1661,12 @@ F 6 "47u" H 5715 1972 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C21
+L jetson-nano-baseboard:C_47u_0805 C21
 U 1 1 6252D09E
 P 6025 2025
 F 0 "C21" H 6140 2070 60  0000 L CNN
 F 1 "C_47u_0805" H 6025 1875 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 6225 2225 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" H 6225 2225 60  0001 L CNN
 F 3 "" H 6025 2025 50  0001 C CNN
 F 4 "KEMET" H 6225 2425 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 6225 2325 60  0001 L CNN "MPN"

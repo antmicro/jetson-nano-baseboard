@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name nano-baseboard)(type KiCad)(uri ${KIPRJMOD}/lib/nano-baseboard.pretty)(options "")(descr ""))
-  (lib (name jetson-nano-baseboard-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/jetson-nano-baseboard-footprints)(options "")(descr ""))
   (lib (name Tmp)(type KiCad)(uri /home/smroz/Tmp)(options "")(descr ""))
+  (lib (name jetson-nano-baseboard-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/jetson-nano-baseboard-footprints)(options "")(descr ""))
 )

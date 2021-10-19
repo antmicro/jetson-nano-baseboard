@@ -131,8 +131,6 @@ Text Notes 4708 8867 0    60   ~ 0
 USB_PW
 Text Label 600  10175 0    60   ~ 0
 USBC_ID
-Text Label 12600 5075 1    70   ~ 0
-TPD4E05U06DQAR
 Text Label 11075 4675 0    60   ~ 0
 C_USBSS_TX1_P
 Text Label 11075 4775 0    60   ~ 0
@@ -141,8 +139,6 @@ Text Label 11075 4575 0    60   ~ 0
 C_USBSS_RX1_P
 Text Label 11075 4475 0    60   ~ 0
 C_USBSS_RX1_N
-Text Label 14400 5075 1    70   ~ 0
-TPD4E05U06DQAR
 Text Label 10525 2725 0    60   ~ 0
 C_CC1
 Text Label 13025 3025 0    60   ~ 0
@@ -636,34 +632,6 @@ F 3 "" H 4350 8975 50  0001 C CNN
 F 4 "KPT-1608SGC" H -33666 -15093 50  0001 C CNN "MPN"
 F 5 "Kingbright" H -33666 -15093 50  0001 C CNN "Manufacturer"
 	1    4350 8975
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:TPD4E05U06 D6
-U 1 1 5E710322
-P 12075 4675
-F 0 "D6" H 12075 4975 60  0000 L BNN
-F 1 "~" H 12075 4675 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TPD4E05U06_PASS" H 12075 4675 50  0001 C CNN
-F 3 "" H 12075 4675 50  0001 C CNN
-F 4 "Texas Instruments" V 775 -2518 60  0001 C CNN "Manufacturer"
-F 5 "TPD4E05U06DQAR" V 775 -2518 60  0001 C CNN "PartSymbol"
-F 6 "TPD4E05U06DQAR" H -31496 -14030 50  0001 C CNN "MPN"
-	1    12075 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:TPD4E05U06 D7
-U 1 1 5E710321
-P 13850 4675
-F 0 "D7" H 13850 4975 60  0000 L BNN
-F 1 "~" H 13850 4675 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TPD4E05U06_PASS" H 13850 4675 50  0001 C CNN
-F 3 "" H 13850 4675 50  0001 C CNN
-F 4 "Texas Instruments" V 750 -2518 60  0001 C CNN "Manufacturer"
-F 5 "TPD4E05U06DQAR" V 750 -2518 60  0001 C CNN "PartSymbol"
-F 6 "TPD4E05U06DQAR" H -31521 -14030 50  0001 C CNN "MPN"
-	1    13850 4675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2186,12 +2154,12 @@ F 5 "ON Semiconductor" H 2250 10775 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:AP22652W6-7 IC16
+L jetson-nano-baseboard:AP22652W6-7 IC16
 U 1 1 618DCEF2
 P 4325 9475
 F 0 "IC16" H 4075 9150 50  0000 C CNN
 F 1 "AP22652W6-7" H 4275 9225 50  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-6" H 4325 9225 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23-6" H 4325 9225 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP22652_53_52A_53A.pdf" H 4325 9475 50  0001 C CNN
 F 4 "Diodes Incorporated " H 4325 9125 50  0001 C CNN "Manufacturer"
 F 5 "" H 4325 9475 50  0000 C CNN "DNP"
@@ -2211,12 +2179,12 @@ Wire Wire Line
 Wire Wire Line
 	4725 9575 5000 9575
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C32
+L jetson-nano-baseboard:C_10u_0402 C32
 U 1 1 619B98FA
 P 3425 9775
 F 0 "C32" H 3540 9820 60  0000 L CNN
 F 1 "C_10u_0402" H 3425 9625 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3625 9975 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 3625 9975 60  0001 L CNN
 F 3 "" H 3425 9775 50  0001 C CNN
 F 4 "MURATA" H 3625 10175 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 3625 10075 60  0001 L CNN "MPN"
@@ -2256,12 +2224,12 @@ F 7 "DNP" H 3050 9325 50  0000 C CNN "DNP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D9
+L jetson-nano-baseboard:PESD2USB5UV-TR D9
 U 1 1 61BF6079
 P 6625 6700
 F 0 "D9" V 7108 6600 60  0000 C CNN
 F 1 "PESD2USB5UV-TR" V 7214 6600 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-23s" H 6675 6900 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 6675 6900 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 6625 6700 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 6325 7000 50  0001 C CNN "MPN"
 F 5 "Nexperia " H 6325 7100 50  0001 C CNN "Manufacturer"
@@ -2269,12 +2237,12 @@ F 5 "Nexperia " H 6325 7100 50  0001 C CNN "Manufacturer"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D8
+L jetson-nano-baseboard:PESD2USB5UV-TR D8
 U 1 1 61BFA215
 P 8025 6700
 F 0 "D8" V 8508 6600 60  0000 C CNN
 F 1 "PESD2USB5UV-TR" V 8614 6600 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-23s" H 8075 6900 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 8075 6900 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 8025 6700 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 7725 7000 50  0001 C CNN "MPN"
 F 5 "Nexperia " H 7725 7100 50  0001 C CNN "Manufacturer"
@@ -2282,12 +2250,12 @@ F 5 "Nexperia " H 7725 7100 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D5
+L jetson-nano-baseboard:PESD2USB5UV-TR D5
 U 1 1 61C529C6
 P 10425 4475
 F 0 "D5" H 10518 4764 60  0000 C CNN
 F 1 "PESD2USB5UV-TR" H 10518 4658 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-23s" H 10475 4675 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 10475 4675 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 10425 4475 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 10125 4775 50  0001 C CNN "MPN"
 F 5 "Nexperia " H 10125 4875 50  0001 C CNN "Manufacturer"
@@ -2295,16 +2263,42 @@ F 5 "Nexperia " H 10125 4875 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D3
+L jetson-nano-baseboard:PESD2USB5UV-TR D3
 U 1 1 61C696B4
 P 13375 7325
 F 0 "D3" V 13858 7225 60  0000 C CNN
 F 1 "PESD2USB5UV-TR" V 13964 7225 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-23s" H 13425 7525 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 13425 7525 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 13375 7325 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 13075 7625 50  0001 C CNN "MPN"
 F 5 "Nexperia " H 13075 7725 50  0001 C CNN "Manufacturer"
 	1    13375 7325
 	0    1    1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:TPD4E05U06_PASS D6
+U 1 1 63492E55
+P 12075 4675
+F 0 "D6" H 12168 5164 60  0000 C CNN
+F 1 "TPD4E05U06_PASS" H 12168 5058 60  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:TPD4E05U06_PASS" H 12075 4675 60  0001 C CNN
+F 3 "" H 12075 4675 60  0001 C CNN
+F 4 "Texas Instruments" H 12075 4675 50  0001 C CNN "Manufacturer"
+F 5 "TPD4E05U06DQAR" H 12075 4675 50  0001 C CNN "MPN"
+	1    12075 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:TPD4E05U06_PASS D7
+U 1 1 634A34A2
+P 13850 4675
+F 0 "D7" H 14280 4678 60  0000 L CNN
+F 1 "TPD4E05U06_PASS" H 14280 4572 60  0000 L CNN
+F 2 "jetson-nano-baseboard-footprints:TPD4E05U06_PASS" H 13850 4675 60  0001 C CNN
+F 3 "" H 13850 4675 60  0001 C CNN
+F 4 "Texas Instruments" H 13850 4675 50  0001 C CNN "Manufacturer"
+F 5 "TPD4E05U06DQAR" H 13850 4675 50  0001 C CNN "MPN"
+	1    13850 4675
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

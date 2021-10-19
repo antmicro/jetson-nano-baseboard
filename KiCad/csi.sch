@@ -1375,12 +1375,12 @@ NoConn ~ 4550 10350
 Text Notes 3525 7750 0    59   ~ 12
 Camera I2C multiplexer
 $Comp
-L antmicroLogicSignalSwitchesMultiplexersDecoders:PCA9544ABS U3
+L jetson-nano-baseboard:PCA9544ABS U3
 U 1 1 625E77A9
 P 4150 9550
 F 0 "U3" H 4150 10393 60  0000 C CNN
 F 1 "PCA9544ABS" H 4150 8600 60  0001 C CNN
-F 2 "antmicro-footprints:VQFN-20-1EP_5x5mm" H 3850 8500 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:VQFN-20-1EP_5x5mm" H 3850 8500 60  0001 L CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9544A.pdf" H 4300 9200 60  0001 L CNN
 F 4 "PCA9544ABS,118" H 4150 10287 60  0000 C CNN "MPN"
 F 5 "NXP" H 4150 10181 60  0000 C CNN "Manufacturer"

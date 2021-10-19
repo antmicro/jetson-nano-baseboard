@@ -1577,14 +1577,14 @@ Wire Wire Line
 Wire Wire Line
 	14600 2050 14800 2050
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L jetson-nano-baseboard:Ferrite_Bead_Small FB?
 U 1 1 618512B9
 P 14500 2050
 AR Path="/608DC6E9/618512B9" Ref="FB?"  Part="1" 
 AR Path="/610ACCAB/618512B9" Ref="FB2"  Part="1" 
 F 0 "FB2" V 14375 2050 50  0000 C CNN
 F 1 "742792022 " V 14625 2050 50  0000 C CNN
-F 2 "antmicro-footprints:0805-cap" V 14430 2050 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0805-cap" V 14430 2050 50  0001 C CNN
 F 3 "~" H 14500 2050 50  0001 C CNN
 	1    14500 2050
 	0    1    1    0   

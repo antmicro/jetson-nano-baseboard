@@ -218,12 +218,12 @@ $EndComp
 Text Notes 923  6628 0    96   ~ 0
 DisplayPort Interface
 $Comp
-L antmicroUSBDVIHDMIConnectors:46756-1001 J1
+L jetson-nano-baseboard:46756-1001 J1
 U 1 1 616F319B
 P 14350 2825
 F 0 "J1" H 14780 2962 50  0000 L CNN
 F 1 "46756-1001" H 14780 2871 50  0000 L CNN
-F 2 "antmicro-footprints:HDMI_Micro-D_Molex_46765-1x01" H 14350 2825 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:HDMI_Micro-D_Molex_46765-1x01" H 14350 2825 50  0001 C CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0467651001_IO_CONNECTORS.pdf" H 14350 2825 50  0001 C CNN
 F 4 "467651001" H 14780 2780 50  0000 L CNN "MPN"
 F 5 "Molex" H 14780 2689 50  0000 L CNN "Manufacturer"
@@ -2063,12 +2063,12 @@ Wire Wire Line
 	10175 9250 10700 9250
 Connection ~ 10700 9250
 $Comp
-L antmicroLogicBuffersDriversReceiversTransceivers:SN74LV1T125DBVR IC11
+L jetson-nano-baseboard:SN74LV1T125DBVR IC11
 U 1 1 6163A187
 P 9875 9150
 F 0 "IC11" H 9700 9525 60  0000 C CNN
 F 1 "SN74LV1T125DBVR" H 9325 9425 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-5" H 10075 9350 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23-5" H 10075 9350 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1627648952184&ref_url=https%253A%252F%252Fpl.mouser.com%252F" H 10075 9450 60  0001 L CNN
 F 4 "SN74LV1T125DBVR" H 10075 9650 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 10075 10250 60  0001 L CNN "Manufacturer"
@@ -2087,14 +2087,14 @@ Wire Wire Line
 	9875 9475 9875 9525
 Connection ~ 9875 9475
 $Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D?
+L jetson-nano-baseboard:PESD2USB5UV-TR D?
 U 1 1 61CAA79F
 P 14475 7300
 AR Path="/608DF3E5/61CAA79F" Ref="D?"  Part="1" 
 AR Path="/6096D016/61CAA79F" Ref="D10"  Part="1" 
 F 0 "D10" V 14515 7430 60  0000 L CNN
 F 1 "PESD2USB5UV-TR" V 14621 7430 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23s" H 14525 7500 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 14525 7500 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 14475 7300 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 14175 7600 50  0001 C CNN "MPN"
 F 5 "Nexperia " H 14175 7700 50  0001 C CNN "Manufacturer"
@@ -2102,14 +2102,14 @@ F 5 "Nexperia " H 14175 7700 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D?
+L jetson-nano-baseboard:PESD2USB5UV-TR D?
 U 1 1 61CC12F9
 P 14025 9275
 AR Path="/608DF3E5/61CC12F9" Ref="D?"  Part="1" 
 AR Path="/6096D016/61CC12F9" Ref="D11"  Part="1" 
 F 0 "D11" V 14065 9405 60  0000 L CNN
 F 1 "PESD2USB5UV-TR" V 14171 9405 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23s" H 14075 9475 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 14075 9475 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 14025 9275 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 13725 9575 50  0001 C CNN "MPN"
 F 5 "Nexperia " H 13725 9675 50  0001 C CNN "Manufacturer"
@@ -2117,14 +2117,14 @@ F 5 "Nexperia " H 13725 9675 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D?
+L jetson-nano-baseboard:PESD2USB5UV-TR D?
 U 1 1 61CD7958
 P 11350 9775
 AR Path="/608DF3E5/61CD7958" Ref="D?"  Part="1" 
 AR Path="/6096D016/61CD7958" Ref="D12"  Part="1" 
 F 0 "D12" V 11390 9905 60  0000 L CNN
 F 1 "PESD2USB5UV-TR" V 11496 9905 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23s" H 11400 9975 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23s" H 11400 9975 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 11350 9775 60  0001 C CNN
 F 4 "PESD2USB5UV-TR " H 11050 10075 50  0001 C CNN "MPN"
 F 5 "Nexperia " H 11050 10175 50  0001 C CNN "Manufacturer"
