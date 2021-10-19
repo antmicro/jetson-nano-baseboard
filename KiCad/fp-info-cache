@@ -1,4 +1,4 @@
-20913803644713986
+20921977449442986
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81647,6 +81647,13 @@ test point THT pad
 0
 1
 1
+Tmp
+692121430000
+<B>WR-COM</B><BR> USB 3.0 Type A Vertical THT
+
+0
+11
+11
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
@@ -83552,6 +83559,20 @@ https://www.molex.com/pdm_docs/sd/022053041_sd.pdf
 4
 4
 antmicro-footprints
+687314124422
+WR-FPC-0.50mm SMT ZIF Vertical Type A,pins 14
+
+0
+18
+18
+antmicro-footprints
+687316124422
+WR-FPC-0.50mm SMT ZIF Vertical Type A,pins 16
+
+0
+20
+20
+antmicro-footprints
 395011003
 
 
@@ -83621,6 +83642,13 @@ antmicro-footprints
 0
 44
 40
+antmicro-footprints
+692121430000
+<B>WR-COM</B><BR> USB 3.0 Type A Vertical THT
+
+0
+11
+11
 antmicro-footprints
 5019205001
 
@@ -84048,6 +84076,13 @@ Antenna_5.3x.20_Dual-band
 0
 3
 1
+antmicro-footprints
+B3B-PH-K-S_LF__SN_
+
+
+0
+5
+4
 antmicro-footprints
 B3U-3000P
 

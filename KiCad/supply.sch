@@ -671,10 +671,6 @@ F 7 "DNP" H 10450 9775 50  0000 C CNN "DNP"
 	1    10450 9850
 	-1   0    0    1   
 $EndComp
-Text GLabel 5825 5400 2    50   Input ~ 0
-3V3_FFC2
-Text GLabel 5825 5275 2    50   Input ~ 0
-3V3_FFC1
 $Comp
 L jetson-nano-baseboard:Testpad TP40
 U 1 1 5E7103A9
@@ -1705,4 +1701,8 @@ Wire Wire Line
 Wire Wire Line
 	4050 2600 4300 2600
 Connection ~ 4450 2500
+Text GLabel 5825 5275 2    50   Input ~ 0
+3V3_FFC1
+Text GLabel 5825 5400 2    50   Input ~ 0
+3V3_FFC2
 $EndSCHEMATC

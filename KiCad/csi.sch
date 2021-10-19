@@ -177,29 +177,21 @@ Text Notes 6900 1200 0    59   ~ 12
 Camera FFC #1
 Text Notes 11029 1189 0    59   ~ 12
 Camera FFC #2
-Text Label 6949 10707 0    70   ~ 0
-Texas Instruments
-Text Notes 6949 11107 0    60   ~ 0
-0x70h
-Text Notes 6949 11007 0    60   ~ 0
-0b1110000R
-Text Notes 6949 10907 0    60   ~ 0
-I2C address:
-Text Label 5150 8300 0    60   ~ 0
+Text Label 6150 9100 2    60   ~ 0
 CAM0_SDA
-Text Label 5150 8400 0    60   ~ 0
+Text Label 6150 9200 2    60   ~ 0
 CAM0_SCL
-Text Label 5150 8600 0    60   ~ 0
+Text Label 6150 9450 2    60   ~ 0
 CAM1_SDA
-Text Label 5150 8700 0    60   ~ 0
+Text Label 6150 9550 2    60   ~ 0
 CAM1_SCL
-Text Label 5150 8900 0    60   ~ 0
+Text Label 6150 9800 2    60   ~ 0
 CAM2_SDA
-Text Label 5150 9000 0    60   ~ 0
+Text Label 6150 9900 2    60   ~ 0
 CAM2_SCL
-Text Label 5150 9200 0    60   ~ 0
+Text Label 6150 10150 2    60   ~ 0
 CAM3_SDA
-Text Label 5150 9300 0    60   ~ 0
+Text Label 6150 10250 2    60   ~ 0
 CAM3_SCL
 Text Notes 1075 1175 0    59   ~ 12
 SoM interface
@@ -220,10 +212,6 @@ CAM_R_SDA
 Text Notes 12329 5689 0    60   ~ 0
 CAM_R_SCL
 Text Label 3550 6275 2    60   ~ 0
-CAM_I2C_SCL
-Text Label 9450 8900 0    60   ~ 0
-CAM_I2C_SDA
-Text Label 9450 9000 0    60   ~ 0
 CAM_I2C_SCL
 Text Label 11025 4375 0    60   ~ 0
 CSI_A_CLK_P
@@ -328,10 +316,6 @@ Text Notes 2669 49363 0    60   ~ 0
 Text
 Text Notes 2669 49363 0    60   ~ 0
 Text
-Text GLabel 8050 7700 1    50   Input ~ 0
-3V3_SYS
-Text GLabel 8950 7700 1    50   Input ~ 0
-3V3_SYS
 Text GLabel 7550 6375 0    50   Input ~ 0
 5V0_SYS
 Text GLabel 11325 6375 0    50   Input ~ 0
@@ -350,8 +334,6 @@ Text GLabel 11325 6175 0    50   Input ~ 0
 3V3_FFC2
 Wire Notes Line
 	31793 32618 31909 32618
-Text Notes 5275 7450 0    59   ~ 12
-Camera I2C multiplexer
 $Comp
 L jetson-nano-baseboard:GND #GND01
 U 1 1 5E710516
@@ -379,32 +361,6 @@ F 3 "" H 11725 6600 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:GND #GND_03
-U 1 1 5E710511
-P 8100 10675
-AR Path="/60D9F63D/5E710511" Ref="#GND_03"  Part="1" 
-AR Path="/60A05943/5E710511" Ref="#GND_?"  Part="1" 
-F 0 "#GND_03" H 8100 10675 20  0001 C CNN
-F 1 "GND" H 8101 10532 30  0000 C CNN
-F 2 "" H 8100 10675 70  0001 C CNN
-F 3 "" H 8100 10675 70  0001 C CNN
-	1    8100 10675
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:GND #GND_04
-U 1 1 5E710510
-P 8500 8050
-AR Path="/60D9F63D/5E710510" Ref="#GND_04"  Part="1" 
-AR Path="/60A05943/5E710510" Ref="#GND_?"  Part="1" 
-F 0 "#GND_04" H 8500 8050 20  0001 C CNN
-F 1 "GND" H 8501 7982 30  0000 C CNN
-F 2 "" H 8500 8050 70  0001 C CNN
-F 3 "" H 8500 8050 70  0001 C CNN
-	1    8500 8050
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:Testpad TP6
 U 1 1 5E7104F3
 P 3600 5775
@@ -418,21 +374,6 @@ F 4 "N/A" H 255 -480 50  0001 C CNN "MPN"
 F 5 "N/A" H 255 -480 50  0001 C CNN "Manufacturer"
 	1    3600 5775
 	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:TCA9548A IC1
-U 1 1 5E7104F2
-P 7350 9400
-AR Path="/60D9F63D/5E7104F2" Ref="IC1"  Part="1" 
-AR Path="/60A05943/5E7104F2" Ref="IC?"  Part="1" 
-F 0 "IC1" H 7750 10600 60  0000 R BNN
-F 1 "TCA9548ARGER" H 7750 8000 60  0000 R BNN
-F 2 "jetson-nano-baseboard-footprints:VQFN-24" H 7750 8000 60  0001 C CNN
-F 3 "" H 7750 8000 60  0001 C CNN
-F 4 "Texas Instrumets" V -450 1907 60  0001 C CNN "Manufacturer"
-F 5 "TCA9548ARGER" H -2145 -155 50  0001 C CNN "MPN"
-	1    7350 9400
-	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:Testpad TP9
@@ -477,66 +418,6 @@ F 3 "" H 3550 2875 50  0001 C CNN
 F 4 "N/A" H -195 -480 50  0001 C CNN "MPN"
 F 5 "N/A" H -195 -480 50  0001 C CNN "Manufacturer"
 	1    3550 2875
-	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:Testpad TP12
-U 1 1 5E7104ED
-P 6475 9600
-AR Path="/60D9F63D/5E7104ED" Ref="TP12"  Part="1" 
-AR Path="/60A05943/5E7104ED" Ref="TP?"  Part="1" 
-F 0 "TP12" V 6425 9900 60  0000 R TNN
-F 1 "~" H 6475 9600 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 6475 9600 50  0001 C CNN
-F 3 "" H 6475 9600 50  0001 C CNN
-F 4 "N/A" H -2170 -155 50  0001 C CNN "MPN"
-F 5 "N/A" H -2170 -155 50  0001 C CNN "Manufacturer"
-	1    6475 9600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:Testpad TP11
-U 1 1 5E7104EC
-P 6475 9500
-AR Path="/60D9F63D/5E7104EC" Ref="TP11"  Part="1" 
-AR Path="/60A05943/5E7104EC" Ref="TP?"  Part="1" 
-F 0 "TP11" V 6425 9800 60  0000 R TNN
-F 1 "~" H 6475 9500 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 6475 9500 50  0001 C CNN
-F 3 "" H 6475 9500 50  0001 C CNN
-F 4 "N/A" H -2170 -155 50  0001 C CNN "MPN"
-F 5 "N/A" H -2170 -155 50  0001 C CNN "Manufacturer"
-	1    6475 9500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:Testpad TP10
-U 1 1 5E7104EB
-P 10200 9000
-AR Path="/60D9F63D/5E7104EB" Ref="TP10"  Part="1" 
-AR Path="/60A05943/5E7104EB" Ref="TP?"  Part="1" 
-F 0 "TP10" V 10250 9150 60  0000 L BNN
-F 1 "~" H 10200 9000 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 10200 9000 50  0001 C CNN
-F 3 "" H 10200 9000 50  0001 C CNN
-F 4 "N/A" H -2145 -155 50  0001 C CNN "MPN"
-F 5 "N/A" H -2145 -155 50  0001 C CNN "Manufacturer"
-	1    10200 9000
-	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:Testpad TP1
-U 1 1 5E7104EA
-P 10200 8900
-AR Path="/60D9F63D/5E7104EA" Ref="TP1"  Part="1" 
-AR Path="/60A05943/5E7104EA" Ref="TP?"  Part="1" 
-F 0 "TP1" V 10250 9050 60  0000 L BNN
-F 1 "~" H 10200 8900 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 10200 8900 50  0001 C CNN
-F 3 "" H 10200 8900 50  0001 C CNN
-F 4 "N/A" H -2145 -155 50  0001 C CNN "MPN"
-F 5 "N/A" H -2145 -155 50  0001 C CNN "Manufacturer"
-	1    10200 8900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -876,53 +757,6 @@ Wire Wire Line
 Connection ~ 11575 6375
 Wire Wire Line
 	11575 6375 11850 6375
-Wire Wire Line
-	6750 9500 6525 9500
-Wire Wire Line
-	6525 9600 6750 9600
-NoConn ~ 6750 9800
-NoConn ~ 6750 9900
-NoConn ~ 6750 10100
-NoConn ~ 6750 10200
-NoConn ~ 6750 10400
-NoConn ~ 6750 10500
-Wire Wire Line
-	7950 10200 8100 10200
-Wire Wire Line
-	8100 10200 8100 10300
-Wire Wire Line
-	7950 10500 8100 10500
-Connection ~ 8100 10500
-Wire Wire Line
-	8100 10500 8100 10675
-Wire Wire Line
-	7950 10400 8100 10400
-Connection ~ 8100 10400
-Wire Wire Line
-	8100 10400 8100 10500
-Wire Wire Line
-	7950 10300 8100 10300
-Connection ~ 8100 10300
-Wire Wire Line
-	8100 10300 8100 10400
-Wire Wire Line
-	8050 9400 7950 9400
-Wire Wire Line
-	7950 8300 8050 8300
-Connection ~ 8050 8300
-Wire Wire Line
-	8500 7825 8500 8050
-Connection ~ 8950 8900
-Wire Wire Line
-	8950 8900 10150 8900
-Connection ~ 9250 9000
-Wire Wire Line
-	9250 9000 10150 9000
-Wire Wire Line
-	9250 8000 8950 8000
-Connection ~ 8950 8000
-Wire Wire Line
-	8950 8000 8950 7700
 $Comp
 L jetson-nano-baseboard:WE_68715014522 J6
 U 1 1 605D7511
@@ -962,201 +796,147 @@ VSYNC_CAM2_1
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R13
 U 1 1 60B4B62E
-P 6250 8300
-F 0 "R13" H 6050 8350 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 8150 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 8500 60  0001 L CNN
-F 3 "" H 6250 8300 50  0001 C CNN
-F 4 "PANASONIC" H 6450 8700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 8600 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 8350 50  0000 C CNN "Val"
-	1    6250 8300
-	1    0    0    -1  
+P 5050 9100
+F 0 "R13" H 4850 9150 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 8950 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 9300 60  0001 L CNN
+F 3 "" H 5050 9100 50  0001 C CNN
+F 4 "PANASONIC" H 5250 9500 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 9400 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 9150 50  0000 C CNN "Val"
+	1    5050 9100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R15
 U 1 1 60BB8854
-P 6250 8400
-F 0 "R15" H 6050 8450 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 8250 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 8600 60  0001 L CNN
-F 3 "" H 6250 8400 50  0001 C CNN
-F 4 "PANASONIC" H 6450 8800 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 8700 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 8450 50  0000 C CNN "Val"
-	1    6250 8400
-	1    0    0    -1  
+P 5050 9200
+F 0 "R15" H 4850 9250 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 9050 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 9400 60  0001 L CNN
+F 3 "" H 5050 9200 50  0001 C CNN
+F 4 "PANASONIC" H 5250 9600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 9500 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 9250 50  0000 C CNN "Val"
+	1    5050 9200
+	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R17
 U 1 1 60BB8CE1
-P 6250 8600
-F 0 "R17" H 6050 8650 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 8450 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 8800 60  0001 L CNN
-F 3 "" H 6250 8600 50  0001 C CNN
-F 4 "PANASONIC" H 6450 9000 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 8900 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 8650 50  0000 C CNN "Val"
-	1    6250 8600
-	1    0    0    -1  
+P 5050 9450
+F 0 "R17" H 4850 9500 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 9300 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 9650 60  0001 L CNN
+F 3 "" H 5050 9450 50  0001 C CNN
+F 4 "PANASONIC" H 5250 9850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 9750 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 9500 50  0000 C CNN "Val"
+	1    5050 9450
+	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R21
 U 1 1 60BB9162
-P 6250 8700
-F 0 "R21" H 6050 8750 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 8550 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 8900 60  0001 L CNN
-F 3 "" H 6250 8700 50  0001 C CNN
-F 4 "PANASONIC" H 6450 9100 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 9000 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 8750 50  0000 C CNN "Val"
-	1    6250 8700
-	1    0    0    -1  
+P 5050 9550
+F 0 "R21" H 4850 9600 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 9400 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 9750 60  0001 L CNN
+F 3 "" H 5050 9550 50  0001 C CNN
+F 4 "PANASONIC" H 5250 9950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 9850 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 9600 50  0000 C CNN "Val"
+	1    5050 9550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R19
 U 1 1 60BB9BDF
-P 6250 8900
-F 0 "R19" H 6050 8950 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 8750 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 9100 60  0001 L CNN
-F 3 "" H 6250 8900 50  0001 C CNN
-F 4 "PANASONIC" H 6450 9300 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 9200 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 8950 50  0000 C CNN "Val"
-	1    6250 8900
-	1    0    0    -1  
+P 5050 9800
+F 0 "R19" H 4850 9850 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 9650 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 10000 60  0001 L CNN
+F 3 "" H 5050 9800 50  0001 C CNN
+F 4 "PANASONIC" H 5250 10200 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 10100 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 9850 50  0000 C CNN "Val"
+	1    5050 9800
+	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R58
 U 1 1 60BBA052
-P 6250 9000
-F 0 "R58" H 6050 9050 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 8850 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 9200 60  0001 L CNN
-F 3 "" H 6250 9000 50  0001 C CNN
-F 4 "PANASONIC" H 6450 9400 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 9300 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 9050 50  0000 C CNN "Val"
-	1    6250 9000
-	1    0    0    -1  
+P 5050 9900
+F 0 "R58" H 4850 9950 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 9750 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 10100 60  0001 L CNN
+F 3 "" H 5050 9900 50  0001 C CNN
+F 4 "PANASONIC" H 5250 10300 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 10200 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 9950 50  0000 C CNN "Val"
+	1    5050 9900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R59
 U 1 1 60BBA2B1
-P 6250 9200
-F 0 "R59" H 6050 9250 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 9050 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 9400 60  0001 L CNN
-F 3 "" H 6250 9200 50  0001 C CNN
-F 4 "PANASONIC" H 6450 9600 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 9500 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 9250 50  0000 C CNN "Val"
-	1    6250 9200
-	1    0    0    -1  
+P 5050 10150
+F 0 "R59" H 4850 10200 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 10000 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 10350 60  0001 L CNN
+F 3 "" H 5050 10150 50  0001 C CNN
+F 4 "PANASONIC" H 5250 10550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 10450 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 10200 50  0000 C CNN "Val"
+	1    5050 10150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R61
 U 1 1 60BBA942
-P 6250 9300
-F 0 "R61" H 6050 9350 60  0000 C CNN
-F 1 "R_0R_0402" H 6250 9150 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 6450 9500 60  0001 L CNN
-F 3 "" H 6250 9300 50  0001 C CNN
-F 4 "PANASONIC" H 6450 9700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6450 9600 60  0001 L CNN "MPN"
-F 6 "0R" H 6425 9350 50  0000 C CNN "Val"
-	1    6250 9300
-	1    0    0    -1  
+P 5050 10250
+F 0 "R61" H 4850 10300 60  0000 C CNN
+F 1 "R_0R_0402" H 5050 10100 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5250 10450 60  0001 L CNN
+F 3 "" H 5050 10250 50  0001 C CNN
+F 4 "PANASONIC" H 5250 10650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 10550 60  0001 L CNN "MPN"
+F 6 "0R" H 5225 10300 50  0000 C CNN "Val"
+	1    5050 10250
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 9300 6750 9300
+	4900 10250 4550 10250
 Wire Wire Line
-	6400 9200 6750 9200
+	4900 10150 4550 10150
 Wire Wire Line
-	6400 9000 6750 9000
+	4900 9900 4550 9900
 Wire Wire Line
-	6400 8900 6750 8900
+	4900 9800 4550 9800
 Wire Wire Line
-	6400 8700 6750 8700
+	4900 9550 4550 9550
 Wire Wire Line
-	6400 8600 6750 8600
+	4900 9450 4550 9450
 Wire Wire Line
-	6400 8400 6750 8400
+	4900 9200 4550 9200
 Wire Wire Line
-	6400 8300 6750 8300
+	4900 9100 4550 9100
 Wire Wire Line
-	5150 8300 6100 8300
+	6150 9100 5200 9100
 Wire Wire Line
-	5150 8400 6100 8400
+	6150 9200 5200 9200
 Wire Wire Line
-	5150 8600 6100 8600
+	6150 9450 5200 9450
 Wire Wire Line
-	5150 8700 6100 8700
+	6150 9550 5200 9550
 Wire Wire Line
-	5150 8900 6100 8900
+	6150 9800 5200 9800
 Wire Wire Line
-	5150 9000 6100 9000
+	6150 9900 5200 9900
 Wire Wire Line
-	5150 9200 6100 9200
+	6150 10150 5200 10150
 Wire Wire Line
-	5150 9300 6100 9300
-$Comp
-L jetson-nano-baseboard:R_0R_0402 R57
-U 1 1 60CA2E3E
-P 8625 8900
-F 0 "R57" H 8425 8950 60  0000 C CNN
-F 1 "R_0R_0402" H 8625 8750 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 8825 9100 60  0001 L CNN
-F 3 "" H 8625 8900 50  0001 C CNN
-F 4 "PANASONIC" H 8825 9300 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8825 9200 60  0001 L CNN "MPN"
-F 6 "0R" H 8800 8950 50  0000 C CNN "Val"
-	1    8625 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:R_0R_0402 R60
-U 1 1 60CA3439
-P 8625 9000
-F 0 "R60" H 8425 9050 60  0000 C CNN
-F 1 "R_0R_0402" H 8625 8850 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 8825 9200 60  0001 L CNN
-F 3 "" H 8625 9000 50  0001 C CNN
-F 4 "PANASONIC" H 8825 9400 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8825 9300 60  0001 L CNN "MPN"
-F 6 "0R" H 8800 9050 50  0000 C CNN "Val"
-	1    8625 9000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8775 9000 9250 9000
-Wire Wire Line
-	8775 8900 8950 8900
-Wire Wire Line
-	7950 8900 8475 8900
-Wire Wire Line
-	7950 9000 8475 9000
-$Comp
-L jetson-nano-baseboard:R_0R_0402 R39
-U 1 1 60CD5CD6
-P 8050 8625
-F 0 "R39" V 8100 8500 60  0000 C CNN
-F 1 "R_0R_0402" H 8050 8475 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 8250 8825 60  0001 L CNN
-F 3 "" H 8050 8625 50  0001 C CNN
-F 4 "PANASONIC" H 8250 9025 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8250 8925 60  0001 L CNN "MPN"
-F 6 "0R" V 8000 8525 50  0000 C CNN "Val"
-	1    8050 8625
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8050 8300 8050 8475
-Wire Wire Line
-	8050 8775 8050 9400
+	6150 10250 5200 10250
 $Comp
 L jetson-nano-baseboard:R_0R_0402 R23
 U 1 1 60D0F966
@@ -1387,65 +1167,6 @@ Wire Wire Line
 Wire Wire Line
 	10125 4950 10125 4900
 Connection ~ 10125 4900
-$Comp
-L jetson-nano-baseboard:R_2k_0402 R35
-U 1 1 60E8D348
-P 9250 8400
-F 0 "R35" V 9200 8625 60  0000 R CNN
-F 1 "R_2k_0402" H 9250 8250 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 9450 8600 60  0001 L CNN
-F 3 "" H 9250 8400 50  0001 C CNN
-F 4 "VISHAY" H 9450 8800 60  0001 L CNN "Manufacturer"
-F 5 "CRCW04022K00FKED" H 9450 8700 60  0001 L CNN "MPN"
-F 6 "2k" V 9300 8550 50  0000 R CNN "Val"
-	1    9250 8400
-	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:R_2k_0402 R34
-U 1 1 60E91BD0
-P 8950 8400
-F 0 "R34" V 8900 8625 60  0000 R CNN
-F 1 "R_2k_0402" H 8950 8250 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 9150 8600 60  0001 L CNN
-F 3 "" H 8950 8400 50  0001 C CNN
-F 4 "VISHAY" H 9150 8800 60  0001 L CNN "Manufacturer"
-F 5 "CRCW04022K00FKED" H 9150 8700 60  0001 L CNN "MPN"
-F 6 "2k" V 9000 8550 50  0000 R CNN "Val"
-	1    8950 8400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8950 8550 8950 8900
-Wire Wire Line
-	9250 8550 9250 9000
-Wire Wire Line
-	9250 8000 9250 8250
-Wire Wire Line
-	8950 8000 8950 8250
-$Comp
-L jetson-nano-baseboard:C_100n_0402 C9
-U 1 1 60EEB81F
-P 8275 7825
-F 0 "C9" V 8400 7825 60  0000 C CNN
-F 1 "C_100n_0402" H 8275 7675 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-cap" H 8475 8025 60  0001 L CNN
-F 3 "" H 8275 7825 50  0001 C CNN
-F 4 "Walsin" H 8475 8225 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 8475 8125 60  0001 L CNN "MPN"
-F 6 "100n" V 8125 7825 50  0000 C CNN "Val"
-	1    8275 7825
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8050 7700 8050 7825
-Wire Wire Line
-	8125 7825 8050 7825
-Connection ~ 8050 7825
-Wire Wire Line
-	8050 7825 8050 8300
-Wire Wire Line
-	8425 7825 8500 7825
 Wire Wire Line
 	10125 5250 10125 5675
 Wire Wire Line
@@ -1454,4 +1175,216 @@ Wire Wire Line
 	10525 5250 10525 5475
 Wire Wire Line
 	10725 5250 10725 5375
+Wire Wire Line
+	3275 8675 3200 8675
+Wire Wire Line
+	3575 8675 3650 8675
+Wire Wire Line
+	3650 8550 3650 8675
+$Comp
+L jetson-nano-baseboard:C_100n_0402 C9
+U 1 1 60EEB81F
+P 3425 8675
+F 0 "C9" V 3550 8675 60  0000 C CNN
+F 1 "C_100n_0402" H 3425 8525 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-cap" H 3625 8875 60  0001 L CNN
+F 3 "" H 3425 8675 50  0001 C CNN
+F 4 "Walsin" H 3625 9075 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3625 8975 60  0001 L CNN "MPN"
+F 6 "100n" V 3275 8675 50  0000 C CNN "Val"
+	1    3425 8675
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2750 8400 2750 8650
+Wire Wire Line
+	2450 8400 2450 8650
+Wire Wire Line
+	2450 8950 2450 9400
+Wire Wire Line
+	2750 8950 2750 9300
+$Comp
+L jetson-nano-baseboard:R_2k_0402 R34
+U 1 1 60E91BD0
+P 2750 8800
+F 0 "R34" V 2700 9025 60  0000 R CNN
+F 1 "R_2k_0402" H 2750 8650 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 2950 9000 60  0001 L CNN
+F 3 "" H 2750 8800 50  0001 C CNN
+F 4 "VISHAY" H 2950 9200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW04022K00FKED" H 2950 9100 60  0001 L CNN "MPN"
+F 6 "2k" V 2800 8950 50  0000 R CNN "Val"
+	1    2750 8800
+	0    -1   1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:R_2k_0402 R35
+U 1 1 60E8D348
+P 2450 8800
+F 0 "R35" V 2400 9025 60  0000 R CNN
+F 1 "R_2k_0402" H 2450 8650 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 2650 9000 60  0001 L CNN
+F 3 "" H 2450 8800 50  0001 C CNN
+F 4 "VISHAY" H 2650 9200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW04022K00FKED" H 2650 9100 60  0001 L CNN "MPN"
+F 6 "2k" V 2500 8950 50  0000 R CNN "Val"
+	1    2450 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3750 9400 3225 9400
+Wire Wire Line
+	3750 9300 3225 9300
+Wire Wire Line
+	2925 9300 2750 9300
+Wire Wire Line
+	2925 9400 2450 9400
+$Comp
+L jetson-nano-baseboard:R_0R_0402 R60
+U 1 1 60CA3439
+P 3075 9400
+F 0 "R60" H 2875 9450 60  0000 C CNN
+F 1 "R_0R_0402" H 3075 9250 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 3275 9600 60  0001 L CNN
+F 3 "" H 3075 9400 50  0001 C CNN
+F 4 "PANASONIC" H 3275 9800 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3275 9700 60  0001 L CNN "MPN"
+F 6 "0R" H 3250 9450 50  0000 C CNN "Val"
+	1    3075 9400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:R_0R_0402 R57
+U 1 1 60CA2E3E
+P 3075 9300
+F 0 "R57" H 2875 9350 60  0000 C CNN
+F 1 "R_0R_0402" H 3075 9150 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 3275 9500 60  0001 L CNN
+F 3 "" H 3075 9300 50  0001 C CNN
+F 4 "PANASONIC" H 3275 9700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3275 9600 60  0001 L CNN "MPN"
+F 6 "0R" H 3250 9350 50  0000 C CNN "Val"
+	1    3075 9300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 8400 2750 8100
+Connection ~ 2750 8400
+Wire Wire Line
+	2450 8400 2750 8400
+Wire Wire Line
+	2450 9400 1550 9400
+Connection ~ 2450 9400
+Wire Wire Line
+	2750 9300 1550 9300
+Connection ~ 2750 9300
+Wire Wire Line
+	3200 8675 3200 8900
+$Comp
+L jetson-nano-baseboard:Testpad TP1
+U 1 1 5E7104EA
+P 1500 9400
+AR Path="/60D9F63D/5E7104EA" Ref="TP1"  Part="1" 
+AR Path="/60A05943/5E7104EA" Ref="TP?"  Part="1" 
+F 0 "TP1" V 1550 9550 60  0000 L BNN
+F 1 "~" H 1500 9400 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 1500 9400 50  0001 C CNN
+F 3 "" H 1500 9400 50  0001 C CNN
+F 4 "N/A" H -10845 345 50  0001 C CNN "MPN"
+F 5 "N/A" H -10845 345 50  0001 C CNN "Manufacturer"
+	1    1500 9400
+	0    -1   1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:Testpad TP10
+U 1 1 5E7104EB
+P 1500 9300
+AR Path="/60D9F63D/5E7104EB" Ref="TP10"  Part="1" 
+AR Path="/60A05943/5E7104EB" Ref="TP?"  Part="1" 
+F 0 "TP10" V 1550 9450 60  0000 L BNN
+F 1 "~" H 1500 9300 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 1500 9300 50  0001 C CNN
+F 3 "" H 1500 9300 50  0001 C CNN
+F 4 "N/A" H -10845 145 50  0001 C CNN "MPN"
+F 5 "N/A" H -10845 145 50  0001 C CNN "Manufacturer"
+	1    1500 9300
+	0    -1   1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:GND #GND_04
+U 1 1 5E710510
+P 3200 8900
+AR Path="/60D9F63D/5E710510" Ref="#GND_04"  Part="1" 
+AR Path="/60A05943/5E710510" Ref="#GND_?"  Part="1" 
+F 0 "#GND_04" H 3200 8900 20  0001 C CNN
+F 1 "GND" H 3201 8832 30  0000 C CNN
+F 2 "" H 3200 8900 70  0001 C CNN
+F 3 "" H 3200 8900 70  0001 C CNN
+	1    3200 8900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2750 8100 1    50   Input ~ 0
+3V3_SYS
+Text GLabel 3650 8550 1    50   Input ~ 0
+3V3_SYS
+Text Label 2150 9300 2    60   ~ 0
+CAM_I2C_SCL
+Text Label 2150 9400 2    60   ~ 0
+CAM_I2C_SDA
+Wire Wire Line
+	3650 8700 3650 9100
+Wire Wire Line
+	3650 9100 3750 9100
+Wire Wire Line
+	3750 9800 3600 9800
+Wire Wire Line
+	3600 9800 3600 9900
+Wire Wire Line
+	3600 10350 3750 10350
+Connection ~ 3600 10350
+Wire Wire Line
+	3600 10350 3600 10500
+Wire Wire Line
+	3750 10000 3600 10000
+Connection ~ 3600 10000
+Wire Wire Line
+	3600 10000 3600 10350
+Wire Wire Line
+	3750 9900 3600 9900
+Connection ~ 3600 9900
+Wire Wire Line
+	3600 9900 3600 10000
+$Comp
+L jetson-nano-baseboard:GND #GND0101
+U 1 1 627BE9B4
+P 3600 10500
+AR Path="/60D9F63D/627BE9B4" Ref="#GND0101"  Part="1" 
+AR Path="/60A05943/627BE9B4" Ref="#GND?"  Part="1" 
+F 0 "#GND0101" H 3600 10500 20  0001 C CNN
+F 1 "GND" H 3596 10366 30  0000 C CNN
+F 2 "" H 3600 10500 70  0001 C CNN
+F 3 "" H 3600 10500 70  0001 C CNN
+	1    3600 10500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 9500
+NoConn ~ 4550 9300
+NoConn ~ 4550 9650
+NoConn ~ 4550 10000
+NoConn ~ 4550 10350
+Text Notes 3525 7750 0    59   ~ 12
+Camera I2C multiplexer
+$Comp
+L antmicroLogicSignalSwitchesMultiplexersDecoders:PCA9544ABS U3
+U 1 1 625E77A9
+P 4150 9550
+F 0 "U3" H 4150 10393 60  0000 C CNN
+F 1 "PCA9544ABS" H 4150 8600 60  0001 C CNN
+F 2 "antmicro-footprints:VQFN-20-1EP_5x5mm" H 3850 8500 60  0001 L CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9544A.pdf" H 4300 9200 60  0001 L CNN
+F 4 "PCA9544ABS,118" H 4150 10287 60  0000 C CNN "MPN"
+F 5 "NXP" H 4150 10181 60  0000 C CNN "Manufacturer"
+	1    4150 9550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
