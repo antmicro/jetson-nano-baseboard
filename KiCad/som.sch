@@ -360,28 +360,28 @@ $EndComp
 $Comp
 L jetson-nano-baseboard:Testpad TP23
 U 1 1 5E710402
-P 6825 2600
-F 0 "TP23" V 6787 2905 60  0000 R TNN
-F 1 "~" H 6825 2600 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 6825 2600 50  0001 C CNN
-F 3 "" H 6825 2600 50  0001 C CNN
-F 4 "N/A" H -16205 -862 50  0001 C CNN "MPN"
-F 5 "N/A" H -16205 -862 50  0001 C CNN "Manufacturer"
-	1    6825 2600
+P 6375 2550
+F 0 "TP23" V 6337 2855 60  0000 R TNN
+F 1 "~" H 6375 2550 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 6375 2550 50  0001 C CNN
+F 3 "" H 6375 2550 50  0001 C CNN
+F 4 "N/A" H -16655 -912 50  0001 C CNN "MPN"
+F 5 "N/A" H -16655 -912 50  0001 C CNN "Manufacturer"
+	1    6375 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:Testpad TP24
 U 1 1 5E710401
-P 6825 2800
-F 0 "TP24" V 6775 3100 60  0000 R TNN
-F 1 "~" H 6825 2800 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 6825 2800 50  0001 C CNN
-F 3 "" H 6825 2800 50  0001 C CNN
-F 4 "N/A" H -16205 -762 50  0001 C CNN "MPN"
-F 5 "N/A" H -16205 -762 50  0001 C CNN "Manufacturer"
-	1    6825 2800
-	-1   0    0    1   
+P 6525 2550
+F 0 "TP24" V 6475 2850 60  0000 R TNN
+F 1 "~" H 6525 2550 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 6525 2550 50  0001 C CNN
+F 3 "" H 6525 2550 50  0001 C CNN
+F 4 "N/A" H -16505 -1012 50  0001 C CNN "MPN"
+F 5 "N/A" H -16505 -1012 50  0001 C CNN "Manufacturer"
+	1    6525 2550
+	1    0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:Jetson-Nano-Module-model M2
@@ -1243,10 +1243,6 @@ Wire Wire Line
 Wire Wire Line
 	7275 5950 6450 5950
 Wire Wire Line
-	7275 2650 6825 2650
-Wire Wire Line
-	6475 2750 6825 2750
-Wire Wire Line
 	7275 1350 6450 1350
 Wire Wire Line
 	7275 1450 6450 1450
@@ -1300,15 +1296,9 @@ Text GLabel 6875 7000 0    50   Input ~ 0
 PEX_L0_CLKREQ_N
 Text GLabel 6700 6700 0    50   Input ~ 0
 \PEWAKE_3V3
-Connection ~ 6825 2750
-Wire Wire Line
-	6825 2750 7275 2750
-Connection ~ 6825 2650
-Wire Wire Line
-	6825 2650 6475 2650
-Text GLabel 6475 2650 0    50   Input ~ 0
+Text GLabel 6275 2650 0    50   Input ~ 0
 GEN0_SCL
-Text GLabel 6475 2750 0    50   Input ~ 0
+Text GLabel 6275 2750 0    50   Input ~ 0
 GEN0_SDA
 Text GLabel 4850 1375 2    50   Input ~ 0
 #RESET
@@ -1667,4 +1657,18 @@ F 5 "9774060151" H 13900 8775 50  0001 C CNN "MPN"
 	1    13900 8775
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6375 2600 6375 2650
+Wire Wire Line
+	6275 2650 6375 2650
+Wire Wire Line
+	6275 2750 6525 2750
+Connection ~ 6375 2650
+Wire Wire Line
+	6375 2650 7275 2650
+Wire Wire Line
+	6525 2600 6525 2750
+Connection ~ 6525 2750
+Wire Wire Line
+	6525 2750 7275 2750
 $EndSCHEMATC
