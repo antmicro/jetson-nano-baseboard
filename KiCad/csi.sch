@@ -1356,12 +1356,12 @@ Wire Wire Line
 Wire Wire Line
 	7375 7800 7300 7800
 $Comp
-L antmicroLogicSignalSwitchesMultiplexersDecoders:PCA9547BS,118 U4
+L jetson-nano-baseboard:PCA9547BS,118 U4
 U 1 1 61C7982E
 P 8450 9325
 F 0 "U4" H 8450 10714 60  0000 C CNN
 F 1 "PCA9547BS,118" H 8450 10608 60  0000 C CNN
-F 2 "antmicro-footprints:HVQFN24" H 8450 9325 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:HVQFN24" H 8450 9325 60  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/302/PCA9547-1127544.pdf" H 8450 9325 60  0001 C CNN
 F 4 "Nexperia" H 8450 9325 50  0001 C CNN "Manufacturer"
 F 5 "PCA9547BS,118" H 8450 9325 50  0001 C CNN "MPN"
