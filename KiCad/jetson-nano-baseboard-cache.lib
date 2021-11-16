@@ -538,6 +538,24 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# C_47u_0805
+#
+DEF jetson-nano-baseboard_C_47u_0805 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "jetson-nano-baseboard_C_47u_0805" 0 -150 60 H I C CNN
+F2 "jetson-nano-baseboard-footprints:0805-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
+F5 "C0805C476M9PACTU" 200 300 60 H I L CNN "MPN"
+F6 "47u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # C_4u7_0402
 #
 DEF jetson-nano-baseboard_C_4u7_0402 C 0 0 Y Y 1 F N
@@ -1231,26 +1249,6 @@ X VCC 5 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# molex_2223-2021
-#
-DEF jetson-nano-baseboard_molex_2223-2021 FAN 0 40 Y Y 1 F N
-F0 "FAN" 200 150 60 H V L BNN
-F1 "jetson-nano-baseboard_molex_2223-2021" 400 -250 60 H V C CNN
-F2 "jetson-nano-baseboard-footprints:molex_2223-2021" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Molex" 0 0 50 H I C CNN "Manufacturer"
-F5 "2223-2021" 0 0 50 H I C CNN "MPN"
-DRAW
-S 220 -120 270 -80 0 1 10 f
-S 220 -20 270 20 0 1 10 f
-P 4 0 1 10 200 100 400 100 210 100 200 100 F
-P 9 0 1 10 200 100 400 100 400 -30 370 -30 370 -80 400 -80 400 -200 200 -200 200 100 F
-P 10 0 1 10 200 90 200 100 400 100 400 -30 370 -30 370 -80 400 -80 400 -200 200 -200 200 90 N
-X 1 1 0 0 250 R 70 1 0 1 P
-X 2 2 0 -100 250 R 70 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # SN74LVC1G126
 #
 DEF jetson-nano-baseboard_SN74LVC1G126 IC 0 40 Y Y 1 F N
@@ -1325,6 +1323,23 @@ X ~2Y 6 600 100 200 L 70 70 0 1 P
 X GND 7 0 -800 200 U 70 70 0 1 P
 X ~3Y 8 600 -100 200 L 70 70 0 1 P
 X 3A 9 -600 -100 200 R 70 70 0 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1k_0402
+#
+DEF jetson-nano-baseboard_R_1k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "jetson-nano-baseboard_R_1k_0402" 0 -150 60 H I C CNN
+F2 "jetson-nano-baseboard-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
+F6 "1k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1460,23 +1475,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
 F5 "RT0402BRE0724K9L" 200 300 60 H I L CNN "MPN"
 F6 "24k9_0.1%" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_1k_0402
-#
-DEF jetson-nano-baseboard_R_1k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "jetson-nano-baseboard_R_1k_0402" 0 -150 60 H I C CNN
-F2 "jetson-nano-baseboard-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
-F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
-F6 "1k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -1630,21 +1628,53 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_47u_0805
+# TXB0101DBVT
 #
-DEF jetson-nano-baseboard_C_47u_0805 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "jetson-nano-baseboard_C_47u_0805" 0 -150 60 H I C CNN
-F2 "jetson-nano-baseboard-footprints:0805-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
-F5 "C0805C476M9PACTU" 200 300 60 H I L CNN "MPN"
-F6 "47u" 0 -100 50 H V C CNN "Val"
+DEF jetson-nano-baseboard_TXB0101DBVT U 0 20 Y Y 1 F N
+F0 "U" -150 250 60 H V C CNN
+F1 "jetson-nano-baseboard_TXB0101DBVT" 400 -250 60 H V R CNN
+F2 "jetson-nano-baseboard-footprints:SOT-23-6" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "TXB0101DBVT" 200 400 60 H I L CNN "MPN"
+F5 "Texas Instruments" 200 500 60 H I L CNN "Manufacturer"
 DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
+S -200 150 200 -150 0 1 0 f
+P 2 0 1 0 -125 0 -75 0 N
+P 2 0 1 0 125 0 75 0 N
+P 3 0 1 0 -75 0 -75 -25 -20 -25 N
+P 3 0 1 0 -75 0 -75 25 -25 25 N
+P 3 0 1 0 75 0 75 -25 25 -25 N
+P 3 0 1 0 75 0 75 25 25 25 N
+P 4 0 1 0 -25 50 -25 0 25 25 -25 50 F
+P 4 0 1 0 25 0 25 -50 -25 -25 25 0 F
+X VCCA 1 -300 100 100 R 50 40 1 1 W
+X GND 2 300 -100 100 L 50 40 1 1 W
+X A 3 -300 0 100 R 50 40 1 1 B
+X B 4 300 0 100 L 50 40 1 1 B
+X OE 5 -300 -100 100 R 50 40 1 1 I
+X VCCB 6 300 100 100 L 50 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# 533980471
+#
+DEF jetson-nano-baseboard_533980471 J 0 40 Y Y 1 F N
+F0 "J" 100 250 50 H V L BNN
+F1 "jetson-nano-baseboard_533980471" 100 150 50 H V L BNN
+F2 "jetson-nano-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" 100 -100 50 H I L BNN
+F3 "" -100 -200 50 H I L BNN
+F4 "Molex" 100 50 50 H I L BNN "Manufacturer"
+F5 "0533980471" 350 0 50 H I C CNN "MPN"
+DRAW
+S -100 200 50 -200 1 1 0 f
+S -55 -140 -35 -160 1 1 0 F
+S -55 -40 -35 -60 1 1 0 F
+S -55 60 -35 40 1 1 0 F
+S -55 160 -35 140 1 1 0 F
+X ~ 1 -200 150 100 R 50 50 1 1 P
+X ~ 2 -200 50 100 R 50 50 1 1 P
+X ~ 3 -200 -50 100 R 50 50 1 1 P
+X ~ 4 -200 -150 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

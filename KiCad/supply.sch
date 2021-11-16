@@ -41,14 +41,10 @@ Text Label 14525 6250 2    60   ~ 0
 PWR_EN
 Text Notes 8075 4750 0    59   ~ 12
 Power sequencer
-Text Notes 9897 8682 0    59   ~ 12
-FAN 5V
 Wire Wire Line
 	12870 7550 12970 7550
 Wire Wire Line
 	12870 7650 12870 7550
-Text Notes 9700 10250 0    60   ~ 0
-#RESET - fan off only in shutdown
 Text Notes 9500 6575 0    60   ~ 0
 #PWR_RST
 Text Label 12550 6250 0    60   ~ 0
@@ -61,8 +57,6 @@ Wire Wire Line
 Connection ~ 13944 2808
 Text GLabel 13944 2408 1    50   Input ~ 0
 VIN
-Text GLabel 11100 8925 1    50   Input ~ 0
-5V0_SYS
 Text GLabel 9975 5000 1    50   Input ~ 0
 5V0_SYS
 Text GLabel 8475 5450 1    50   Input ~ 0
@@ -131,17 +125,6 @@ F 3 "" H 12875 6950 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:GND #GND_079
-U 1 1 5E7103C3
-P 11100 9950
-F 0 "#GND_079" H 11100 9950 20  0001 C CNN
-F 1 "GND" H 11103 9807 30  0000 C CNN
-F 2 "" H 11100 9950 70  0001 C CNN
-F 3 "" H 11100 9950 70  0001 C CNN
-	1    11100 9950
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:GND #GND_080
 U 1 1 5E7103C1
 P 12870 7650
@@ -175,32 +158,6 @@ F 4 "1N4148WS" H 1120 -12804 50  0001 C CNN "MPN"
 F 5 "ON Semiconductor" H 1120 -12804 50  0001 C CNN "Manufacturer"
 	1    12075 6050
 	0    -1   -1   0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:molex_2223-2021 FAN1
-U 1 1 5E7103AC
-P 11100 9275
-F 0 "FAN1" H 11300 9425 60  0000 L BNN
-F 1 "~" H 11100 9275 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:molex_2223-2021" H 11100 9275 50  0001 C CNN
-F 3 "" H 11100 9275 50  0001 C CNN
-F 4 "2223-2021" H 43  -12311 50  0001 C CNN "MPN"
-F 5 "Molex" H 43  -12311 50  0001 C CNN "Manufacturer"
-	1    11100 9275
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:diode D14
-U 1 1 5E7103AB
-P 10850 9275
-F 0 "D14" H 10350 9225 60  0000 L BNN
-F 1 "1N4148WS" H 10350 9125 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:SOD-323" H 10350 9125 60  0001 C CNN
-F 3 "" H 10350 9125 60  0001 C CNN
-F 4 "1N4148WS" H -7  -12311 50  0001 C CNN "MPN"
-F 5 "ON Semiconductor" H -7  -12311 50  0001 C CNN "Manufacturer"
-	1    10850 9275
-	1    0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:Testpad TP42
@@ -412,39 +369,8 @@ Wire Wire Line
 Wire Wire Line
 	13875 6250 14075 6250
 Connection ~ 14075 6250
-Wire Wire Line
-	10800 9850 10650 9850
-Wire Wire Line
-	10850 9375 11100 9375
-Wire Wire Line
-	11100 9375 11100 9550
-Connection ~ 11100 9375
-Wire Wire Line
-	11100 8925 11100 9150
-Wire Wire Line
-	10850 9175 10850 9150
-Wire Wire Line
-	10850 9150 11100 9150
-Connection ~ 11100 9150
-Wire Wire Line
-	11100 9150 11100 9275
-$Comp
-L jetson-nano-baseboard:BSS138APW T3
-U 1 1 607CDC49
-P 11100 9750
-F 0 "T3" H 11208 9803 60  0000 L CNN
-F 1 "BSS138APW" H 11208 9697 60  0000 L CNN
-F 2 "jetson-nano-baseboard-footprints:SC70-3" H 11300 9950 60  0001 L CNN
-F 3 "" H 11300 10050 60  0001 L CNN
-F 4 "BSS138PW" H 11300 10250 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 11300 10850 60  0001 L CNN "Manufacturer"
-	1    11100 9750
-	1    0    0    -1  
-$EndComp
 Text GLabel 14525 6250 2    50   Input ~ 0
 PWR_EN
-Text GLabel 9925 9850 0    50   Input ~ 0
-#RESET
 Text GLabel 9475 6450 0    50   Input ~ 0
 #SHUTDOWN_REQ
 $Comp
@@ -499,39 +425,12 @@ F 7 "DNP" V 12548 5770 50  0000 L CNN "DNP"
 	1    12450 5700
 	0    1    1    0   
 $EndComp
-Text GLabel 10125 9600 0    50   Input ~ 0
-#MOD_SLEEP
 Text GLabel 12225 5425 0    50   Input ~ 0
 PWR_GOOD
 Text GLabel 10675 5000 1    50   Input ~ 0
 5V0_SYS
 Wire Wire Line
 	10675 5750 10675 5000
-$Comp
-L jetson-nano-baseboard:R_10k_0402 R95
-U 1 1 6202E2C7
-P 10450 9600
-F 0 "R95" H 10450 9500 60  0000 C CNN
-F 1 "R_10k_0402" H 10450 9450 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 10650 9800 60  0001 L CNN
-F 3 "" H 10450 9600 50  0001 C CNN
-F 4 "VISHAY" H 10650 10000 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 10650 9900 60  0001 L CNN "MPN"
-F 6 "10k" H 10450 9700 50  0000 C CNN "Val"
-	1    10450 9600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10600 9600 10650 9600
-Wire Wire Line
-	10650 9600 10650 9850
-Wire Wire Line
-	10650 9850 10600 9850
-Connection ~ 10650 9850
-Wire Wire Line
-	9925 9850 10300 9850
-Wire Wire Line
-	10125 9600 10300 9600
 $Comp
 L jetson-nano-baseboard:R_200k_0402 R84
 U 1 1 620CD7EC
@@ -656,21 +555,6 @@ F 6 "100n" V 13150 5775 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	13350 5625 13450 5625
-$Comp
-L jetson-nano-baseboard:R_10k_0402 R96
-U 1 1 6202F8EF
-P 10450 9850
-F 0 "R96" H 10450 9950 60  0000 C CNN
-F 1 "R_10k_0402" H 10450 9700 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 10650 10050 60  0001 L CNN
-F 3 "" H 10450 9850 50  0001 C CNN
-F 4 "VISHAY" H 10650 10250 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 10650 10150 60  0001 L CNN "MPN"
-F 6 "10k" H 10450 10025 50  0000 C CNN "Val"
-F 7 "DNP" H 10450 9775 50  0000 C CNN "DNP"
-	1    10450 9850
-	-1   0    0    1   
-$EndComp
 $Comp
 L jetson-nano-baseboard:Testpad TP40
 U 1 1 5E7103A9
@@ -1670,4 +1554,170 @@ Wire Wire Line
 	6050 4550 6500 4550
 Wire Wire Line
 	1425 5250 2700 5250
+Text GLabel 9050 10100 0    50   Input ~ 0
+FAN_PWM
+Text GLabel 9025 10000 0    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	9025 10000 9200 10000
+Wire Wire Line
+	9050 10100 9200 10100
+Text GLabel 9025 10200 0    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	9025 10200 9200 10200
+Wire Wire Line
+	9800 10100 10300 10100
+Text Label 10300 10100 2    50   ~ 0
+FAN_PMW_5V
+Text GLabel 9925 9975 2    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	9925 9975 9850 9975
+Wire Wire Line
+	9850 9975 9850 10000
+Wire Wire Line
+	9850 10000 9800 10000
+Wire Wire Line
+	9800 10200 9900 10200
+Wire Wire Line
+	9900 10200 9900 10300
+$Comp
+L jetson-nano-baseboard:GND #GND_0151
+U 1 1 61D0F309
+P 9900 10300
+F 0 "#GND_0151" H 9900 10300 20  0001 C CNN
+F 1 "GND" H 9903 10157 30  0000 C CNN
+F 2 "" H 9900 10300 70  0001 C CNN
+F 3 "" H 9900 10300 70  0001 C CNN
+	1    9900 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:TXB0101DBVT U3
+U 1 1 62015C4C
+P 9500 10100
+F 0 "U3" H 9500 10447 60  0000 C CNN
+F 1 "TXB0101DBVT" H 9500 10341 60  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23-6" H 9700 10300 60  0001 L CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0101" H 9700 10400 60  0001 L CNN
+F 4 "TXB0101DBVT" H 9700 10500 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 9700 10600 60  0001 L CNN "Manufacturer"
+	1    9500 10100
+	1    0    0    -1  
+$EndComp
+Text Notes 11400 8975 0    59   ~ 12
+FAN 5V
+Text Label 11300 9375 2    50   ~ 0
+FAN_TACH_5V
+Wire Wire Line
+	11425 9375 11300 9375
+Text Label 11300 9275 2    50   ~ 0
+FAN_PMW_5V
+Wire Wire Line
+	11425 9275 11300 9275
+Text GLabel 11200 9475 0    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	11200 9475 11425 9475
+Wire Wire Line
+	11425 9575 11300 9575
+Wire Wire Line
+	11300 9575 11300 9675
+$Comp
+L jetson-nano-baseboard:GND #GND_0157
+U 1 1 61E9E5AC
+P 11300 9675
+F 0 "#GND_0157" H 11300 9675 20  0001 C CNN
+F 1 "GND" H 11305 9525 30  0000 C CNN
+F 2 "" H 11300 9675 70  0001 C CNN
+F 3 "" H 11300 9675 70  0001 C CNN
+	1    11300 9675
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:533980471 J12
+U 1 1 6210B794
+P 11625 9425
+F 0 "J12" H 11542 9060 50  0000 C CNN
+F 1 "533980471" H 11542 9151 50  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 11725 9325 50  0001 L BNN
+F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/0533980471" H 11525 9225 50  0001 L BNN
+F 4 "Molex" H 11725 9475 50  0001 L BNN "Manufacturer"
+F 5 "0533980471" H 11975 9425 50  0001 C CNN "MPN"
+	1    11625 9425
+	1    0    0    1   
+$EndComp
+$Comp
+L jetson-nano-baseboard:R_10k_0402 R95
+U 1 1 6202E2C7
+P 9225 9225
+F 0 "R95" V 9270 9155 60  0000 R CNN
+F 1 "R_10k_0402" H 9225 9075 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 9425 9425 60  0001 L CNN
+F 3 "" H 9225 9225 50  0001 C CNN
+F 4 "VISHAY" H 9425 9625 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9425 9525 60  0001 L CNN "MPN"
+F 6 "10k" V 9172 9155 50  0000 R CNN "Val"
+	1    9225 9225
+	0    1    1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:BSS138APW T3
+U 1 1 607CDC49
+P 9525 9375
+F 0 "T3" V 9686 9375 60  0000 C CNN
+F 1 "BSS138APW" V 9792 9375 60  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:SC70-3" H 9725 9575 60  0001 L CNN
+F 3 "" H 9725 9675 60  0001 L CNN
+F 4 "BSS138PW" H 9725 9875 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 9725 10475 60  0001 L CNN "Manufacturer"
+	1    9525 9375
+	0    1    1    0   
+$EndComp
+Text GLabel 9175 9025 0    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	9175 9025 9225 9025
+Wire Wire Line
+	9225 9075 9225 9025
+Text GLabel 8825 9375 0    50   Output ~ 0
+FAN_TACH
+$Comp
+L jetson-nano-baseboard:R_10k_0402 R46
+U 1 1 61FD0E1C
+P 9800 9225
+F 0 "R46" V 9845 9155 60  0000 R CNN
+F 1 "R_10k_0402" H 9800 9075 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 10000 9425 60  0001 L CNN
+F 3 "" H 9800 9225 50  0001 C CNN
+F 4 "VISHAY" H 10000 9625 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10000 9525 60  0001 L CNN "MPN"
+F 6 "10k" V 9747 9155 50  0000 R CNN "Val"
+	1    9800 9225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 9375 9800 9375
+Text GLabel 9750 8925 0    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	9750 8925 9800 8925
+Wire Wire Line
+	9800 8925 9800 9075
+Text Label 10000 9375 0    50   ~ 0
+FAN_TACH_5V
+Connection ~ 9800 9375
+Wire Wire Line
+	9800 9375 9725 9375
+Connection ~ 9225 9375
+Wire Wire Line
+	8825 9375 9225 9375
+Wire Wire Line
+	9225 9375 9325 9375
+Wire Wire Line
+	9225 9025 9425 9025
+Wire Wire Line
+	9425 9025 9425 9075
+Connection ~ 9225 9025
 $EndSCHEMATC

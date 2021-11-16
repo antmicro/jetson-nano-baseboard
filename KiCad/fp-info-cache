@@ -1,4 +1,4 @@
-21405190714619986
+21410103216430986
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85421,6 +85421,13 @@ QFN DFN_QFN
 91
 65
 antmicro-footprints
+FanPinHeader_1x04_P2.54mm_Vertical
+4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 4-pin CPU fan
+0
+4
+4
+antmicro-footprints
 GD25Q16CEIGR
 
 
@@ -86631,6 +86638,13 @@ Molex_734120114_UMC_RF_CONN_Vertical
 0
 4
 2
+antmicro-footprints
+Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical
+Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator
+connector Molex PicoBlade side entry
+0
+6
+5
 antmicro-footprints
 Mount-hole-M2.5
 
@@ -90236,6 +90250,13 @@ VQFN-10-HR_3x3mm
 0
 13
 10
+antmicro-footprints
+VQFN-14-HR
+
+
+0
+14
+14
 antmicro-footprints
 VQFN-14-HR_4x3.5mm
 VQFN, 16 Pin (https://www.ti.com/lit/ml/mpqf507d/mpqf507d.pdf)

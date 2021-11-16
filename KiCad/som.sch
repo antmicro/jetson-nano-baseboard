@@ -33,8 +33,6 @@ Text Label 750  8350 0    60   ~ 0
 BT_M2_WAKE_AP
 Text Label 750  8450 0    60   ~ 0
 BT_M2_EN
-Text Label 3925 1875 0    60   ~ 0
-USR_BUTTON
 Text Label 2030 6162 0    70   ~ 0
 2309413-1
 Text Label 7455 4662 0    70   ~ 0
@@ -45,12 +43,6 @@ Text Label 7430 11012 0    70   ~ 0
 2309413-1
 Text Label 2055 11062 0    70   ~ 0
 2309413-1
-Text Label 15100 5025 2    60   ~ 0
-USR_LED
-Text Label 3925 1775 0    60   ~ 0
-USR_LED
-Text Label 13225 7675 2    60   ~ 0
-USR_BUTTON
 Text Label 3925 1275 0    60   ~ 0
 PMIC_BBAT
 Text Label 14275 2600 2    60   ~ 0
@@ -332,32 +324,6 @@ F 5 "N/A" H -6880 -6362 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L jetson-nano-baseboard:Testpad TP35
-U 1 1 5E710404
-P 4950 1775
-F 0 "TP35" V 5000 1925 60  0000 L BNN
-F 1 "~" H 4950 1775 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 4950 1775 50  0001 C CNN
-F 3 "" H 4950 1775 50  0001 C CNN
-F 4 "N/A" H -15080 -1087 50  0001 C CNN "MPN"
-F 5 "N/A" H -15080 -1087 50  0001 C CNN "Manufacturer"
-	1    4950 1775
-	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:Testpad TP36
-U 1 1 5E710403
-P 4950 1875
-F 0 "TP36" V 5000 2025 60  0000 L BNN
-F 1 "~" H 4950 1875 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 4950 1875 50  0001 C CNN
-F 3 "" H 4950 1875 50  0001 C CNN
-F 4 "N/A" H -15080 -1087 50  0001 C CNN "MPN"
-F 5 "N/A" H -15080 -1087 50  0001 C CNN "Manufacturer"
-	1    4950 1875
-	0    1    1    0   
-$EndComp
-$Comp
 L jetson-nano-baseboard:Testpad TP23
 U 1 1 5E710402
 P 6375 2550
@@ -591,8 +557,6 @@ Wire Wire Line
 	1275 9950 1875 9950
 Wire Wire Line
 	1275 10050 1875 10050
-Wire Wire Line
-	1275 10550 1875 10550
 Wire Wire Line
 	1350 10650 1875 10650
 Wire Wire Line
@@ -1015,10 +979,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 1075 4825 1075
 Wire Wire Line
-	3850 1775 4900 1775
-Wire Wire Line
-	3850 1875 4900 1875
-Wire Wire Line
 	14800 2200 14800 2050
 Connection ~ 14800 2050
 Wire Wire Line
@@ -1423,8 +1383,6 @@ Text GLabel 6450 1350 0    50   Input ~ 0
 UART1_TX
 Text GLabel 6450 1450 0    50   Input ~ 0
 UART1_RX
-Text GLabel 1275 10550 0    50   Input ~ 0
-#MOD_SLEEP
 Text GLabel 1350 10650 0    50   Input ~ 0
 VSYNC_CAM1_1
 Text GLabel 1350 10750 0    50   Input ~ 0
@@ -1671,4 +1629,55 @@ Wire Wire Line
 Connection ~ 6525 2750
 Wire Wire Line
 	6525 2750 7275 2750
+Wire Wire Line
+	3850 1775 4775 1775
+Wire Wire Line
+	3850 1875 4750 1875
+Text GLabel 4775 1775 2    50   Output ~ 0
+FAN_PWM
+Text GLabel 4750 1875 2    50   Input ~ 0
+FAN_TACH
+Text Label 4725 5075 0    60   ~ 0
+USR_BUTTON
+Text Label 4725 4975 0    60   ~ 0
+USR_LED
+$Comp
+L jetson-nano-baseboard:Testpad TP13
+U 1 1 5E710404
+P 4575 2875
+F 0 "TP13" V 4575 2975 60  0000 L BNN
+F 1 "~" H 4575 2875 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 4575 2875 50  0001 C CNN
+F 3 "" H 4575 2875 50  0001 C CNN
+F 4 "N/A" H -15455 13  50  0001 C CNN "MPN"
+F 5 "N/A" H -15455 13  50  0001 C CNN "Manufacturer"
+	1    4575 2875
+	0    -1   1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:Testpad TP14
+U 1 1 5E710403
+P 4575 2975
+F 0 "TP14" V 4575 3075 60  0000 L BNN
+F 1 "~" H 4575 2975 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 4575 2975 50  0001 C CNN
+F 3 "" H 4575 2975 50  0001 C CNN
+F 4 "N/A" H -15455 13  50  0001 C CNN "MPN"
+F 5 "N/A" H -15455 13  50  0001 C CNN "Manufacturer"
+	1    4575 2975
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4650 4975 5700 4975
+Wire Wire Line
+	4650 5075 5700 5075
+Text GLabel 4625 2875 2    50   Input ~ 0
+FAN_PWM
+Text GLabel 4625 2975 2    50   Input ~ 0
+FAN_TACH
+Text GLabel 15100 5025 2    50   Input ~ 0
+USR_LED
+Text GLabel 13225 7675 2    50   Output ~ 0
+USR_BUTTON
+NoConn ~ 1875 10550
 $EndSCHEMATC

@@ -61,32 +61,6 @@ F 5 "N/A" H -15348 -14978 50  0001 C CNN "Manufacturer"
 	1    3200 5225
 	0    -1   -1   0   
 $EndComp
-$Comp
-L jetson-nano-baseboard:Testpad TP13
-U 1 1 5E7104A6
-P 3300 4600
-F 0 "TP13" V 3325 4700 60  0000 L BNN
-F 1 "~" H 3300 4600 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 3300 4600 50  0001 C CNN
-F 3 "" H 3300 4600 50  0001 C CNN
-F 4 "N/A" H -14148 -15703 50  0001 C CNN "MPN"
-F 5 "N/A" H -14148 -15703 50  0001 C CNN "Manufacturer"
-	1    3300 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:Testpad TP14
-U 1 1 5E7104A7
-P 3300 4700
-F 0 "TP14" V 3325 4800 60  0000 L BNN
-F 1 "~" H 3300 4700 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 3300 4700 50  0001 C CNN
-F 3 "" H 3300 4700 50  0001 C CNN
-F 4 "N/A" H -14148 -15703 50  0001 C CNN "MPN"
-F 5 "N/A" H -14148 -15703 50  0001 C CNN "Manufacturer"
-	1    3300 4700
-	0    1    1    0   
-$EndComp
 Text Label 890  5140 0    70   ~ 0
 2309413-1
 Text Notes 1200 3110 0    60   ~ 0
@@ -181,10 +155,6 @@ Wire Wire Line
 	2500 4100 3250 4100
 Wire Wire Line
 	2500 4200 3250 4200
-Wire Wire Line
-	2500 4600 3250 4600
-Wire Wire Line
-	2500 4700 3250 4700
 Wire Wire Line
 	2500 4800 3325 4800
 NoConn ~ 2500 4400
@@ -2131,4 +2101,52 @@ F 5 "Nexperia " H 11050 10175 50  0001 C CNN "Manufacturer"
 	1    11350 9775
 	0    1    1    0   
 $EndComp
+$Comp
+L jetson-nano-baseboard:Testpad TP35
+U 1 1 5E7104A6
+P 4100 4500
+F 0 "TP35" V 4125 4600 60  0000 L BNN
+F 1 "~" H 4100 4500 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+F 4 "N/A" H -13348 -15803 50  0001 C CNN "MPN"
+F 5 "N/A" H -13348 -15803 50  0001 C CNN "Manufacturer"
+	1    4100 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:Testpad TP36
+U 1 1 5E7104A7
+P 4100 4800
+F 0 "TP36" V 4125 4900 60  0000 L BNN
+F 1 "~" H 4100 4800 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 4100 4800 50  0001 C CNN
+F 3 "" H 4100 4800 50  0001 C CNN
+F 4 "N/A" H -13348 -15603 50  0001 C CNN "MPN"
+F 5 "N/A" H -13348 -15603 50  0001 C CNN "Manufacturer"
+	1    4100 4800
+	0    1    1    0   
+$EndComp
+Text GLabel 4050 4600 2    50   Output ~ 0
+USR_LED
+Text GLabel 4050 4700 2    50   Input ~ 0
+USR_BUTTON
+Wire Wire Line
+	4050 4500 4025 4500
+Wire Wire Line
+	4025 4500 4025 4600
+Wire Wire Line
+	4025 4600 4050 4600
+Wire Wire Line
+	4050 4800 4025 4800
+Wire Wire Line
+	4025 4800 4025 4700
+Wire Wire Line
+	4025 4700 4050 4700
+Wire Wire Line
+	2500 4700 4025 4700
+Connection ~ 4025 4700
+Wire Wire Line
+	2500 4600 4025 4600
+Connection ~ 4025 4600
 $EndSCHEMATC
