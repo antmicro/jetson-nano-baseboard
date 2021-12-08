@@ -1,4 +1,4 @@
-21410103216430986
+21452710820426986
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83454,12 +83454,26 @@ connector Molex Micro-Fit_3.0 side entry
 2
 2
 antmicro-footprints
+43045-0413
+Molex Micro-Fit 3.0 Connector System, 43045-0413 (compatible alternatives: 43045-0412, 43045-0424)
+connector Molex Micro-Fit_3.0 side entry
+0
+4
+4
+antmicro-footprints
 43045-0612
 
 
 0
 8
 7
+antmicro-footprints
+43045-1013
+Molex Micro-Fit 3.0 Connector System, 43045-1013 (compatible alternatives: 43045-1012, 43045-1024)
+connector Molex Micro-Fit_3.0 side entry
+0
+10
+10
 antmicro-footprints
 48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
@@ -83608,8 +83622,15 @@ https://www.molex.com/pdm_docs/sd/022053041_sd.pdf
 4
 4
 antmicro-footprints
+687308124422
+WR-FPC-0.50mm SMT ZIF Vertical Type A,pins 8
+
+0
+12
+12
+antmicro-footprints
 687310124422
-WR-FPC-0.50mm SMT ZIF Vertical Type A,pins 14
+WR-FPC-0.50mm SMT ZIF Vertical Type A,pins 10
 
 0
 14
@@ -84272,6 +84293,13 @@ BGA 200 0.8x0.65
 0
 200
 200
+antmicro-footprints
+BGA8C50P2X4_88X188X50N
+
+
+0
+8
+8
 antmicro-footprints
 BGA80P96C6X16_800X1400X110
 
@@ -85106,6 +85134,13 @@ DHVQFN20
 21
 21
 antmicro-footprints
+DIOM1006X40N
+
+
+0
+2
+2
+antmicro-footprints
 DIOM5336X250N
 SMB_1
 Diode
@@ -85372,6 +85407,13 @@ https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJLSE4X0XX01X.pdf
 10
 9
 antmicro-footprints
+F52R-1A7H1-11020
+
+
+0
+22
+22
+antmicro-footprints
 FBGA-24
 
 
@@ -85407,6 +85449,13 @@ connector Hirose  top entry
 24
 24
 antmicro-footprints
+FIL_NFP0QHB242HS2D
+
+
+0
+4
+4
+antmicro-footprints
 FLIR_Lepton_Socket_1050281001
 
 
@@ -85420,6 +85469,13 @@ QFN DFN_QFN
 0
 91
 65
+antmicro-footprints
+FX10A-168S-SV85
+
+
+0
+344
+172
 antmicro-footprints
 FanPinHeader_1x04_P2.54mm_Vertical
 4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
@@ -85826,6 +85882,13 @@ http://www.murata-ps.com/data/magnetics/kmp_1300r.pdf
 0
 2
 2
+antmicro-footprints
+InvenSense_QFN-24_3x3mm_P0.4mm
+24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm; EP 1.7x1.54mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)
+QFN 0.4
+0
+24
+24
 antmicro-footprints
 JJAV0UJ253NONMRTR
 
@@ -86268,6 +86331,13 @@ file:///C:/Users/alex_wegscheid/Downloads/TB6612FNG_datasheet_en_20141001%20(7).
 24
 24
 antmicro-footprints
+LT9611
+
+
+0
+80
+65
+antmicro-footprints
 LUMILED_L1I0-0850090000000
 
 
@@ -86331,6 +86401,13 @@ MCP23016-I_SO
 28
 28
 antmicro-footprints
+MDT580M01001
+
+
+0
+71
+70
+antmicro-footprints
 ME1016813401101
 
 
@@ -86358,6 +86435,13 @@ MICRON_EMMC_153
 0
 153
 153
+antmicro-footprints
+MOLEX_39-30-1060
+
+
+0
+6
+6
 antmicro-footprints
 MOLEX_47272-0001
 
@@ -86463,6 +86547,13 @@ MOLEX_5040500291
 0
 4
 4
+antmicro-footprints
+MP2483DQ-LF-P
+
+
+0
+11
+11
 antmicro-footprints
 MPL-AL4020-xxx
 
@@ -86703,6 +86794,13 @@ http://www.vishay.com/docs/84277/veml6070.pdf
 6
 antmicro-footprints
 OSC_ASEM1-16.000MHZ-LC-T
+
+
+0
+4
+4
+antmicro-footprints
+OSC_ECS-1618-250-BN-TR
 
 
 0
@@ -87668,6 +87766,13 @@ QFN-88_EP_10x10_Pitch0.4mm
 92
 89
 antmicro-footprints
+QFN40P700X700X100-57N
+
+
+0
+57
+57
+antmicro-footprints
 QFN50P250X450X100-21N
 
 
@@ -87808,6 +87913,13 @@ R-PDSO-N15
 15
 15
 antmicro-footprints
+RCLAMP2504N.TCT
+
+
+0
+11
+11
+antmicro-footprints
 RF_ISM_Module_MRF89XAM9A
 
 
@@ -87906,6 +88018,13 @@ RNH0030A
 31
 31
 antmicro-footprints
+RTL8111H
+<b>QFP-32 package</b><p>5x5 mm case, 0.5 mm lead pitch
+
+0
+33
+33
+antmicro-footprints
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
 resistor
@@ -88003,6 +88122,13 @@ S25FL128SAGNFI000
 0
 9
 9
+antmicro-footprints
+SA800U-WF
+
+
+0
+344
+344
 antmicro-footprints
 SAMTEC_ERM5-030-02.0-L-DV-TR
 
@@ -88129,6 +88255,13 @@ SHF-105-01-X-D-SM
 0
 10
 10
+antmicro-footprints
+SI-51005-F
+
+
+0
+18
+15
 antmicro-footprints
 SIC46XED-T1-GE3
 
@@ -88746,6 +88879,13 @@ SOT65P210X110-5N
 5
 5
 antmicro-footprints
+SOT95P230X110-3N
+
+
+0
+3
+3
+antmicro-footprints
 SOT95P275X110-6N
 
 
@@ -89166,6 +89306,13 @@ TE_2-2013289-2
 206
 206
 antmicro-footprints
+TE_3-84952-0
+
+
+0
+32
+32
+antmicro-footprints
 TE_825437-4
 
 
@@ -89235,6 +89382,13 @@ TFSOP-16_W3.00mm
 0
 16
 16
+antmicro-footprints
+TL3340AF160QG
+
+
+0
+7
+7
 antmicro-footprints
 TLGA-8_3x5
 http://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf
@@ -90258,13 +90412,6 @@ VQFN-14-HR
 14
 14
 antmicro-footprints
-VQFN-14-HR_4x3.5mm
-VQFN, 16 Pin (https://www.ti.com/lit/ml/mpqf507d/mpqf507d.pdf)
-VQFN NoLead
-0
-14
-14
-antmicro-footprints
 VQFN-16-1EP_3x3mm
 
 
@@ -90425,6 +90572,13 @@ WE_691382030002
 0
 2
 2
+antmicro-footprints
+WE_68612014122
+<b>WR-FPC 1.00mm SMT ZIF Horizontal Top Contact, 20 Pins
+
+0
+22
+22
 antmicro-footprints
 WE_68711014522
 
@@ -90958,6 +91112,13 @@ m2_4222
 0
 0
 antmicro-footprints
+max13042eebc&plus_t
+
+
+0
+12
+12
+antmicro-footprints
 molex_015244449
 
 
@@ -90968,6 +91129,20 @@ antmicro-footprints
 mounting-hole-2.2mm
 
 
+0
+1
+1
+antmicro-footprints
+mounting-hole-2.7mm-M2.5
+Mounting Hole 2.7mm, no annular, M2.5
+mounting hole 2.7mm no annular m2.5
+0
+0
+0
+antmicro-footprints
+mounting-hole-2.7mm-M2.5-Pad
+Mounting Hole 2.7mm, M2.5
+mounting hole 2.7mm m2.5
 0
 1
 1
@@ -91321,6 +91496,13 @@ MSOP-8
 0
 8
 8
+jetson-nano-baseboard-footprints
+Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical
+Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator
+connector Molex PicoBlade side entry
+0
+6
+5
 jetson-nano-baseboard-footprints
 PCA-10
 

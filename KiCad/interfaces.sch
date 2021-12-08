@@ -19,8 +19,6 @@ Text Notes 2669 49363 0    60   ~ 0
 Text
 Text Notes 11825 4300 0    59   ~ 12
 Ethernet
-Text Label 12025 5075 0    70   ~ 0
-7499110124
 Text Notes 4783 4310 0    59   ~ 12
 M.2 NVMe Interface
 Text Label 6575 6700 0    60   ~ 0
@@ -41,9 +39,7 @@ Text Label 6575 7800 0    60   ~ 0
 C_PCIE0_TX3_P
 Text Label 4893 4739 0    70   ~ 0
 MDT580M01001
-Text GLabel 13825 5300 2    50   Input ~ 0
-3V3_SYS
-Text GLabel 13825 6400 2    50   Input ~ 0
+Text GLabel 11225 6400 0    50   Input ~ 0
 3V3_SYS
 Text GLabel 3175 4750 1    50   Input ~ 0
 3V3_SYS
@@ -134,20 +130,6 @@ F 4 "Wurth Elektronik" H 5500 9300 50  0001 C CNN "Manufacturer"
 F 5 "9774040151" H 5500 9300 50  0001 C CNN "MPN"
 	1    5500 9300
 	-1   0    0    1   
-$EndComp
-$Comp
-L jetson-nano-baseboard:WE_7499111447 J3
-U 1 1 5E710433
-P 12525 6200
-F 0 "J3" H 12025 7450 60  0000 L BNN
-F 1 "~" H 12525 6200 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:WE_7499110124" H 12525 6200 50  0001 C CNN
-F 3 "" H 12525 6200 50  0001 C CNN
-F 4 "Wurth Elektronik" V 675 4907 60  0001 C CNN "Manufacturer"
-F 5 "7499110124" V 675 4907 60  0001 C CNN "PartSymbol"
-F 6 "7499111447" H -31358 940 50  0001 C CNN "MPN"
-	1    12525 6200
-	1    0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:LED NVME1
@@ -446,9 +428,9 @@ Wire Wire Line
 Wire Wire Line
 	11325 6200 11825 6200
 Wire Wire Line
-	11825 6400 11225 6400
+	13225 6400 13825 6400
 Wire Wire Line
-	11825 5300 11225 5300
+	13225 5300 13825 5300
 Wire Wire Line
 	13225 6800 13425 6800
 Wire Wire Line
@@ -520,9 +502,9 @@ Text GLabel 11325 6100 0    50   Input ~ 0
 ENET_TRD3_N
 Text GLabel 11325 6200 0    50   Input ~ 0
 ENET_TRD3_P
-Text GLabel 11225 5300 0    50   Input ~ 0
+Text GLabel 13825 5300 2    50   Input ~ 0
 ENET_LED1
-Text GLabel 11225 6400 0    50   Input ~ 0
+Text GLabel 13825 6400 2    50   Input ~ 0
 ENET_LED0
 $Comp
 L jetson-nano-baseboard:R_10k_0402 R115
@@ -633,41 +615,25 @@ Wire Wire Line
 Wire Wire Line
 	9225 9375 9225 9450
 $Comp
-L jetson-nano-baseboard:R_220R_0402 R38
-U 1 1 62BC9C4E
-P 13525 5300
-F 0 "R38" H 13525 5400 60  0000 C CNN
-F 1 "R_220R_0402" H 13525 5150 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 13725 5500 60  0001 L CNN
-F 3 "" H 13525 5300 50  0001 C CNN
-F 4 "Panasonic" H 13725 5700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ221X" H 13725 5600 60  0001 L CNN "MPN"
-F 6 "220R" H 13525 5200 50  0000 C CNN "Val"
-	1    13525 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:R_220R_0402 R40
 U 1 1 62BCA909
-P 13525 6400
-F 0 "R40" H 13525 6325 60  0000 C CNN
-F 1 "R_220R_0402" H 13525 6250 60  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:0402-res" H 13725 6600 60  0001 L CNN
-F 3 "" H 13525 6400 50  0001 C CNN
-F 4 "Panasonic" H 13725 6800 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ221X" H 13725 6700 60  0001 L CNN "MPN"
-F 6 "220R" H 13525 6500 50  0000 C CNN "Val"
-	1    13525 6400
-	-1   0    0    1   
+P 11525 6400
+F 0 "R40" H 11525 6325 60  0000 C CNN
+F 1 "R_220R_0402" H 11525 6250 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 11725 6600 60  0001 L CNN
+F 3 "" H 11525 6400 50  0001 C CNN
+F 4 "Panasonic" H 11725 6800 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ221X" H 11725 6700 60  0001 L CNN "MPN"
+F 6 "220R" H 11525 6500 50  0000 C CNN "Val"
+	1    11525 6400
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13675 6400 13825 6400
+	11375 6400 11225 6400
 Wire Wire Line
-	13225 6400 13375 6400
+	11825 6400 11675 6400
 Wire Wire Line
-	13225 5300 13375 5300
-Wire Wire Line
-	13675 5300 13825 5300
+	11825 5300 11675 5300
 $Comp
 L jetson-nano-baseboard:C_100p_0402 C14
 U 1 1 62BE91A7
@@ -836,4 +802,35 @@ Wire Wire Line
 	7600 7200 8375 7200
 Wire Wire Line
 	7600 7800 8400 7800
+$Comp
+L jetson-nano-baseboard:SI-51005-F J3
+U 1 1 61B50EDA
+P 12525 6200
+F 0 "J3" H 12525 7565 60  0000 C CNN
+F 1 "SI-51005-F" H 12525 7383 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:SI-51005-F" H 12525 5250 60  0001 C CNN
+F 3 "https://belfuse.com/resources/drawings/magneticsolutions/dr-mag-si-51005-fb.pdf" H 12525 6200 60  0001 C CNN
+F 4 "Bel Magnetic Solutions " H 12525 7467 50  0000 C CNN "Manufacturer"
+F 5 "SI-51005-F " H 12525 7376 50  0000 C CNN "MPN"
+	1    12525 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11375 5300 11225 5300
+$Comp
+L jetson-nano-baseboard:R_220R_0402 R38
+U 1 1 62BC9C4E
+P 11525 5300
+F 0 "R38" H 11525 5400 60  0000 C CNN
+F 1 "R_220R_0402" H 11525 5150 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 11725 5500 60  0001 L CNN
+F 3 "" H 11525 5300 50  0001 C CNN
+F 4 "Panasonic" H 11725 5700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ221X" H 11725 5600 60  0001 L CNN "MPN"
+F 6 "220R" H 11525 5200 50  0000 C CNN "Val"
+	1    11525 5300
+	-1   0    0    1   
+$EndComp
+Text GLabel 11225 5300 0    50   Input ~ 0
+3V3_SYS
 $EndSCHEMATC
