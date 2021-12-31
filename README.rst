@@ -1,10 +1,10 @@
-=================================
+=======================================
 Antmicro's Open Source Jetson Baseboard
-=================================
+=======================================
 
 Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
-.. image:: Images/jetson-nano-baseboard.png
+.. image:: img/jetson-nano-baseboard.png
    :scale: 40%
 
 Overview
@@ -19,12 +19,11 @@ The baseboard, its custom variants designed by Antmicro per customer's specifica
 Repository structure:
 ---------------------
 
-The main repository directory contains the Altium PCB project file, the Outjob file, LICENSE and README.
+The main repository directory contains the KiCad design files, LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``Altium`` -  contains the design files of the latest (1.4.7) revision prepared in Altium Designer
-* ``Images`` - contains graphics for this README
-* ``3DModels`` - contains files defining the `mechanical model <3DModels/Jetson_Nano_Baseboard-Rev.1.4.7.stl>`_ of the assembled board
+* ``img`` - contains graphics for this README
+* ``doc`` - contains generated schematics and other documentation
 
 Key features
 ============
@@ -40,7 +39,7 @@ Key features
 * RTC battery backup
 * EEPROM for storing board ID/SN
 
-The PCB project files were prepared in Altium Designer 14.1.
+The PCB project files were prepared in KiCad 5.1.x
 
 Board layout & dimensions
 =========================
