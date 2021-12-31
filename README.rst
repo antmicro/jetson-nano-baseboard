@@ -46,7 +46,7 @@ Board layout & dimensions
 
 The picture below presents a general layout of the PCB with marked I/O interfaces.
 
-.. figure:: Images/jetson-nano-layout.png
+.. figure:: img/jetson-nano-layout.png
 
 Getting started
 ===============
