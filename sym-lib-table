@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name jetson-nano-baseboard)(type Legacy)(uri ${KIPRJMOD}/lib/jetson-nano-baseboard.lib)(options "")(descr ""))
+)

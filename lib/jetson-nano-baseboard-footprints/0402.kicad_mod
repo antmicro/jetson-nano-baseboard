@@ -1,0 +1,16 @@
+(module 0402 (layer F.Cu) (tedit 5E68CD62)
+  (attr smd)
+  (fp_text reference R24 (at 0 0 270) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value R_0R_0402 (at 0 0 270) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 2 smd rect (at 0.48 0 90) (size 0.62 0.57) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -0.48 0 90) (size 0.62 0.57) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

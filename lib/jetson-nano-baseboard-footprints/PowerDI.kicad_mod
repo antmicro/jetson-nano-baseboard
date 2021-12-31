@@ -1,0 +1,17 @@
+(module PowerDI (layer F.Cu) (tedit 5E7382E6)
+  (attr smd)
+  (fp_text reference D1 (at -0.5 0.1 270) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (fp_text value PDS760-13 (at -0.5 0.1 270) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (pad C smd rect (at -0.5 0.1 90) (size 3.36 4.86) (layers F.Cu F.Paste F.Mask))
+  (pad A smd rect (at 3.4624 -0.8398 90) (size 1.39 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad A smd rect (at 3.4624 1.0398 270) (size 1.39 1.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/nano-baseboard-3dmodels/PowerDI.step
+    (offset (xyz -10 7.1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+)

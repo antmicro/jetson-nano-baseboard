@@ -1,0 +1,19 @@
+(module SOT23-5 (layer F.Cu) (tedit 5E737E90)
+  (attr smd)
+  (fp_text reference IC17 (at 0 0 180) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (fp_text value AT24CS01-ST (at 0 0 180) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (pad 1 smd rect (at -1.15 -0.95 90) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -1.15 0 90) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -1.15 0.95 90) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 1.15 0.95 90) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at 1.15 -0.95 90) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/nano-baseboard-3dmodels/SOT23-5.step
+    (offset (xyz 68 -2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

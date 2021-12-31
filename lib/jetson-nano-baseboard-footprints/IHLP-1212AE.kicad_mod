@@ -1,0 +1,20 @@
+(module IHLP-1212AE (layer F.Cu) (tedit 5FF7B2C4)
+  (attr smd)
+  (fp_text reference L5 (at 0 0 270) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (fp_text value IHLP1212AEERR47M11 (at 0 0 270) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (fp_line (start -1.8 -1.5) (end 1.8 -1.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 1.8 1.5) (end -1.8 1.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start -1.8 1.5) (end -1.8 -1.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 1.8 -1.5) (end 1.8 1.5) (layer F.CrtYd) (width 0.12))
+  (pad 1 smd rect (at -1.0795 0) (size 1.7526 0.7112) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 1.0795 0) (size 1.7526 0.7112) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/lib/3d-models/IHLP-1212AE.step
+    (offset (xyz 15.65 75.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+)
