@@ -2498,10 +2498,10 @@ F 7 "DNP" V 6148 5895 50  0000 L CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L jetson-nano-baseboard:C_100n_0402 C?
+L jetson-nano-baseboard:C_100n_0402 C88
 U 1 1 61D57528
 P 14800 6750
-F 0 "C?" H 14685 6705 60  0000 R CNN
+F 0 "C88" H 14685 6705 60  0000 R CNN
 F 1 "C_100n_0402" H 14800 6600 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-cap" H 15000 6950 60  0001 L CNN
 F 3 "" H 14800 6750 50  0001 C CNN
@@ -2514,10 +2514,10 @@ $EndComp
 Text GLabel 14800 6600 2    50   Input ~ 0
 5V0_SYS
 $Comp
-L jetson-nano-baseboard:GND #GND_?
+L jetson-nano-baseboard:GND #GND_0165
 U 1 1 61D7CDF9
 P 14800 6900
-F 0 "#GND_?" H 14800 6900 20  0001 C CNN
+F 0 "#GND_0165" H 14800 6900 20  0001 C CNN
 F 1 "GND" H 14803 6757 30  0000 C CNN
 F 2 "" H 14800 6900 70  0001 C CNN
 F 3 "" H 14800 6900 70  0001 C CNN
@@ -2525,10 +2525,10 @@ F 3 "" H 14800 6900 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:C_100n_0402 C?
+L jetson-nano-baseboard:C_100n_0402 C86
 U 1 1 61D9041A
 P 12350 6775
-F 0 "C?" H 12235 6730 60  0000 R CNN
+F 0 "C86" H 12235 6730 60  0000 R CNN
 F 1 "C_100n_0402" H 12350 6625 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-cap" H 12550 6975 60  0001 L CNN
 F 3 "" H 12350 6775 50  0001 C CNN
@@ -2539,10 +2539,10 @@ F 6 "100n" H 12235 6828 50  0000 R CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L jetson-nano-baseboard:GND #GND_?
+L jetson-nano-baseboard:GND #GND_0166
 U 1 1 61D90421
 P 12350 6925
-F 0 "#GND_?" H 12350 6925 20  0001 C CNN
+F 0 "#GND_0166" H 12350 6925 20  0001 C CNN
 F 1 "GND" H 12353 6782 30  0000 C CNN
 F 2 "" H 12350 6925 70  0001 C CNN
 F 3 "" H 12350 6925 70  0001 C CNN
