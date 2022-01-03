@@ -1204,13 +1204,14 @@ $Comp
 L jetson-nano-baseboard:R_100k_1%_0402 R118
 U 1 1 61E2F94A
 P 6275 5700
-F 0 "R118" V 6230 5770 60  0000 L CNN
+F 0 "R118" V 6184 5770 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 6275 5550 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402" H 6475 5900 60  0001 L CNN
 F 3 "" H 6275 5700 50  0001 C CNN
 F 4 "PANASONIC" H 6475 6100 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 6475 6000 60  0001 L CNN "MPN"
-F 6 "100k_1%" V 6328 5770 50  0000 L CNN "Val"
+F 6 "100k_1%" V 6282 5770 50  0000 L CNN "Val"
+F 7 "DNP" V 6373 5770 50  0000 L CNN "DNP"
 	1    6275 5700
 	0    1    1    0   
 $EndComp
@@ -1228,29 +1229,25 @@ $EndComp
 Connection ~ 6275 5550
 Text GLabel 7350 5550 2    50   Input ~ 0
 3V3_SYS
-Wire Wire Line
-	6275 5550 6750 5550
-Wire Wire Line
-	6750 5550 7350 5550
 $Comp
 L jetson-nano-baseboard:R_44k2_0402 R119
 U 1 1 61FF4E81
 P 6275 6350
-F 0 "R119" V 6230 6420 60  0000 L CNN
+F 0 "R119" V 6184 6420 60  0000 L CNN
 F 1 "R_44k2_0402" H 6275 6200 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-res" H 6475 6550 60  0001 L CNN
 F 3 "" H 6275 6350 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 6475 6750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF4422X" H 6475 6650 60  0001 L CNN "MPN"
-F 6 "44k2" V 6328 6420 50  0000 L CNN "Val"
+F 6 "44k2" V 6282 6420 50  0000 L CNN "Val"
+F 7 "DNP" V 6373 6420 50  0000 L CNN "DNP"
 	1    6275 6350
 	0    1    1    0   
 $EndComp
-Text GLabel 7225 5875 2    50   Input ~ 0
+Text GLabel 6550 9300 2    50   Input ~ 0
 3V3_FFC1
-Text GLabel 7225 6050 2    50   Input ~ 0
+Text GLabel 6550 9475 2    50   Input ~ 0
 3V3_FFC2
-Connection ~ 6750 5550
 Wire Wire Line
 	4900 5550 5475 5550
 Wire Wire Line
@@ -1262,13 +1259,14 @@ $Comp
 L jetson-nano-baseboard:R_1k_0402 R45
 U 1 1 62A91D2C
 P 5950 6000
-F 0 "R45" V 5905 6070 60  0000 L CNN
+F 0 "R45" V 5859 6070 60  0000 L CNN
 F 1 "R_1k_0402" H 5950 5850 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-res" H 6150 6200 60  0001 L CNN
 F 3 "" H 5950 6000 50  0001 C CNN
 F 4 "BOURNS" H 6150 6400 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 6150 6300 60  0001 L CNN "MPN"
-F 6 "1k" V 6003 6070 50  0000 L CNN "Val"
+F 6 "1k" V 5957 6070 50  0000 L CNN "Val"
+F 7 "DNP" V 6048 6070 50  0000 L CNN "DNP"
 	1    5950 6000
 	0    1    1    0   
 $EndComp
@@ -1276,13 +1274,14 @@ $Comp
 L jetson-nano-baseboard:C_6p_0402 C24
 U 1 1 62A91D35
 P 5950 5700
-F 0 "C24" H 6065 5745 60  0000 L CNN
+F 0 "C24" H 6065 5791 60  0000 L CNN
 F 1 "C_6p_0402" H 5950 5550 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-cap" H 6150 5900 60  0001 L CNN
 F 3 "" H 5950 5700 50  0001 C CNN
 F 4 "WALSIN" H 6150 6100 60  0001 L CNN "Manufacturer"
 F 5 "0402N6R0D500CT" H 6150 6000 60  0001 L CNN "MPN"
-F 6 "6p" H 6065 5647 50  0000 L CNN "Val"
+F 6 "6p" H 6065 5693 50  0000 L CNN "Val"
+F 7 "DNP" H 6065 5602 50  0000 L CNN "DNP"
 	1    5950 5700
 	1    0    0    -1  
 $EndComp
@@ -1362,40 +1361,40 @@ Wire Wire Line
 Wire Wire Line
 	4525 2475 4575 2475
 Wire Wire Line
-	7225 5875 7200 5875
+	6550 9300 6525 9300
 Wire Wire Line
-	7225 6050 7200 6050
+	6550 9475 6525 9475
 Wire Wire Line
-	6900 5875 6750 5875
-Connection ~ 6750 5875
+	6225 9300 6075 9300
+Connection ~ 6075 9300
 Wire Wire Line
-	6750 5875 6750 6050
+	6075 9300 6075 9475
 Wire Wire Line
-	6750 5550 6750 5875
+	6075 8975 6075 9300
 $Comp
 L jetson-nano-baseboard:04671.25NR F1
 U 1 1 618DBB7C
-P 7050 5875
-F 0 "F1" H 7050 6142 50  0000 C CNN
-F 1 "04671.25NR" H 7050 6051 50  0000 C CNN
-F 2 "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467" H 7100 5650 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" H 7050 5725 50  0001 C CNN
-F 4 "04671.25NR" H 7075 5575 50  0001 C CNN "MPN"
-F 5 "Littelfuse Inc." H 7100 5500 50  0001 C CNN "Manufacturer"
-	1    7050 5875
+P 6375 9300
+F 0 "F1" H 6375 9567 50  0000 C CNN
+F 1 "04671.25NR" H 6375 9476 50  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467" H 6425 9075 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" H 6375 9150 50  0001 C CNN
+F 4 "04671.25NR" H 6400 9000 50  0001 C CNN "MPN"
+F 5 "Littelfuse Inc." H 6425 8925 50  0001 C CNN "Manufacturer"
+	1    6375 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L jetson-nano-baseboard:04671.25NR F2
 U 1 1 618F00A3
-P 7050 6050
-F 0 "F2" H 7050 6317 50  0000 C CNN
-F 1 "04671.25NR" H 7050 6226 50  0000 C CNN
-F 2 "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467" H 7100 5825 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" H 7050 5900 50  0001 C CNN
-F 4 "04671.25NR" H 7075 5750 50  0001 C CNN "MPN"
-F 5 "Littelfuse Inc." H 7100 5675 50  0001 C CNN "Manufacturer"
-	1    7050 6050
+P 6375 9475
+F 0 "F2" H 6375 9742 50  0000 C CNN
+F 1 "04671.25NR" H 6375 9651 50  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467" H 6425 9250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" H 6375 9325 50  0001 C CNN
+F 4 "04671.25NR" H 6400 9175 50  0001 C CNN "MPN"
+F 5 "Littelfuse Inc." H 6425 9100 50  0001 C CNN "Manufacturer"
+	1    6375 9475
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1497,7 +1496,7 @@ F 6 "10u/50V" H 2440 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 6050 6900 6050
+	6075 9475 6225 9475
 Connection ~ 2325 2100
 Wire Wire Line
 	2325 2100 2875 2100
@@ -1720,4 +1719,27 @@ Wire Wire Line
 Wire Wire Line
 	9425 9025 9425 9075
 Connection ~ 9225 9025
+Wire Wire Line
+	6275 5550 6875 5550
+$Comp
+L jetson-nano-baseboard:R_0R_0402 R?
+U 1 1 61DB825F
+P 6875 5700
+F 0 "R?" V 6830 5770 60  0000 L CNN
+F 1 "R_0R_0402" H 6875 5550 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 7075 5900 60  0001 L CNN
+F 3 "" H 6875 5700 50  0001 C CNN
+F 4 "PANASONIC" H 7075 6100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 7075 6000 60  0001 L CNN "MPN"
+F 6 "0R" V 6928 5770 50  0000 L CNN "Val"
+	1    6875 5700
+	0    1    1    0   
+$EndComp
+Connection ~ 6875 5550
+Wire Wire Line
+	6875 5550 7350 5550
+Wire Wire Line
+	6875 5850 6875 6150
+Wire Wire Line
+	6875 6150 6275 6150
 $EndSCHEMATC
