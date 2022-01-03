@@ -1722,10 +1722,10 @@ Connection ~ 9225 9025
 Wire Wire Line
 	6275 5550 6875 5550
 $Comp
-L jetson-nano-baseboard:R_0R_0402 R?
+L jetson-nano-baseboard:R_0R_0402 R48
 U 1 1 61DB825F
 P 6875 5700
-F 0 "R?" V 6830 5770 60  0000 L CNN
+F 0 "R48" V 6830 5770 60  0000 L CNN
 F 1 "R_0R_0402" H 6875 5550 60  0001 C CNN
 F 2 "jetson-nano-baseboard-footprints:0402-res" H 7075 5900 60  0001 L CNN
 F 3 "" H 6875 5700 50  0001 C CNN
