@@ -1553,58 +1553,6 @@ Wire Wire Line
 	6050 4550 6500 4550
 Wire Wire Line
 	1425 5250 2700 5250
-Text GLabel 9050 10100 0    50   Input ~ 0
-FAN_PWM
-Text GLabel 9025 10000 0    50   Input ~ 0
-1V8_SYS
-Wire Wire Line
-	9025 10000 9200 10000
-Wire Wire Line
-	9050 10100 9200 10100
-Text GLabel 9025 10200 0    50   Input ~ 0
-1V8_SYS
-Wire Wire Line
-	9025 10200 9200 10200
-Wire Wire Line
-	9800 10100 10300 10100
-Text Label 10300 10100 2    50   ~ 0
-FAN_PMW_5V
-Text GLabel 9925 9975 2    50   Input ~ 0
-5V0_SYS
-Wire Wire Line
-	9925 9975 9850 9975
-Wire Wire Line
-	9850 9975 9850 10000
-Wire Wire Line
-	9850 10000 9800 10000
-Wire Wire Line
-	9800 10200 9900 10200
-Wire Wire Line
-	9900 10200 9900 10300
-$Comp
-L jetson-nano-baseboard:GND #GND_0151
-U 1 1 61D0F309
-P 9900 10300
-F 0 "#GND_0151" H 9900 10300 20  0001 C CNN
-F 1 "GND" H 9903 10157 30  0000 C CNN
-F 2 "" H 9900 10300 70  0001 C CNN
-F 3 "" H 9900 10300 70  0001 C CNN
-	1    9900 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L jetson-nano-baseboard:TXB0101DBVT U3
-U 1 1 62015C4C
-P 9500 10100
-F 0 "U3" H 9500 10447 60  0000 C CNN
-F 1 "TXB0101DBVT" H 9500 10341 60  0000 C CNN
-F 2 "jetson-nano-baseboard-footprints:SOT-23-6" H 9700 10300 60  0001 L CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0101" H 9700 10400 60  0001 L CNN
-F 4 "TXB0101DBVT" H 9700 10500 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 9700 10600 60  0001 L CNN "Manufacturer"
-	1    9500 10100
-	1    0    0    -1  
-$EndComp
 Text Notes 11400 8975 0    59   ~ 12
 FAN 5V
 Text Label 11300 9375 2    50   ~ 0
@@ -1742,4 +1690,56 @@ Wire Wire Line
 	6875 5850 6875 6150
 Wire Wire Line
 	6875 6150 6275 6150
+Text GLabel 9050 10250 0    50   Input ~ 0
+FAN_PWM
+Text GLabel 9025 10150 0    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	9025 10150 9200 10150
+Wire Wire Line
+	9050 10250 9200 10250
+Text GLabel 9025 10350 0    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	9025 10350 9200 10350
+Wire Wire Line
+	9800 10250 10300 10250
+Text Label 10300 10250 2    50   ~ 0
+FAN_PMW_5V
+Text GLabel 9925 10125 2    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	9925 10125 9850 10125
+Wire Wire Line
+	9850 10125 9850 10150
+Wire Wire Line
+	9850 10150 9800 10150
+Wire Wire Line
+	9800 10350 9900 10350
+Wire Wire Line
+	9900 10350 9900 10450
+$Comp
+L jetson-nano-baseboard:GND #GND_0151
+U 1 1 61D0F309
+P 9900 10450
+F 0 "#GND_0151" H 9900 10450 20  0001 C CNN
+F 1 "GND" H 9903 10307 30  0000 C CNN
+F 2 "" H 9900 10450 70  0001 C CNN
+F 3 "" H 9900 10450 70  0001 C CNN
+	1    9900 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:SN74LXC1T45DBVR U3
+U 1 1 61E748D7
+P 9500 10250
+F 0 "U3" H 9500 10597 60  0000 C CNN
+F 1 "SN74LXC1T45DBVR" H 9500 10491 60  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23-6" H 9700 10450 60  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lxc1t45.pdf?ts=1641200283005&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74LXC1T45DBVR%2526keyMatch%253DSN74LXC1T45DBVR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN" H 9700 10550 60  0001 L CNN
+F 4 "SN74LXC1T45DBVR" H 9700 10650 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 9700 10750 60  0001 L CNN "Manufacturer"
+	1    9500 10250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
