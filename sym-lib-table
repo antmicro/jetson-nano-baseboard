@@ -1,3 +1,4 @@
 (sym_lib_table
+  (lib (name brooklyn-baseboard)(type Legacy)(uri /home/smroz/antmicro/projects/andium-brooklyn-baseboard-hw/lib/brooklyn-baseboard.lib)(options "")(descr ""))
   (lib (name jetson-nano-baseboard)(type Legacy)(uri ${KIPRJMOD}/lib/jetson-nano-baseboard.lib)(options "")(descr ""))
 )
