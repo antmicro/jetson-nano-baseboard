@@ -767,19 +767,6 @@ F 5 "ON Semiconductor" H -32616 -14443 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L jetson-nano-baseboard:R_10k2_0402 R50
-U 1 1 5E7102F6
-P 5000 9775
-F 0 "R50" V 5000 9745 60  0000 R TNN
-F 1 "10k2" V 4900 9745 60  0000 R TNN
-F 2 "jetson-nano-baseboard-footprints:0402" H 4900 9745 60  0001 C CNN
-F 3 "" H 4900 9745 60  0001 C CNN
-F 4 "CPF0402B10K2E1" H -33616 -15093 50  0001 C CNN "MPN"
-F 5 "TE" H -33616 -15093 50  0001 C CNN "Manufacturer"
-	1    5000 9775
-	0    -1   -1   0   
-$EndComp
-$Comp
 L jetson-nano-baseboard:BLM18EG221SN1D L3
 U 1 1 5E7102ED
 P 13375 6525
@@ -2300,5 +2287,19 @@ F 4 "Texas Instruments" H 13850 4675 50  0001 C CNN "Manufacturer"
 F 5 "TPD4E05U06DQAR" H 13850 4675 50  0001 C CNN "MPN"
 	1    13850 4675
 	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:R_12k4_0402 R50
+U 1 1 61D47A2E
+P 5000 9775
+F 0 "R50" V 5045 9705 60  0000 R CNN
+F 1 "R_12k4_0402" H 5000 9625 60  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 5200 9975 60  0001 L CNN
+F 3 "" H 5000 9775 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5200 10175 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1242X" H 5200 10075 60  0001 L CNN "MPN"
+F 6 "12k4" V 4947 9705 50  0000 R CNN "Val"
+	1    5000 9775
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
