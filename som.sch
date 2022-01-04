@@ -1623,10 +1623,6 @@ Text GLabel 4775 1775 2    50   Output ~ 0
 FAN_PWM
 Text GLabel 4750 1875 2    50   Input ~ 0
 FAN_TACH
-Text Label 4725 5075 0    60   ~ 0
-USR_BUTTON
-Text Label 4725 4975 0    60   ~ 0
-USR_LED
 $Comp
 L jetson-nano-baseboard:Testpad TP13
 U 1 1 5E710404
@@ -1653,10 +1649,6 @@ F 5 "N/A" H -15455 13  50  0001 C CNN "Manufacturer"
 	1    4575 2975
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4650 4975 5700 4975
-Wire Wire Line
-	4650 5075 5700 5075
 Text GLabel 4625 2875 2    50   Input ~ 0
 FAN_PWM
 Text GLabel 4625 2975 2    50   Input ~ 0
