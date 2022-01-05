@@ -2456,18 +2456,18 @@ X Pin_9 9 -200 800 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# jetson-nano-baseboard_XFL4015-122MEC
+# jetson-nano-baseboard_XFL4020-222MEC
 #
-DEF jetson-nano-baseboard_XFL4015-122MEC L 0 40 Y Y 1 F N
+DEF jetson-nano-baseboard_XFL4020-222MEC L 0 40 Y Y 1 F N
 F0 "L" -175 125 60 H V C CNN
-F1 "jetson-nano-baseboard_XFL4015-122MEC" 25 -100 60 H V C CNN
+F1 "jetson-nano-baseboard_XFL4020-222MEC" 25 -100 60 H V C CNN
 F2 "jetson-nano-baseboard-footprints:XFL4015-122MEC" 50 425 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
-F4 "XFL4015-122MEC" 50 725 60 H I L CNN "MPN"
+F4 "XFL4020-222MEC" 50 725 60 H I L CNN "MPN"
 F5 "Coilcraft" 50 825 60 H I L CNN "Manufacturer"
-F6 "7.1A" 150 625 50 H I C CNN "MaxCur"
+F6 "6A" 150 625 50 H I C CNN "MaxCur"
 F7 "4.3x4.3" 200 525 50 H I C CNN "Size"
-F8 "1u2/7.1A" 175 125 50 H V C CNN "Val"
+F8 "2u2/3.7A" 175 125 50 H V C CNN "Val"
 DRAW
 A -94 14 48 -1631 37 0 1 0 N -140 0 -47 17
 A -67 14 20 -113 1633 0 1 0 N -47 10 -87 20

@@ -689,7 +689,7 @@ $EndComp
 Text Notes 900  4625 0    59   ~ 12
 3V3 DC/DC
 Text Notes 900  4750 0    59   ~ 12
-3V3/4A
+3V3/3.5A\n
 Wire Wire Line
 	3325 5475 3325 5375
 Wire Wire Line
@@ -840,18 +840,18 @@ Wire Wire Line
 Connection ~ 4525 5375
 Connection ~ 4625 5675
 $Comp
-L jetson-nano-baseboard:XFL4015-122MEC L1
+L jetson-nano-baseboard:XFL4020-222MEC L1
 U 1 1 62296CEC
 P 5400 5675
 F 0 "L1" H 5400 5364 60  0000 C CNN
-F 1 "XFL4015-122MEC" H 5400 5470 60  0000 C CNN
+F 1 "XFL4020-222MEC" H 5400 5470 60  0000 C CNN
 F 2 "jetson-nano-baseboard-footprints:XFL4015-122MEC" H 5450 6100 60  0001 L CNN
 F 3 "" H 5600 5975 60  0001 L CNN
-F 4 "XFL4015-122MEC" H 5450 6400 60  0001 L CNN "MPN"
+F 4 "XFL4020-222MEC" H 5450 6400 60  0001 L CNN "MPN"
 F 5 "Coilcraft" H 5450 6500 60  0001 L CNN "Manufacturer"
-F 6 "7.1A" H 5550 6300 50  0001 C CNN "MaxCur"
+F 6 "6A" H 5550 6300 50  0001 C CNN "MaxCur"
 F 7 "4.3x4.3" H 5600 6200 50  0001 C CNN "Size"
-F 8 "1u2/7.1A" H 5400 5568 50  0000 C CNN "Val"
+F 8 "2u2/3.7A" H 5400 5568 50  0000 C CNN "Val"
 	1    5400 5675
 	-1   0    0    1   
 $EndComp
