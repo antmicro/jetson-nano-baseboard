@@ -674,19 +674,6 @@ F 5 "N/A" H -31321 -13105 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L jetson-nano-baseboard:BLM18EG221SN1D L2
-U 1 1 5E71031A
-P 5375 9175
-F 0 "L2" V 5375 9145 60  0000 R TNN
-F 1 "BLM18EG221SN1D" V 5275 9145 60  0000 R TNN
-F 2 "jetson-nano-baseboard-footprints:0603" H 5275 9145 60  0001 C CNN
-F 3 "" H 5275 9145 60  0001 C CNN
-F 4 "BLM18EG221SN1D" H -33741 -15093 50  0001 C CNN "MPN"
-F 5 "Murata" H -33741 -15093 50  0001 C CNN "Manufacturer"
-	1    5375 9175
-	0    -1   -1   0   
-$EndComp
-$Comp
 L jetson-nano-baseboard:HD3SS3220 IC7
 U 1 1 5E710319
 P 4050 2000
@@ -752,19 +739,6 @@ F 4 "1N4148WS" H -32616 -14443 50  0001 C CNN "MPN"
 F 5 "ON Semiconductor" H -32616 -14443 50  0001 C CNN "Manufacturer"
 	1    8000 9125
 	0    1    1    0   
-$EndComp
-$Comp
-L jetson-nano-baseboard:BLM18EG221SN1D L3
-U 1 1 5E7102ED
-P 13375 6525
-F 0 "L3" V 13375 6495 60  0000 R TNN
-F 1 "BLM18EG221SN1D" V 13275 6495 60  0000 R TNN
-F 2 "jetson-nano-baseboard-footprints:0603" H 13275 6495 60  0001 C CNN
-F 3 "" H 13275 6495 60  0001 C CNN
-F 4 "BLM18EG221SN1D" H -24985 -20787 50  0001 C CNN "MPN"
-F 5 "Murata" H -24985 -20787 50  0001 C CNN "Manufacturer"
-	1    13375 6525
-	0    -1   -1   0   
 $EndComp
 Text GLabel 1675 5250 1    50   Input ~ 0
 5V0_SYS
@@ -958,7 +932,6 @@ Wire Wire Line
 	5375 9850 5375 9975
 Wire Wire Line
 	5375 9375 5375 9650
-Connection ~ 5375 9375
 Wire Wire Line
 	5375 8975 5775 8975
 $Comp
@@ -2302,4 +2275,35 @@ F 5 "Texas Instruments" H 13500 9324 50  0000 C CNN "Manufacturer"
 	1    13500 9100
 	1    0    0    -1  
 $EndComp
+$Comp
+L jetson-nano-baseboard:BLM18SG121TN1D L?
+U 1 1 61FB7FE7
+P 13375 6525
+AR Path="/6096D016/61FB7FE7" Ref="L?"  Part="1" 
+AR Path="/608DF3E5/61FB7FE7" Ref="L3"  Part="1" 
+F 0 "L3" V 13428 6580 60  0000 L CNN
+F 1 "BLM18SG121TN1D" V 13322 6580 60  0000 L CNN
+F 2 "jetson-nano-baseboard-footprints:0603" H 13275 6125 60  0001 C CNN
+F 3 "" H 13275 6125 60  0001 C CNN
+F 4 "Murata" V 675 3032 60  0001 C CNN "Manufacturer"
+F 5 "BLM18SG121TN1D" H -15823 -14678 50  0001 C CNN "MPN"
+	1    13375 6525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jetson-nano-baseboard:BLM18SG121TN1D L?
+U 1 1 61F83FCF
+P 5375 9175
+AR Path="/6096D016/61F83FCF" Ref="L?"  Part="1" 
+AR Path="/608DF3E5/61F83FCF" Ref="L2"  Part="1" 
+F 0 "L2" V 5428 9132 60  0000 R CNN
+F 1 "BLM18SG121TN1D" V 5322 9132 60  0000 R CNN
+F 2 "jetson-nano-baseboard-footprints:0603" H 5275 8775 60  0001 C CNN
+F 3 "" H 5275 8775 60  0001 C CNN
+F 4 "Murata" V -7325 5682 60  0001 C CNN "Manufacturer"
+F 5 "BLM18SG121TN1D" H -23823 -12028 50  0001 C CNN "MPN"
+	1    5375 9175
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5375 9375
 $EndSCHEMATC
