@@ -771,17 +771,6 @@ Wire Wire Line
 	3000 5175 3375 5175
 Text Label 3050 5175 0    50   ~ 0
 3V3_EN
-$Comp
-L jetson-nano-baseboard:Ferrite_Bead_Small FB3
-U 1 1 61E2F9C4
-P 1050 5375
-F 0 "FB3" V 925 5375 50  0000 C CNN
-F 1 "742792022 " V 1150 5375 50  0000 C CNN
-F 2 "jetson-nano-baseboard-footprints:0805-cap" V 980 5375 50  0001 C CNN
-F 3 "~" H 1050 5375 50  0001 C CNN
-	1    1050 5375
-	0    1    1    0   
-$EndComp
 Text GLabel 950  5375 0    50   Input ~ 0
 VIN
 $Comp
@@ -978,7 +967,7 @@ Text Label 4550 6275 0    50   ~ 0
 3V3_FB
 Text Label 3200 6275 2    50   ~ 0
 3V3_VCC
-Text Label 1325 5375 0    50   ~ 0
+Text Label 1950 5375 0    50   ~ 0
 3V3_VIN
 Text Label 4675 5750 0    50   ~ 0
 3V3_SW
@@ -1100,7 +1089,7 @@ Connection ~ 5775 4675
 Wire Wire Line
 	5775 4675 6225 4675
 Wire Wire Line
-	1150 5375 2425 5375
+	1800 5375 2425 5375
 Text Notes 15575 5400 0    59   ~ 12
 FAN 5V
 Text Label 15475 5800 2    50   ~ 0
@@ -2551,4 +2540,19 @@ F 3 "" H 12350 6925 70  0001 C CNN
 $EndComp
 Text GLabel 12350 6625 0    50   Input ~ 0
 1V8_SYS
+$Comp
+L antmicroFerriteBeadsandChips:742792022 FB3
+U 1 1 620C3704
+P 1600 5375
+F 0 "FB3" H 1600 5662 60  0000 C CNN
+F 1 "742792022" H 1600 5556 60  0000 C CNN
+F 2 "antmicro-footprints:0805-res" H 1800 5575 60  0001 L CNN
+F 3 "https://www.we-online.com/katalog/datasheet/742792022.pdf" H 1800 5675 60  0001 L CNN
+F 4 "742792022" H 1800 5875 60  0001 L CNN "MPN"
+F 5 "Wurth Electronic" H 1800 6475 60  0001 L CNN "Manufacturer"
+	1    1600 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5375 950  5375
 $EndSCHEMATC

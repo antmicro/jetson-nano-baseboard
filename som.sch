@@ -21,13 +21,13 @@ Text Notes 10055 10037 0    96   ~ 0
 Mechanical model
 Text Notes 13555 8337 0    59   ~ 12
 Mounting studs
-Text Notes 13705 937  0    59   ~ 12
-Bypass Capacitors
+Text Notes 13605 1112 0    59   ~ 12
+Filtering Capacitors
 Text Notes 11405 6037 0    59   ~ 12
 System Buttons
 Text Notes 11255 3562 0    59   ~ 12
 System Status
-Text Notes 13700 800  0    59   ~ 12
+Text Notes 13600 975  0    59   ~ 12
 Module power
 Text Label 750  8350 0    60   ~ 0
 BT_M2_WAKE_AP
@@ -45,7 +45,7 @@ Text Label 2055 11062 0    70   ~ 0
 2309413-1
 Text Label 3925 1275 0    60   ~ 0
 PMIC_BBAT
-Text Label 14275 2600 2    60   ~ 0
+Text Label 14275 2825 2    60   ~ 0
 PMIC_BBAT
 Text Label 10525 2075 0    60   ~ 0
 PCIE1_RX0_N
@@ -75,7 +75,7 @@ Text GLabel 12800 4025 1    50   Input ~ 0
 5V0_SYS
 Text GLabel 11300 1125 1    50   Input ~ 0
 3V3_SYS
-Text GLabel 14125 2050 0    50   Input ~ 0
+Text GLabel 13900 2425 0    50   Input ~ 0
 5V0_SYS
 Text GLabel 13650 9225 0    50   Input ~ 0
 EGND
@@ -83,7 +83,7 @@ Text Notes 500  750  0    118  ~ 24
 SoM
 Text GLabel 1625 950  1    50   Input ~ 0
 VDD_MOD
-Text GLabel 14925 2050 2    50   Input ~ 0
+Text GLabel 14925 2425 2    50   Input ~ 0
 VDD_MOD
 $Comp
 L jetson-nano-baseboard:GND #GND_042
@@ -198,12 +198,12 @@ $EndComp
 $Comp
 L jetson-nano-baseboard:GND #GND_0161
 U 1 1 5E710416
-P 13775 3025
-F 0 "#GND_0161" H 13775 3025 20  0001 C CNN
-F 1 "GND" H 13770 2887 30  0000 C CNN
-F 2 "" H 13775 3025 70  0001 C CNN
-F 3 "" H 13775 3025 70  0001 C CNN
-	1    13775 3025
+P 13775 3250
+F 0 "#GND_0161" H 13775 3250 20  0001 C CNN
+F 1 "GND" H 13770 3112 30  0000 C CNN
+F 2 "" H 13775 3250 70  0001 C CNN
+F 3 "" H 13775 3250 70  0001 C CNN
+	1    13775 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -313,14 +313,14 @@ $EndComp
 $Comp
 L jetson-nano-baseboard:Testpad TP38
 U 1 1 5E710405
-P 14800 2250
-F 0 "TP38" V 14750 2550 60  0000 R TNN
-F 1 "~" H 14800 2250 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 14800 2250 50  0001 C CNN
-F 3 "" H 14800 2250 50  0001 C CNN
-F 4 "N/A" H -6880 -6362 50  0001 C CNN "MPN"
-F 5 "N/A" H -6880 -6362 50  0001 C CNN "Manufacturer"
-	1    14800 2250
+P 14800 2625
+F 0 "TP38" V 14750 2925 60  0000 R TNN
+F 1 "~" H 14800 2625 50  0001 C CNN
+F 2 "jetson-nano-baseboard-footprints:TP-R-1.5" H 14800 2625 50  0001 C CNN
+F 3 "" H 14800 2625 50  0001 C CNN
+F 4 "N/A" H -6880 -5987 50  0001 C CNN "MPN"
+F 5 "N/A" H -6880 -5987 50  0001 C CNN "Manufacturer"
+	1    14800 2625
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -405,14 +405,14 @@ $EndComp
 $Comp
 L jetson-nano-baseboard:battery BAT1
 U 1 1 5E7103F0
-P 13775 2825
-F 0 "BAT1" H 13885 2795 60  0000 L BNN
-F 1 "MS621FE-FL11E" H 13885 2715 60  0000 L BNN
-F 2 "jetson-nano-baseboard-footprints:MS621FE-FL11E" H 13885 2715 60  0001 C CNN
-F 3 "" H 13885 2715 60  0001 C CNN
-F 4 "MS621FE-FL11E" H -2705 -7037 50  0001 C CNN "MPN"
-F 5 "Seiko" H -2705 -7037 50  0001 C CNN "Manufacturer"
-	1    13775 2825
+P 13775 3050
+F 0 "BAT1" H 13885 3020 60  0000 L BNN
+F 1 "MS621FE-FL11E" H 13885 2940 60  0000 L BNN
+F 2 "jetson-nano-baseboard-footprints:MS621FE-FL11E" H 13885 2940 60  0001 C CNN
+F 3 "" H 13885 2940 60  0001 C CNN
+F 4 "MS621FE-FL11E" H -2705 -6812 50  0001 C CNN "MPN"
+F 5 "Seiko" H -2705 -6812 50  0001 C CNN "Manufacturer"
+	1    13775 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -953,8 +953,6 @@ Wire Wire Line
 Connection ~ 1625 1075
 Wire Wire Line
 	1625 1075 1625 950 
-Text Notes 13700 1150 0    59   ~ 12
-TODO: change to 330u
 Wire Wire Line
 	3850 1575 4600 1575
 Wire Wire Line
@@ -979,14 +977,14 @@ Wire Wire Line
 Wire Wire Line
 	3850 1075 4825 1075
 Wire Wire Line
-	14800 2200 14800 2050
-Connection ~ 14800 2050
+	14800 2575 14800 2425
+Connection ~ 14800 2425
 Wire Wire Line
-	14800 2050 14925 2050
+	14800 2425 14925 2425
 Wire Wire Line
-	13775 2725 13775 2600
+	13775 2950 13775 2825
 Wire Wire Line
-	13775 2600 14275 2600
+	13775 2825 14275 2825
 Wire Wire Line
 	13650 9225 13725 9225
 $Comp
@@ -1507,22 +1505,9 @@ Wire Wire Line
 Wire Wire Line
 	14650 5200 14750 5200
 Wire Wire Line
-	14125 2050 14400 2050
+	13900 2425 14200 2425
 Wire Wire Line
-	14600 2050 14800 2050
-$Comp
-L jetson-nano-baseboard:Ferrite_Bead_Small FB?
-U 1 1 618512B9
-P 14500 2050
-AR Path="/608DC6E9/618512B9" Ref="FB?"  Part="1" 
-AR Path="/610ACCAB/618512B9" Ref="FB2"  Part="1" 
-F 0 "FB2" V 14375 2050 50  0000 C CNN
-F 1 "742792022 " V 14625 2050 50  0000 C CNN
-F 2 "jetson-nano-baseboard-footprints:0805-cap" V 14430 2050 50  0001 C CNN
-F 3 "~" H 14500 2050 50  0001 C CNN
-	1    14500 2050
-	0    1    1    0   
-$EndComp
+	14600 2425 14800 2425
 $Comp
 L jetson-nano-baseboard:SPACER SP6
 U 1 1 5E7103ED
@@ -1671,5 +1656,18 @@ F 5 "CRCW0402100KFKEDHP" H 12650 7775 60  0001 L CNN "MPN"
 F 6 "100k" V 12503 7545 50  0000 L CNN "Val"
 	1    12450 7475
 	0    1    1    0   
+$EndComp
+$Comp
+L antmicroFerriteBeadsandChips:742792022 FB2
+U 1 1 6201B686
+P 14400 2425
+F 0 "FB2" H 14400 2818 60  0000 C CNN
+F 1 "742792022" H 14400 2606 60  0001 C CNN
+F 2 "antmicro-footprints:0805-res" H 14600 2625 60  0001 L CNN
+F 3 "https://www.we-online.com/katalog/datasheet/742792022.pdf" H 14600 2725 60  0001 L CNN
+F 4 "742792022" H 14400 2712 60  0000 C CNN "MPN"
+F 5 "Wurth Electronic" H 14400 2606 60  0000 C CNN "Manufacturer"
+	1    14400 2425
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

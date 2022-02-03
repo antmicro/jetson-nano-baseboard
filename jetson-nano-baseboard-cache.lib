@@ -43,6 +43,24 @@ X PGND 9 50 -1100 200 U 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
+# antmicroFerriteBeadsandChips_742792022
+#
+DEF antmicroFerriteBeadsandChips_742792022 FB 0 40 Y Y 1 F N
+F0 "FB" -150 150 60 H V C CNN
+F1 "antmicroFerriteBeadsandChips_742792022" 0 -150 60 H V L CNN
+F2 "antmicro-footprints:0805-res" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "742792022" 200 500 60 H I L CNN "MPN"
+F5 "Wurth Electronic" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_0R_0402
 #
 DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
@@ -800,27 +818,6 @@ X DSR# 6 800 100 300 L 70 70 0 1 I
 X DCD# 7 800 0 300 L 70 70 0 1 I
 X CTS# 8 800 300 300 L 70 70 0 1 I
 X CBUS4 9 800 -300 300 L 70 70 0 1 B
-ENDDRAW
-ENDDEF
-#
-# jetson-nano-baseboard_Ferrite_Bead_Small
-#
-DEF jetson-nano-baseboard_Ferrite_Bead_Small FB 0 0 N Y 1 F N
-F0 "FB" 75 50 50 H V L CNN
-F1 "jetson-nano-baseboard_Ferrite_Bead_Small" 75 -50 50 H V L CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Inductor_*
- L_*
- *Ferrite*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -50 0 -31 N
-P 2 0 1 0 0 35 0 51 N
-P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
-X ~ 1 0 100 50 D 50 50 1 1 P
-X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
