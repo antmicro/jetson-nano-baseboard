@@ -1,4 +1,4 @@
-update=Mon 03 Jan 2022 08:07:11 PM CET
+update=Thu 03 Feb 2022 21:49:44 CET
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ MinViaDrill=0.15
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.115
+TrackWidth1=0.1
 TrackWidth2=0.125
 TrackWidth3=0.15
 TrackWidth4=0.18
@@ -51,7 +51,7 @@ ViaDiameter1=0.5
 ViaDrill1=0.15
 ViaDiameter2=0.5
 ViaDrill2=0.15
-dPairWidth1=0.23
+dPairWidth1=0.138
 dPairGap1=0.125
 dPairViaGap1=0.25
 dPairWidth2=0.2
@@ -251,17 +251,17 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1
-TrackWidth=0.115
+TrackWidth=0.1
 ViaDiameter=0.5
 ViaDrill=0.15
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.23
+dPairWidth=0.138
 dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Z100_ext
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.15
@@ -272,7 +272,7 @@ dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Z100_in
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.15
@@ -283,7 +283,7 @@ dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Z50_ext
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.15
 ViaDiameter=0.5
 ViaDrill=0.15
@@ -294,7 +294,7 @@ dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=Z85_ext
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.15
@@ -305,7 +305,7 @@ dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=Z85_in
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.15
@@ -316,7 +316,7 @@ dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/6]
 Name=Z90_ext
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.15
@@ -327,7 +327,7 @@ dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/7]
 Name=Z90_in
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.15
@@ -338,7 +338,7 @@ dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/8]
 Name=supply
-Clearance=0.1
+Clearance=0.125
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.15
