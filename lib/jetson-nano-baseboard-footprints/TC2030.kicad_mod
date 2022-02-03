@@ -1,5 +1,5 @@
-(module TC2030 (layer F.Cu) (tedit 5E8F3F33)
-  (attr smd)
+(module TC2030 (layer F.Cu) (tedit 61FC3E02)
+  (attr virtual)
   (fp_text reference TP? (at 0 0 90) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
   )
