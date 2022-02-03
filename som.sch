@@ -1644,12 +1644,12 @@ Text GLabel 13225 7675 2    50   Output ~ 0
 USR_BUTTON
 NoConn ~ 1875 10550
 $Comp
-L antmicroResistors0402:R_100k_0402 R112
+L jetson-nano-baseboard:R_100k_0402 R112
 U 1 1 61ED8249
 P 12450 7475
 F 0 "R112" V 12405 7545 60  0000 L CNN
 F 1 "R_100k_0402" H 12450 7325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12650 7675 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 12650 7675 60  0001 L CNN
 F 3 "" H 12450 7475 50  0001 C CNN
 F 4 "VISHAY" H 12650 7875 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 12650 7775 60  0001 L CNN "MPN"
@@ -1658,12 +1658,12 @@ F 6 "100k" V 12503 7545 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:742792022 FB2
+L jetson-nano-baseboard:742792022 FB2
 U 1 1 6201B686
 P 14400 2425
 F 0 "FB2" H 14400 2818 60  0000 C CNN
 F 1 "742792022" H 14400 2606 60  0001 C CNN
-F 2 "antmicro-footprints:0805-res" H 14600 2625 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-res" H 14600 2625 60  0001 L CNN
 F 3 "https://www.we-online.com/katalog/datasheet/742792022.pdf" H 14600 2725 60  0001 L CNN
 F 4 "742792022" H 14400 2712 60  0000 C CNN "MPN"
 F 5 "Wurth Electronic" H 14400 2606 60  0000 C CNN "Manufacturer"

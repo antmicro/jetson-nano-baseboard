@@ -2397,12 +2397,12 @@ Wire Wire Line
 Wire Wire Line
 	5625 1125 5700 1125
 $Comp
-L antmicroResistors0402:R_0R_0402 R93
+L jetson-nano-baseboard:R_0R_0402 R93
 U 1 1 625DF619
 P 5825 3050
 F 0 "R93" H 5825 3173 60  0000 C CNN
 F 1 "R_0R_0402" H 5825 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6025 3250 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 6025 3250 60  0001 L CNN
 F 3 "" H 5825 3050 50  0001 C CNN
 F 4 "PANASONIC" H 6025 3450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6025 3350 60  0001 L CNN "MPN"
@@ -2431,12 +2431,12 @@ Connection ~ 7175 3175
 Text Label 3150 2875 2    50   ~ 0
 VDD_5V_DCDC
 $Comp
-L antmicroResistors0402:R_0R_0402 R76
+L jetson-nano-baseboard:R_0R_0402 R76
 U 1 1 62667AA0
 P 3150 3025
 F 0 "R76" V 3195 2955 60  0000 R CNN
 F 1 "R_0R_0402" H 3150 2875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3350 3225 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0402-res" H 3350 3225 60  0001 L CNN
 F 3 "" H 3150 3025 50  0001 C CNN
 F 4 "PANASONIC" H 3350 3425 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3350 3325 60  0001 L CNN "MPN"
@@ -2448,12 +2448,12 @@ Text Label 2075 3075 0    50   ~ 0
 5V_COMP
 Connection ~ 3150 3175
 $Comp
-L antmicroDCDCConverters:SIC477ED-T1-GE3 U6
+L jetson-nano-baseboard:SIC477ED-T1-GE3 U6
 U 1 1 628802FC
 P 4700 2575
 F 0 "U6" H 4700 3732 50  0000 C CNN
 F 1 "SIC477ED-T1-GE3" H 4700 3641 50  0000 C CNN
-F 2 "antmicro-footprints:SIC47XED-T1-GE3" H 4700 2575 50  0001 L BNN
+F 2 "jetson-nano-baseboard-footprints:SIC47XED-T1-GE3" H 4700 2575 50  0001 L BNN
 F 3 "https://www.vishay.com/docs/75786/sic47x.pdf" H 4700 2575 50  0001 L BNN
 F 4 "VISHAY" H 4700 2575 50  0001 L BNN "Manufacturer"
 F 5 "SIC477ED-T1-GE3" H 4700 3550 50  0000 C CNN "MPN"
@@ -2541,12 +2541,12 @@ $EndComp
 Text GLabel 12350 6625 0    50   Input ~ 0
 1V8_SYS
 $Comp
-L antmicroFerriteBeadsandChips:742792022 FB3
+L jetson-nano-baseboard:742792022 FB3
 U 1 1 620C3704
 P 1600 5375
 F 0 "FB3" H 1600 5662 60  0000 C CNN
 F 1 "742792022" H 1600 5556 60  0000 C CNN
-F 2 "antmicro-footprints:0805-res" H 1800 5575 60  0001 L CNN
+F 2 "jetson-nano-baseboard-footprints:0805-res" H 1800 5575 60  0001 L CNN
 F 3 "https://www.we-online.com/katalog/datasheet/742792022.pdf" H 1800 5675 60  0001 L CNN
 F 4 "742792022" H 1800 5875 60  0001 L CNN "MPN"
 F 5 "Wurth Electronic" H 1800 6475 60  0001 L CNN "Manufacturer"
