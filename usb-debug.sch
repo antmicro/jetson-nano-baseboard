@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 8
 Title "Jetson Nano Baseboard"
-Date "2021-12-31"
-Rev "1.5.0"
+Date "2022-02-04"
+Rev "1.5.1"
 Comp "Antmicro Ltd"
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd"
