@@ -416,19 +416,6 @@ F 5 "Seiko" H -2705 -6812 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:ADAM-TECH_PCA-10 J10
-U 1 1 5E7103EF
-P 11650 1675
-F 0 "J10" H 11650 975 60  0000 L BNN
-F 1 "~" H 11650 1675 50  0001 C CNN
-F 2 "jetson-nano-baseboard-footprints:PCA-10" H 11650 1675 50  0001 C CNN
-F 3 "" H 11650 1675 50  0001 C CNN
-F 4 "PCA-10" H -9930 -4187 50  0001 C CNN "MPN"
-F 5 "Adam Tech" H -9930 -4187 50  0001 C CNN "Manufacturer"
-	1    11650 1675
-	1    0    0    -1  
-$EndComp
-$Comp
 L jetson-nano-baseboard:Testpad TP27
 U 1 1 5E7103EC
 P 4575 3275
@@ -1668,6 +1655,19 @@ F 3 "https://www.we-online.com/katalog/datasheet/742792022.pdf" H 14600 2725 60 
 F 4 "742792022" H 14400 2712 60  0000 C CNN "MPN"
 F 5 "Wurth Electronic" H 14400 2606 60  0000 C CNN "Manufacturer"
 	1    14400 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L jetson-nano-baseboard:5051101097 J?
+U 1 1 62043EB3
+P 11650 2275
+F 0 "J?" H 11730 2867 50  0000 L CNN
+F 1 "5051101097" H 11730 2776 50  0000 L CNN
+F 2 "jetson-nano-baseboard-footprints:5051101097" H 11500 2025 50  0001 C CNN
+F 3 "" H 11200 1975 50  0001 C CNN
+F 4 "5051101097" H 11350 1875 60  0001 L CNN "MPN"
+F 5 "Molex" H 11200 2125 60  0001 L CNN "Manufacturer"
+	1    11650 2275
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
