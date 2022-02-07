@@ -1658,10 +1658,10 @@ F 5 "Wurth Electronic" H 14400 2606 60  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:5051101097 J?
+L jetson-nano-baseboard:5051101097 J10
 U 1 1 62043EB3
 P 11650 2275
-F 0 "J?" H 11730 2867 50  0000 L CNN
+F 0 "J10" H 11730 2867 50  0000 L CNN
 F 1 "5051101097" H 11730 2776 50  0000 L CNN
 F 2 "jetson-nano-baseboard-footprints:5051101097" H 11500 2025 50  0001 C CNN
 F 3 "" H 11200 1975 50  0001 C CNN
