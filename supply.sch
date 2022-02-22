@@ -1280,7 +1280,7 @@ F 5 "Texas Instruments" H 13875 7175 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:LM3671MF-1.5_NOPB U1
+L jetson-nano-baseboard:LM3671MF-3.3_NOPB U1
 U 1 1 61EC62D9
 P 2575 7925
 F 0 "U1" H 2575 8250 50  0000 C CNN
@@ -1400,7 +1400,7 @@ F 3 "" H 1225 8125 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jetson-nano-baseboard:LM3671MF-1.5_NOPB U5
+L jetson-nano-baseboard:LM3671MF-3.3_NOPB U5
 U 1 1 6217855E
 P 2575 8950
 F 0 "U5" H 2575 9275 50  0000 C CNN
