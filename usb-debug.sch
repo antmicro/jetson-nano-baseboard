@@ -2098,19 +2098,6 @@ F 5 "ON Semiconductor" H 2850 10775 60  0001 L CNN "Manufacturer"
 	1    2650 9675
 	1    0    0    -1  
 $EndComp
-$Comp
-L jetson-nano-baseboard:AP22652W6-7 IC16
-U 1 1 618DCEF2
-P 4925 9475
-F 0 "IC16" H 4675 9150 50  0000 C CNN
-F 1 "AP22652W6-7" H 4875 9225 50  0000 C CNN
-F 2 "jetson-nano-baseboard-footprints:SOT-23-6" H 4925 9225 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP22652_53_52A_53A.pdf" H 4925 9475 50  0001 C CNN
-F 4 "Diodes Incorporated " H 4925 9125 50  0001 C CNN "Manufacturer"
-F 5 "" H 4925 9475 50  0000 C CNN "DNP"
-	1    4925 9475
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4325 9375 4525 9375
 Wire Wire Line
@@ -2342,4 +2329,17 @@ Wire Wire Line
 	2150 10100 2150 10125
 Wire Wire Line
 	2650 9875 2650 10150
+$Comp
+L jetson-nano-baseboard:AP22653W6-7 IC16
+U 1 1 62637B7A
+P 4925 9475
+F 0 "IC16" H 4925 9202 50  0000 C CNN
+F 1 "AP22653W6-7" H 4925 9111 50  0000 C CNN
+F 2 "jetson-nano-baseboard-footprints:SOT-23-6" H 4925 9225 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP22652_53_52A_53A.pdf" H 4925 9475 50  0001 C CNN
+F 4 "Diodes Incorporated " H 4925 9125 50  0001 C CNN "Manufacturer"
+F 5 "AP22653W6-7" H 4925 9475 50  0001 C CNN "MPN"
+	1    4925 9475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
