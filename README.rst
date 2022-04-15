@@ -17,7 +17,7 @@ Please refer to the Product Design Guide for the relevant SoM for more details r
 The baseboard, its custom variants designed by Antmicro per customer's specification, and essential accessories can be purchased from `Capable Robot Components <https://capablerobot.com/products/nx-baseboard/>`_.
 
 The design files for this project starting from Rev. 1.5 are provided and maintained in KiCad.
-Older revisions of the board were prepared in Altium Designer and are kept on a separate branch.
+Older revisions of the board were prepared in Altium Designer and are kept on a separate `branch <https://github.com/antmicro/jetson-nano-baseboard/tree/1.4.7-altium>`_.
 
 Repository structure:
 ---------------------
@@ -41,13 +41,6 @@ Key features
 * M.2 (key M) connector exposing PCIe x4 interface
 * RTC battery backup
 * EEPROM for storing board ID/SN
-
-Board layout & dimensions
-=========================
-
-The picture below presents a general layout of the PCB with marked I/O interfaces.
-
-.. figure:: img/jetson-nano-layout.png
 
 Getting started
 ===============
