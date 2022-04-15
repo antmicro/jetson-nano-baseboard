@@ -2,7 +2,7 @@
 Antmicro's Open Source Jetson Baseboard
 =======================================
 
-Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2022 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: img/jetson-nano-baseboard.png
    :scale: 40%
@@ -10,11 +10,14 @@ Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 Overview
 ========
 
-This repository contains open hardware design files for a baseboard supporting the NVIDIA Jetson Nano, Xavier NX and TX2 NX SoMs. It's been created by `Antmicro <https://antmicro.com>`_, a custom hardware, software and AI engineering company and NVIDIA' Jetson ecosystem partner.
+This repository contains open hardware design files for a baseboard supporting the NVIDIA Jetson Nano, Xavier NX and TX2 NX SoMs. It was created by `Antmicro <https://antmicro.com>`_, a custom hardware, software and AI engineering company and NVIDIA's Jetson ecosystem partner.
 The board can be interfaced with MIPI CSI-2 video devices through a unified Flexible Flat Cable (FFC) connector, supporting up to 4 sensors in a 2-lane configuration or 3 sensors in a 4-lane configuration.
-Please refer to the ``Jetson Nano OEM Product Design Guide`` for more details regarding the supported CSI lane mappings.
+Please refer to the Product Design Guide for the relevant SoM for more details regarding the supported CSI lane mappings. You will find the SoM-related resources in NVIDIA's `Jetson Download Center <https://developer.nvidia.com/embedded/downloads>`_. 
 
 The baseboard, its custom variants designed by Antmicro per customer's specification, and essential accessories can be purchased from `Capable Robot Components <https://capablerobot.com/products/nx-baseboard/>`_.
+
+The design files for this project starting from Rev. 1.5 are provided and maintained in KiCad.
+Older revisions of the board were prepared in Altium Designer and are kept on a separate branch.
 
 Repository structure:
 ---------------------
@@ -32,14 +35,12 @@ Key features
 * Gigabit Ethernet RJ45 connector
 * Micro USB debug connector
 * USB-C DFP (Host) port
-* Mini HDMI video output interface
+* Micro HDMI video output interface
 * Mini DisplayPort video output interface
 * 2x 50-pin FFC connectors exposing up to 4 MIPI CSI-2 camera interfaces
 * M.2 (key M) connector exposing PCIe x4 interface
 * RTC battery backup
 * EEPROM for storing board ID/SN
-
-The PCB project files were prepared in KiCad 5.1.x
 
 Board layout & dimensions
 =========================
@@ -61,8 +62,8 @@ BSP
 ---
 
 The baseboard's I/O interfaces are supported in the standard `Linux for Tegra (L4T) BSPs <https://developer.nvidia.com/embedded/linux-tegra>`_ provided by NVIDIA for Jetson Nano / Xavier NX / TX2 NX. The BSP should work with the Open Source Jetson Baseboard out of the box. However, to use the baseboard with various cameras and other accessories you may need to make modifications. If you plan to use the board with Allied Vision `Alvium <https://www.alliedvision.com/en/products/embedded-vision-solutions/alvium-camera-modules-for-embedded-and-machine-vision-applications.html>`_ image sensors, there is a ``linux-patches`` directory, which contains patch files that add support for the Allied Vision cameras for this baseboard with the Jetson Nano NX module.
-The patches are named with the L4T release and can be applied to corresponding branches of the Linux `repository <https://github.com/alliedvision/linux_nvidia_jetson>`_ released by Allied Vision. 
-Antmicro's services involve BSP development so you can hire us to the necessary modifications for you.
+The patches are named with the L4T release and can be applied to the corresponding branches of the Linux `repository <https://github.com/alliedvision/linux_nvidia_jetson>`_ released by Allied Vision. 
+Antmicro's services involve BSP development so you can hire us to make the necessary modifications for you.
 
 You can use the USB OTG interface connector to upload a BSP image to a SoM inserted into the baseboard.
 
@@ -76,26 +77,11 @@ The default debug UART channel is accessible through ``/dev/ttyUSB0`` (assuming 
 The default baudrate for serial debug connection is 115200 baud with an 8-bit transmission, 1 stop bit and with no flow control.
 
 Revision info
-=============
+-------------
 
-The latest revision of the PCB includes the following changes and amendments:
-
-* Introduced an 8-layer PCB stackup for a better separation of PCIe lanes
-* Rotated the M.2 connector by 180 degrees to keep it away from the on-board DC/DC
-* Changed the stacking height of the M.2 connector
-* Simplified the M.2 supporting circuitry
-* Exposed the ``CSI-G`` and ``PCIE1`` interfaces on the `Jetson Xavier NX <https://developer.nvidia.com/embedded/jetson-xavier-nx>`_
-* Updated FAN control circuitry
-* Changed GPIO assignment for camera-triggering signals
-* Optimized board cutout for the DisplayPort connector
-* Fine-tuned selected footprints to improve the reliability of the reflow soldering
-* Changed power sequencing of the on-board DC/DC converters
-* Fixed ``TPD8S009`` footprint
-* Removed MicroSD card socket
-* Updated ``USBC_VBUS`` control circuitry
-* Added EEPROM for SN/ID storage
-
-Please check the `releases <https://github.com/antmicro/jetson-nano-baseboard/releases>`_ for a brief summary of major changes introduced in previous revisions.
+The latest revision of the board (1.5.x) includes the design files converted into KiCad.
+The BOM has been altered so the board can be produced despite the global chip shortage situation.
+Revision 1.5.x changes the I2C multiplexer (PCA9548 -> PCA9547) used for handling the cameras and video accessories. You may need to adjust the devicetree entries for video accessories to make them work with the new I2C multiplexer chip.
 
 License
 =======
