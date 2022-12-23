@@ -32,7 +32,7 @@ The remaining files are stored in the following directories:
 * ``img`` - contains graphics for this README
 * ``doc`` - contains generated schematics and other documentation
 * ``lib`` - contains KiCad component library
-* ``linux-patches``` - contains patches which add camera support for camera modules from Allied Vision (see the BSP section below)
+* ``linux-patches`` - contains patches which add camera support for camera modules from Allied Vision (see the BSP section below)
 
 Key features
 ============
