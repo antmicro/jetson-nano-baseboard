@@ -166,7 +166,7 @@ index 000000000..15a67243e
 +					csi_chan0_port0: port@0 {
 +						reg = <0>;
 +						avt_csi2_csi_in0: endpoint@0 {
-+							port-index = <5>;
++							port-index = <6>;
 +							bus-width = <2>;
 +							remote-endpoint = <&avt_csi2_out0>;
 +						};
@@ -690,7 +690,7 @@ index 000000000..38c569d35
 +					csi_chan0_port0: port@0 {
 +						reg = <0>;
 +						avt_csi2_csi_in0: endpoint@0 {
-+							port-index = <5>;
++							port-index = <6>;
 +							bus-width = <2>;
 +							remote-endpoint = <&avt_csi2_out0>;
 +						};

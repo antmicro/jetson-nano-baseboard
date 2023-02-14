@@ -20,7 +20,7 @@ connection options, as well as the configuration information needed to specify t
 
 | **Connector Designation** | **I2C Mux Index** | **CSI Port Index** | **Max Lanes** | **CSI Serial Name** | **Single Cable?** |
 |:-------------------------:|:-----------------:|:------------------:|:-------------:|:-------------------:|:-----------------:|
-|  FFC #1 (J6) Left Camera  |         0         |          5         |       2       |       serial_g      |                   |
+|  FFC #1 (J6) Left Camera  |         0         |          6(5)      |       2       |       serial_g      |                   |
 |  FFC #1 (J6) Right Camera |         1         |          2         |       4       |       serial_e      |         x         |
 |  FFC #2 (J7) Right Camera |         2         |          0         |       4       |       serial_a      |         x         |
 |  FFC #2 (J7) Left Camera  |         3         |          4         |       4       |       serial_c      |                   |
@@ -33,6 +33,10 @@ the specification in the schematic.
 > Note 2. The Xavier NX can support a maximum of 12 total CSI lanes at once, even though the baseboard exposes a total of
 14 lanes at the camera connections. Keep in mind this limit when customising the configuration as it is not
 possible to run all cameras ports at their maximum supported lanes at once.
+
+> Note 3. The CSI lanes connecting the FFC #1 (J6) Left Camera to the xaiver NX are at CSI port index 6, but for
+bus-routing purposes the port definition inside 'tegra-capture-vi' and 'avt_csi2' in the device-tree should be set
+to index 5 for this camera.
 
 ### Included configurations
 
