@@ -42,13 +42,11 @@ to index 5 for this camera.
 
 The following configurations are provided by this patch:
 
-- **Antmicro All**: The default, all 4 ports enabled at 2-lanes, use with any configuration of camera's and cables.
-- **Antmicro Dual J6**: 2x 2-lane cameras configured on J6, for use with the dual-alvium flex cable
-- **Antmicro Dual J7**: 2x 4-lane cameras configured on J7, for use with the dual-alvium flex cable
-- **Antmicro Dual Split**: 2x 4-lane cameras, configured with one on each connector, for use with the single-alvium flex cables
+- **Antmicro**: The default, all 4 ports enabled at 2-lanes, use with any configuration of camera's and cables.
+- **Antmicro 4-Lane**: All 3 ports supporting 4-lanes enabled at full-width, J6 Left camera disabled (see note 2 above)
 
 > Note 1. Not all cameras need to be present in order for a configuration to work at runtime. Unless there are other
-restrictions or limitations, the '`Antmicro All`' configuration provided here should be suitable for *most*
+restrictions or limitations, the '`Antmicro`' configuration provided here should be suitable for *most*
 applications with CSI cameras supporting 2-lanes, regardless of the number or position of cameras/ports.
 
 If you wish to use a customised configuration: Note down the information in the table above for your chosen
@@ -78,11 +76,11 @@ yourself before compiling the patch. Each configuration is located in the allied
 
 To add a new configuration to the Allied Vision driver:
 
-1. Under `linux_nvidia_jetson/hardware/nvidia/platform/t19x/jakku/kernel-dts/common`, create a new dtsi file with the name `tegra194-camera-jakku-avt-csi2-antmicro-<your-config-name>.dtsi`. Use the "antmicro-all" configuration as a
+1. Under `linux_nvidia_jetson/hardware/nvidia/platform/t19x/jakku/kernel-dts/common`, create a new dtsi file with the name `tegra194-camera-jakku-avt-csi2-antmicro-<your-config-name>.dtsi`. Use the antmicro base configuration as a
 starting point and then refer to the [nvidia camera development guide](https://docs.nvidia.com/jetson/archives/r35.1/DeveloperGuide/text/SD/CameraDevelopment/SensorSoftwareDriverProgramming.html) for more information on how to adjust the configuration.
 2. Under `linux_nvidia_jetson/hardware/nvidia/platform/t19x/jakku/kernel-dts/`, Create a top-level .dts entry for each
 xavier module type `tegra194-p3668-0000-p3509-0000-antmicro-<your-config-name>.dts` and
-`tegra194-p3668-0001-p3509-0000-antmicro-<your-config-name>.dts`. Again, use the "antmicro-all" files as a
+`tegra194-p3668-0001-p3509-0000-antmicro-<your-config-name>.dts`. Again, use the base antmicro files as a
 starting point.
 3. Edit `linux_nvidia_jetson/hardware/nvidia/platform/t19x/jakku/kernel-dts/Makefile` and add the lines for your
 configuration alongside the existing antmicro definitions.
