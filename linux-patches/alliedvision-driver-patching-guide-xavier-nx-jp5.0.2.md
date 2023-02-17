@@ -1,9 +1,10 @@
 # Antmicro Baseboard Allied-Vision Camera Driver Setup Guide (Xavier NX, Jetpack 5.0.2)
 
 This guide documents the process for building and deploying the Allied Vision driver for the antmicro baseboard with the
-appropriate patch and configuration for your chosen camera setup. Whilst this guide is specifically for the xavier NX,
-the general process can be applied to other boards should you be interested in adding support for a board+version combo
-not provided by any of the existing patches.
+appropriate patch and configuration for your chosen camera setup. 
+
+Whilst this guide is specifically for the xavier NX, the general process can be applied to other boards should you be 
+interested in adding support for a board+version combo not provided by any of the existing patches.
 
 ## Prerequisites
 
@@ -42,8 +43,8 @@ to index 5 for this camera.
 
 The following configurations are provided by this patch:
 
-- **Antmicro**: The default, all 4 ports enabled at 2-lanes, use with any configuration of camera's and cables.
-- **Antmicro 4-Lane**: All 3 ports supporting 4-lanes enabled at full-width, J6 Left camera disabled (see note 2 above)
+- **Antmicro JNB**: The default, all 4 ports enabled at 2-lanes, use with any configuration of camera's and cables.
+- **Antmicro JNB 4-Lane**: All 3 ports supporting 4-lanes enabled at full-width, J6 Left camera disabled (see note 2 above)
 
 > Note 1. Not all cameras need to be present in order for a configuration to work at runtime. Unless there are other
 restrictions or limitations, the '`Antmicro`' configuration provided here should be suitable for *most*
