@@ -1,4 +1,4 @@
-2665586973360350
+2667277180609463
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -6607,6 +6607,13 @@ S2B-PH-K-S
 0
 2
 2
+antmicro-footprints
+S4B-PH-SM4-TB
+
+
+0
+6
+5
 antmicro-footprints
 S25FL128SAGNFI000
 
