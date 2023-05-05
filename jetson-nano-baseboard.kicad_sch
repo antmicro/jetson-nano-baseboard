@@ -6,71 +6,99 @@
 
   (title_block
     (title "Jetson Nano Baseboard")
-    (date "2023-04-19")
-    (rev "1.6.1")
+    (date "2023-07-27")
+    (rev "1.6.2")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )
 
   (lib_symbols
-    (symbol "jetson-nano-baseboard:antmicro_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "N" (id 0) (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "antmicroMechanicalParts:antmicro_logo" (in_bom yes) (on_board yes)
+      (property "Reference" "N" (id 0) (at 15.24 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "antmicro_logo" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "antmicro_logo" (id 1) (at 15.24 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "jetson-nano-baseboard-footprints:antmicro-logo" (id 2) (at -2.54 6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Footprint" "antmicro-footprints:antmicro-logo" (id 2) (at 15.24 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Datasheet" "" (id 3) (at 15.24 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (symbol "antmicro_logo_0_0"
-        (text "Logo" (at 1.27 1.27 0)
-          (effects (font (size 2.0066 2.0066)))
+      (property "Author" "Antmicro" (id 4) (at 15.24 -15.24 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (id 5) (at 15.24 -17.78 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Manufacturer" "None" (id 6) (at 15.24 -20.32 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (symbol "antmicro_logo_1_1"
+        (text "Logo" (at 0 0 0)
+          (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
         )
       )
     )
-    (symbol "jetson-nano-baseboard:crc_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "N" (id 0) (at 0.508 1.016 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "antmicroMechanicalParts:crc_logo" (in_bom yes) (on_board yes)
+      (property "Reference" "N" (id 0) (at 15.24 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "crc_logo" (id 1) (at 0.762 -3.81 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "crc_logo" (id 1) (at 15.24 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "jetson-nano-baseboard-footprints:CRC_logo_15mm" (id 2) (at 0.508 -6.096 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Footprint" "antmicro-footprints:CRC_logo_15mm" (id 2) (at 15.24 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Datasheet" "" (id 3) (at 15.24 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Manufacturer" "None" (id 4) (at 15.24 -15.24 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (id 5) (at 15.24 -17.78 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (id 6) (at 15.24 -20.32 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (symbol "crc_logo_1_1"
-        (text "Logo" (at 0.762 -1.016 0)
-          (effects (font (size 2.0066 2.0066)))
+        (text "Logo" (at 0 0 0)
+          (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
         )
       )
     )
-    (symbol "jetson-nano-baseboard:oshw_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "N" (id 0) (at 0.508 1.016 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "antmicroMechanicalParts:oshw_logo" (in_bom yes) (on_board yes)
+      (property "Reference" "N" (id 0) (at 15.24 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "oshw_logo" (id 1) (at 0.762 -3.81 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "oshw_logo" (id 1) (at 15.24 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "jetson-nano-baseboard-footprints:oshw-logo" (id 2) (at 0.508 -6.096 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Footprint" "antmicro-footprints:oshw-logo" (id 2) (at 15.24 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Datasheet" "" (id 3) (at 15.24 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (id 4) (at 15.24 -15.24 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (id 5) (at 15.24 -17.78 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Manufacturer" "None" (id 6) (at 15.24 -20.32 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (symbol "oshw_logo_1_1"
-        (text "Logo" (at 0.762 -1.016 0)
-          (effects (font (size 2.0066 2.0066)))
+        (text "Logo" (at 0 0 0)
+          (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
         )
       )
     )
   )
+
 
 
   (image (at 77.47 271.6022) (scale 0.15)
@@ -2262,54 +2290,81 @@
     (uuid d2d33dff-6140-4030-afbc-d32e63e800c7)
   )
 
-  (symbol (lib_id "jetson-nano-baseboard:antmicro_logo") (at 383.54 247.015 0) (unit 1)
-    (in_bom yes) (on_board yes)
+  (symbol (lib_id "antmicroMechanicalParts:antmicro_logo") (at 381 247.65 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000060bdca6d)
-    (property "Reference" "N1" (id 0) (at 388.9756 244.6528 0)
+    (property "Reference" "N1" (id 0) (at 387.35 245.3575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "antmicro_logo" (id 1) (at 388.9756 246.9642 0)
+    (property "Value" "antmicro_logo" (id 1) (at 387.35 247.8975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jetson-nano-baseboard-footprints:antmicro-logo_scaled_15mm" (id 2) (at 381 240.665 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_15mm" (id 2) (at 378.46 241.3 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "" (id 3) (at 383.54 238.125 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "" (id 3) (at 381 238.76 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Author" "Antmicro" (id 4) (at 396.24 262.89 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 5) (at 396.24 265.43 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "None" (id 6) (at 396.24 267.97 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
   )
 
-  (symbol (lib_id "jetson-nano-baseboard:oshw_logo") (at 384.175 239.395 0) (unit 1)
-    (in_bom yes) (on_board yes)
+  (symbol (lib_id "antmicroMechanicalParts:oshw_logo") (at 381 238.125 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000060bdce33)
-    (property "Reference" "N2" (id 0) (at 389.1026 239.3188 0)
+    (property "Reference" "N2" (id 0) (at 387.35 235.8325 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "oshw_logo" (id 1) (at 389.1026 241.6302 0)
+    (property "Value" "oshw_logo" (id 1) (at 387.35 238.3725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jetson-nano-baseboard-footprints:oshw-logo" (id 2) (at 384.683 245.491 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "antmicro-footprints:oshw-logo" (id 2) (at 381.508 244.221 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "" (id 3) (at 384.175 239.395 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "" (id 3) (at 381 238.125 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Author" "Antmicro" (id 4) (at 396.24 253.365 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 5) (at 396.24 255.905 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "None" (id 6) (at 396.24 258.445 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
   )
 
-  (symbol (lib_id "jetson-nano-baseboard:crc_logo") (at 384.175 233.68 0) (unit 1)
-    (in_bom yes) (on_board yes)
+  (symbol (lib_id "antmicroMechanicalParts:crc_logo") (at 381 228.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000060cb08fe)
-    (property "Reference" "N3" (id 0) (at 389.1026 233.6038 0)
+    (property "Reference" "N3" (id 0) (at 387.35 226.3075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "crc_logo" (id 1) (at 389.1026 235.9152 0)
+    (property "Value" "crc_logo" (id 1) (at 387.35 228.8475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jetson-nano-baseboard-footprints:CRC_logo_15mm" (id 2) (at 384.683 239.776 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "antmicro-footprints:CRC_logo_15mm" (id 2) (at 381.508 234.696 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "" (id 3) (at 384.175 233.68 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "" (id 3) (at 381 228.6 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer" "None" (id 4) (at 396.24 243.84 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (id 5) (at 396.24 246.38 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 6) (at 396.24 248.92 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
   )
 
@@ -2412,9 +2467,6 @@
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e710516"
       (reference "#GND01") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-0000627be9b4"
-      (reference "#GND0101") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060d9f63d/347fb458-ea90-4a7e-bb7d-00d74e7ad884"
       (reference "#GND0102") (unit 1) (value "GND") (footprint "")
     )
@@ -2435,9 +2487,6 @@
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061f1318e"
       (reference "#GND_05") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006217856f"
-      (reference "#GND_06") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061fbc26b"
       (reference "#GND_07") (unit 1) (value "GND") (footprint "")
@@ -2481,9 +2530,6 @@
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061c853bb"
       (reference "#GND_037") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e71044d"
-      (reference "#GND_038") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061c9b3db"
       (reference "#GND_039") (unit 1) (value "GND") (footprint "")
     )
@@ -2496,9 +2542,6 @@
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710429"
       (reference "#GND_042") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710428"
-      (reference "#GND_043") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062598bf1"
       (reference "#GND_044") (unit 1) (value "GND") (footprint "")
     )
@@ -2510,9 +2553,6 @@
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710424"
       (reference "#GND_047") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710422"
-      (reference "#GND_048") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061ecd7a8"
       (reference "#GND_049") (unit 1) (value "GND") (footprint "")
@@ -2547,9 +2587,6 @@
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103dd"
       (reference "#GND_064") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103db"
-      (reference "#GND_065") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103cc"
       (reference "#GND_073") (unit 1) (value "GND") (footprint "")
     )
@@ -2561,9 +2598,6 @@
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103c7"
       (reference "#GND_076") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228562b"
-      (reference "#GND_077") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228562a"
       (reference "#GND_080") (unit 1) (value "GND") (footprint "")
@@ -2597,12 +2631,6 @@
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710361"
       (reference "#GND_094") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710360"
-      (reference "#GND_095") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e71035f"
-      (reference "#GND_096") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e71035b"
       (reference "#GND_097") (unit 1) (value "GND") (footprint "")
@@ -2748,7 +2776,7 @@
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b8"
       (reference "#GND_0144") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061beaa0e"
+    (path "/00000000-0000-0000-0000-0000608dc6e9/380c2133-8544-4e10-8832-78aadc668fc8"
       (reference "#GND_0145") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b39922"
@@ -2760,10 +2788,10 @@
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062862f93"
       (reference "#GND_0148") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062862f99"
+    (path "/00000000-0000-0000-0000-0000608dc6e9/2265580e-a920-4c4e-92d9-118fb4fd08cd"
       (reference "#GND_0149") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000060735e11"
+    (path "/00000000-0000-0000-0000-0000608dc6e9/849d4343-cf14-466d-ae40-344f319b6fd5"
       (reference "#GND_0150") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061d0f309"
@@ -2835,6 +2863,18 @@
     (path "/00000000-0000-0000-0000-0000608df3e5/88ab517d-f65c-46fc-80ff-c7c2e421bfef"
       (reference "#GND_0173") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000608dc6e9/7b89f8c5-2800-42cb-8b73-7a2d9bbfef22"
+      (reference "#GND_0174") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000608e1758/1c518e91-e98a-45fc-b9d8-2bdf14fe3031"
+      (reference "#GND_0175") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000608df3e5/db610704-620b-4a0d-9166-62da684601ee"
+      (reference "#GND_0176") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060d9f63d/b8c1723e-d754-4a5c-a3f3-652fe02fa1c4"
+      (reference "#GND_0177") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000608e1758/eb02b869-71bd-4070-a487-9ead837ec640"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -2847,1145 +2887,1142 @@
     (path "/00000000-0000-0000-0000-0000608e1758/1d14652c-1194-4dcc-b89d-4f53cdacba7c"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e71036b"
-      (reference "#SHIELD01") (unit 1) (value "SHIELD") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f0"
-      (reference "BAT1") (unit 1) (value "MS621FE-FL11E") (footprint "jetson-nano-baseboard-footprints:MS621FE-FL11E")
+      (reference "BAT1") (unit 1) (value "MS621FE-FL11E") (footprint "antmicro-footprints:MS621FE-FL11E")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e71040f"
-      (reference "BOOT1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:LED0603")
+      (reference "BOOT1") (unit 1) (value "~") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000614d0f57"
-      (reference "C1") (unit 1) (value "C_4u7_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C1") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000614f2a58"
-      (reference "C2") (unit 1) (value "C_4u7_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C2") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006125ccfa"
-      (reference "C3") (unit 1) (value "C_4u7_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C3") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061236cb4"
-      (reference "C4") (unit 1) (value "C_4u7_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C4") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000615ee274"
-      (reference "C5") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C5") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061063ad9"
-      (reference "C6") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C6") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061107231"
-      (reference "C7") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C7") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000610663ec"
-      (reference "C8") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C8") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060eeb81f"
-      (reference "C9") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C9") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000060b97865"
-      (reference "C10") (unit 1) (value "C_330u_KEMET_B") (footprint "jetson-nano-baseboard-footprints:KEMET_B")
+      (reference "C10") (unit 1) (value "C_330u_KEMET_B") (footprint "antmicro-footprints:KEMET_B")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000060b9663e"
-      (reference "C11") (unit 1) (value "C_330u_KEMET_B") (footprint "jetson-nano-baseboard-footprints:KEMET_B")
+      (reference "C11") (unit 1) (value "C_330u_KEMET_B") (footprint "antmicro-footprints:KEMET_B")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006110973a"
-      (reference "C12") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C12") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/c4cf9ceb-08e2-4528-8495-963c501890e0"
-      (reference "C13") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C13") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062be91a7"
-      (reference "C14") (unit 1) (value "C_100p_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C14") (unit 1) (value "C_100p_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062842a35"
-      (reference "C15") (unit 1) (value "C_47p_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C15") (unit 1) (value "C_47p_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000621cfa67"
-      (reference "C16") (unit 1) (value "C_2u2_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C16") (unit 1) (value "C_2u2_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000064936b99"
-      (reference "C17") (unit 1) (value "C_10u_1206_50V") (footprint "jetson-nano-baseboard-footprints:1206-cap")
+      (reference "C17") (unit 1) (value "C_10u_1206_50V") (footprint "antmicro-footprints:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000621d0fd0"
-      (reference "C18") (unit 1) (value "C_2u2_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C18") (unit 1) (value "C_2u2_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062b2fb41"
-      (reference "C19") (unit 1) (value "C_10u_1206_50V") (footprint "jetson-nano-baseboard-footprints:1206-cap")
+      (reference "C19") (unit 1) (value "C_10u_1206_50V") (footprint "antmicro-footprints:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b3992b"
-      (reference "C20") (unit 1) (value "C_47u_0805") (footprint "jetson-nano-baseboard-footprints:0805-cap")
+      (reference "C20") (unit 1) (value "C_47u_0805") (footprint "antmicro-footprints:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062b2fb50"
-      (reference "C21") (unit 1) (value "C_10u_1206_50V") (footprint "jetson-nano-baseboard-footprints:1206-cap")
+      (reference "C21") (unit 1) (value "C_10u_1206_50V") (footprint "antmicro-footprints:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000064932814"
-      (reference "C22") (unit 1) (value "C_10u_1206_50V") (footprint "jetson-nano-baseboard-footprints:1206-cap")
+      (reference "C22") (unit 1) (value "C_10u_1206_50V") (footprint "antmicro-footprints:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061fabff1"
-      (reference "C23") (unit 1) (value "C_10u_0603") (footprint "jetson-nano-baseboard-footprints:0603-cap")
+      (reference "C23") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062a91d35"
-      (reference "C24") (unit 1) (value "C_6p_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C24") (unit 1) (value "C_6p_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062af321f"
-      (reference "C25") (unit 1) (value "C_10u_0805") (footprint "jetson-nano-baseboard-footprints:0805-cap")
+      (reference "C25") (unit 1) (value "C_10u_0805") (footprint "antmicro-footprints:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061677f2a"
-      (reference "C26") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C26") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000619032ca"
-      (reference "C27") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C27") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006cf52dbc"
-      (reference "C28") (unit 1) (value "C_270p_25V_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "C28") (unit 1) (value "C_270p_25V_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062843448"
-      (reference "C29") (unit 1) (value "C_47p_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C29") (unit 1) (value "C_47p_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006289e719"
-      (reference "C30") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C30") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e7102fa"
-      (reference "C31") (unit 1) (value "100u") (footprint "jetson-nano-baseboard-footprints:1206")
+      (reference "C31") (unit 1) (value "100u") (footprint "antmicro-footprints:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000619b98fa"
-      (reference "C32") (unit 1) (value "C_10u_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C32") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000623a05cb"
-      (reference "C33") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C33") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006237b3e8"
-      (reference "C34") (unit 1) (value "C_47u_0805") (footprint "jetson-nano-baseboard-footprints:0805-cap")
+      (reference "C34") (unit 1) (value "C_47u_0805") (footprint "antmicro-footprints:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000626e17f0"
-      (reference "C35") (unit 1) (value "C_10u_0603") (footprint "jetson-nano-baseboard-footprints:0603-cap")
+      (reference "C35") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-000062dfc9b6"
-      (reference "C36") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C36") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c0808f"
-      (reference "C37") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C37") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c20654"
-      (reference "C38") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C38") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061059bb7"
-      (reference "C39") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C39") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000610e6b69"
-      (reference "C40") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C40") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228563e"
-      (reference "C41") (unit 1) (value "C_47n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C41") (unit 1) (value "C_47n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061060b9b"
-      (reference "C42") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C42") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000611069bc"
-      (reference "C43") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C43") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061066bed"
-      (reference "C44") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C44") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006110a39f"
-      (reference "C45") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C45") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062ba39f6"
-      (reference "C46") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C46") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062ba2ec0"
-      (reference "C47") (unit 1) (value "C_10u_0603") (footprint "jetson-nano-baseboard-footprints:0603-cap")
+      (reference "C47") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006246ada4"
-      (reference "C48") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C48") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c0d155"
-      (reference "C49") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C49") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062485c42"
-      (reference "C50") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C50") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c376cb"
-      (reference "C51") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C51") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c0d901"
-      (reference "C52") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C52") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006249aac0"
-      (reference "C53") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C53") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006249b716"
-      (reference "C54") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C54") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062178584"
-      (reference "C55") (unit 1) (value "C_10u_0603") (footprint "jetson-nano-baseboard-footprints:0603-cap")
+      (reference "C55") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b6483e"
-      (reference "C56") (unit 1) (value "C_100n_0402_50V") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C56") (unit 1) (value "C_100n_50V_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b8baab"
-      (reference "C57") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C57") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061a9077c"
-      (reference "C58") (unit 1) (value "C_33n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C58") (unit 1) (value "C_33n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e38ced"
-      (reference "C59") (unit 1) (value "C_47u_0805") (footprint "jetson-nano-baseboard-footprints:0805-cap")
+      (reference "C59") (unit 1) (value "C_47u_0805") (footprint "antmicro-footprints:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006173abed"
-      (reference "C60") (unit 1) (value "C_2u2_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C60") (unit 1) (value "C_2u2_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006cf0df19"
-      (reference "C61") (unit 1) (value "C_1n2_50V_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "C61") (unit 1) (value "C_1n2_50V_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000625ec086"
-      (reference "C62") (unit 1) (value "C_4u7_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C62") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285640"
-      (reference "C63") (unit 1) (value "C_10u_0603") (footprint "jetson-nano-baseboard-footprints:0603-cap")
+      (reference "C63") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e3a43e"
-      (reference "C64") (unit 1) (value "C_47u_0805") (footprint "jetson-nano-baseboard-footprints:0805-cap")
+      (reference "C64") (unit 1) (value "C_47u_0805") (footprint "antmicro-footprints:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006173eace"
-      (reference "C65") (unit 1) (value "C_1u_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C65") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006273c14b"
-      (reference "C66") (unit 1) (value "C_1u_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C66") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006273b65e"
-      (reference "C67") (unit 1) (value "C_2u2_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C67") (unit 1) (value "C_2u2_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c3eb13"
-      (reference "C68") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C68") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c0ed24"
-      (reference "C69") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C69") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062c3fefa"
-      (reference "C70") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C70") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285642"
-      (reference "C71") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C71") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062899b83"
-      (reference "C72") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C72") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060f43620"
-      (reference "C73") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C73") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060fb5cf9"
-      (reference "C74") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C74") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060f67d85"
-      (reference "C75") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C75") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060f826bb"
-      (reference "C76") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C76") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060fd384c"
-      (reference "C77") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C77") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060f9c13c"
-      (reference "C78") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C78") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060fd5d31"
-      (reference "C79") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C79") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000060fd8712"
-      (reference "C80") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C80") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000063de8af2"
-      (reference "C81") (unit 1) (value "C_10u_0603") (footprint "jetson-nano-baseboard-footprints:0603-cap")
+      (reference "C81") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006cf1e903"
-      (reference "C82") (unit 1) (value "C_1n2_50V_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "C82") (unit 1) (value "C_1n2_50V_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000063bda5a3"
-      (reference "C83") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C83") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006381e601"
-      (reference "C84") (unit 1) (value "C_1u_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C84") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006381d758"
-      (reference "C85") (unit 1) (value "C_4u7_0603") (footprint "jetson-nano-baseboard-footprints:0603-cap")
+      (reference "C85") (unit 1) (value "C_4u7_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061d9041a"
-      (reference "C86") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C86") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e2f90a"
-      (reference "C87") (unit 1) (value "C_1u_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C87") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061d57528"
-      (reference "C88") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C88") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e2f924"
-      (reference "C89") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C89") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/9a66fa90-58de-4840-8737-33b62aeb24ca"
-      (reference "C90") (unit 1) (value "C_100n_0402") (footprint "jetson-nano-baseboard-footprints:0402-cap")
+      (reference "C90") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/3e8a47e7-1a02-47ca-9274-afb93e101b40"
-      (reference "D1") (unit 1) (value "ESD5B5_0ST1G") (footprint "jetson-nano-baseboard-footprints:SOD-523_NP")
+      (reference "D1") (unit 1) (value "ESD5B5_0ST1G") (footprint "antmicro-footprints:SOD-523_NP")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b5"
-      (reference "D2") (unit 1) (value "1N4148WS") (footprint "jetson-nano-baseboard-footprints:SOD-323")
+      (reference "D2") (unit 1) (value "1N4148WS") (footprint "antmicro-footprints:D_SOD-323F")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000061c696b4"
-      (reference "D3") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
+      (reference "D3") (unit 1) (value "PESD2USB5UV-TR") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b7"
-      (reference "D4") (unit 1) (value "1N4148WS") (footprint "jetson-nano-baseboard-footprints:SOD-323")
+      (reference "D4") (unit 1) (value "1N4148WS") (footprint "antmicro-footprints:D_SOD-323F")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/658966d2-c59a-49ab-964f-24a17d3e31bb"
-      (reference "D5") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
+      (reference "D5") (unit 1) (value "PESD2USB5UV-TR") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000063492e55"
-      (reference "D6") (unit 1) (value "TPD4E05U06_PASS") (footprint "jetson-nano-baseboard-footprints:TPD4E05U06_PASS")
+      (reference "D6") (unit 1) (value "TPD4E05U06_PASS") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000634a34a2"
-      (reference "D7") (unit 1) (value "TPD4E05U06_PASS") (footprint "jetson-nano-baseboard-footprints:TPD4E05U06_PASS")
+      (reference "D7") (unit 1) (value "TPD4E05U06_PASS") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/1e582b3b-f9b5-46fb-a1f6-542aa97e4ff1"
-      (reference "D8") (unit 1) (value "TPD4E05U06_PASS") (footprint "jetson-nano-baseboard-footprints:TPD4E05U06_PASS")
+      (reference "D8") (unit 1) (value "TPD4E05U06_PASS") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/144a162a-151e-477f-beb6-97a9ab8004a5"
-      (reference "D9") (unit 1) (value "ESD5B5_0ST1G") (footprint "jetson-nano-baseboard-footprints:SOD-523_NP")
+      (reference "D9") (unit 1) (value "ESD5B5_0ST1G") (footprint "antmicro-footprints:SOD-523_NP")
     )
     (path "/00000000-0000-0000-0000-00006096d016/b9825c0c-d0c2-48cf-a9f2-2a5aadf51d63"
-      (reference "D10") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
+      (reference "D10") (unit 1) (value "PESD2USB5UV-TR") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061cc12f9"
-      (reference "D11") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
+      (reference "D11") (unit 1) (value "PESD2USB5UV-TR") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061cd7958"
-      (reference "D12") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
+      (reference "D12") (unit 1) (value "PESD2USB5UV-TR") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285628"
-      (reference "D13") (unit 1) (value "1N4148WS") (footprint "jetson-nano-baseboard-footprints:SOD-323")
+      (reference "D13") (unit 1) (value "1N4148WS") (footprint "antmicro-footprints:D_SOD-323F")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/40ef383d-2a8f-40b2-9ed2-94ab1f69b4ee"
-      (reference "D14") (unit 1) (value "SMBJ33A") (footprint "jetson-nano-baseboard-footprints:D_SMB")
+      (reference "D14") (unit 1) (value "SMBJ33A") (footprint "antmicro-footprints:D_SMB")
     )
     (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-00005ee8e781"
-      (reference "D15") (unit 1) (value "diode") (footprint "jetson-nano-baseboard-footprints:SOD-323")
+      (reference "D15") (unit 1) (value "1N4148WS") (footprint "antmicro-footprints:D_SOD-323F")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e7102f7"
-      (reference "D17") (unit 1) (value "1N4148WS") (footprint "jetson-nano-baseboard-footprints:SOD-323")
+      (reference "D17") (unit 1) (value "1N4148WS") (footprint "antmicro-footprints:D_SOD-323F")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000618dbb7c"
-      (reference "F1") (unit 1) (value "04671.25NR") (footprint "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467")
+      (reference "F1") (unit 1) (value "F_1.25A_0603") (footprint "antmicro-footprints:F_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000618f00a3"
-      (reference "F2") (unit 1) (value "04671.25NR") (footprint "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467")
+      (reference "F2") (unit 1) (value "F_1.25A_0603") (footprint "antmicro-footprints:F_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/4fa6d3a3-d4d9-444c-9816-702393ca4cdb"
-      (reference "F3") (unit 1) (value "3413_0329_22") (footprint "jetson-nano-baseboard-footprints:1206")
+    (path "/00000000-0000-0000-0000-0000608dc6e9/311cb8d9-309e-4d88-a806-0e7b7ae4d5f5"
+      (reference "F3") (unit 1) (value "F_12A_1206") (footprint "antmicro-footprints:F_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/5ef5891f-cffc-4d72-bf63-3cd5e3f82cd8"
-      (reference "F4") (unit 1) (value "04671.25NR") (footprint "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467")
+      (reference "F4") (unit 1) (value "F_1.25A_0603") (footprint "antmicro-footprints:F_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/8d91f38f-d40a-48f4-afcf-97f7a9115523"
-      (reference "F5") (unit 1) (value "04671.25NR") (footprint "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467")
+      (reference "F5") (unit 1) (value "F_1.25A_0603") (footprint "antmicro-footprints:F_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b64835"
-      (reference "FB1") (unit 1) (value "74279221100") (footprint "jetson-nano-baseboard-footprints:1206-res")
+      (reference "FB1") (unit 1) (value "FB_10Z_10A_1206") (footprint "antmicro-footprints:FB_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000610accab/5c1c96a5-2e1f-4192-8926-0e005808ac63"
-      (reference "FB2") (unit 1) (value "74279221100") (footprint "jetson-nano-baseboard-footprints:1206-res")
+      (reference "FB2") (unit 1) (value "FB_10Z_10A_1206") (footprint "antmicro-footprints:FB_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000620c3704"
-      (reference "FB3") (unit 1) (value "74279220181") (footprint "jetson-nano-baseboard-footprints:0805-res")
+      (reference "FB3") (unit 1) (value "FB_180Z_3.1A_0805") (footprint "antmicro-footprints:FB_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/ef33564c-79ba-41bc-a137-f616d2a03e9c"
-      (reference "IC1") (unit 1) (value "NCP380LSNAJAAT1G") (footprint "jetson-nano-baseboard-footprints:SOT-23-6")
+      (reference "IC1") (unit 1) (value "NCP380LSNAJAAT1G") (footprint "antmicro-footprints:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b4"
-      (reference "IC2") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:SON-15")
+      (reference "IC2") (unit 1) (value "TPD8S009DSMR") (footprint "antmicro-footprints:R-PDSO-N15")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/6e47cb5e-d149-4566-9d6c-9c8a18b5c50b"
-      (reference "IC3") (unit 1) (value "NCP380LSNAJAAT1G") (footprint "jetson-nano-baseboard-footprints:SOT-23-6")
+      (reference "IC3") (unit 1) (value "NCP380LSNAJAAT1G") (footprint "antmicro-footprints:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285636"
-      (reference "IC4") (unit 1) (value "TPS7A0518PDBVT") (footprint "jetson-nano-baseboard-footprints:SOT-23-5")
+      (reference "IC4") (unit 1) (value "TPS7A0518P_SOT23-5") (footprint "antmicro-footprints:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710306"
-      (reference "IC5") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:QFN-32")
+      (reference "IC5") (unit 1) (value "FT232R_QFN") (footprint "antmicro-footprints:QFN-32-1EP_5x5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e710472"
-      (reference "IC6") (unit 1) (value "PCA9517ADP") (footprint "jetson-nano-baseboard-footprints:MSOP-8")
+      (reference "IC6") (unit 1) (value "PCA9517ADP") (footprint "antmicro-footprints:TSSOP-8_3x3mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710319"
-      (reference "IC7") (unit 1) (value "HD3SS3220") (footprint "jetson-nano-baseboard-footprints:RNH0030A")
+      (reference "IC7") (unit 1) (value "HD3SS3220RNH") (footprint "antmicro-footprints:WQFN-30_1EP_4.6x2.6mm_P0.4mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006163a187"
-      (reference "IC11") (unit 1) (value "SN74LV1T125DBVR") (footprint "jetson-nano-baseboard-footprints:SOT-23-5")
+      (reference "IC11") (unit 1) (value "SN74LV1T125DBVR") (footprint "antmicro-footprints:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e710374"
-      (reference "IC12") (unit 1) (value "74HC00PW") (footprint "jetson-nano-baseboard-footprints:TSSOP-14")
+      (reference "IC12") (unit 1) (value "74HC00_TSSOP") (footprint "antmicro-footprints:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103a0"
-      (reference "IC13") (unit 1) (value "SN74LVC1G126DCKR") (footprint "jetson-nano-baseboard-footprints:R-PDSO-G5")
+      (reference "IC13") (unit 1) (value "SN74LVC1G126_SC-70") (footprint "antmicro-footprints:SC-70-5")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000061ddfcd3"
-      (reference "IC15") (unit 1) (value "TPS7A0518PDBVT") (footprint "jetson-nano-baseboard-footprints:SOT-23-5")
+      (reference "IC15") (unit 1) (value "TPS7A0518P_SOT23-5") (footprint "antmicro-footprints:SOT-23-5")
     )
-    (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-00005e71045f"
-      (reference "IC17") (unit 1) (value "AT24CS01-ST") (footprint "jetson-nano-baseboard-footprints:SOT23-5")
+    (path "/00000000-0000-0000-0000-000060b0f7be/5177063d-e197-4e3b-8d08-59515fb0d7f9"
+      (reference "IC17") (unit 1) (value "AT24CS01_SOT23") (footprint "antmicro-footprints:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104ac"
-      (reference "IC18") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:SON-15")
+      (reference "IC18") (unit 1) (value "TPD8S009DSMR") (footprint "antmicro-footprints:R-PDSO-N15")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000616f319b"
-      (reference "J1") (unit 1) (value "46756-1001") (footprint "jetson-nano-baseboard-footprints:HDMI_Micro-D_Molex_46765-1x01")
+      (reference "J1") (unit 1) (value "HDMI_Micro-D_46756-1001") (footprint "antmicro-footprints:HDMI_Micro-D_Molex_46765-1x01")
     )
-    (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b2"
-      (reference "J2") (unit 1) (value "2129320-3") (footprint "jetson-nano-baseboard-footprints:2129320-3")
+    (path "/00000000-0000-0000-0000-00006096d016/be203d9d-cc59-4dad-a819-b5b8448c7cc4"
+      (reference "J2") (unit 1) (value "DisplayPort_Mini_TE_2129320-3") (footprint "antmicro-footprints:DisplayPort_Mini_TE_2129320-3")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000061b50eda"
-      (reference "J3") (unit 1) (value "SI-51005-F") (footprint "jetson-nano-baseboard-footprints:SI-51005-F")
+      (reference "J3") (unit 1) (value "SI-51005-F") (footprint "antmicro-footprints:RJ45_Bel_SI-51005-F")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e71039e"
-      (reference "J4") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:DC_SOCKET")
+      (reference "J4") (unit 1) (value "~") (footprint "antmicro-footprints:BarrelJack_3167288_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710320"
-      (reference "J5") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:CON-Molex-047346-0001")
+      (reference "J5") (unit 1) (value "USB-Micro-B_0473460001") (footprint "antmicro-footprints:USB_Micro_B_Female_0473460001")
     )
-    (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-0000605d7511"
-      (reference "J6") (unit 1) (value "WE_68715014522") (footprint "jetson-nano-baseboard-footprints:WE_68715014522_ONE-SIDE")
+    (path "/00000000-0000-0000-0000-000060d9f63d/de46bb9a-4194-4236-aaf9-49ff83f915ff"
+      (reference "J6") (unit 1) (value "Conn_FFC_WE_68715014522_ONE-SIDE") (footprint "antmicro-footprints:Conn_FFC_WE_68715014x22")
     )
-    (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-0000605e5dc9"
-      (reference "J7") (unit 1) (value "WE_68715014022") (footprint "jetson-nano-baseboard-footprints:WE_68715014022")
+    (path "/00000000-0000-0000-0000-000060d9f63d/1532f642-b01c-4619-b9c1-610560716e4f"
+      (reference "J7") (unit 1) (value "Conn_FFC_WE_68715014022_ONE-SIDE") (footprint "antmicro-footprints:Conn_FFC_WE_68715014x22")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e710439"
-      (reference "J8") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:MDT580M01001")
+      (reference "J8") (unit 1) (value "Bus_M.2_MDT580M01001") (footprint "antmicro-footprints:Bus_M.2_Socket_Key_M_Amphenol_MDT580M01001")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710332"
-      (reference "J9") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:CON-Molex-047346-0001")
+      (reference "J9") (unit 1) (value "USB-Micro-B_0473460001") (footprint "antmicro-footprints:USB_Micro_B_Female_0473460001")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000062043eb3"
-      (reference "J10") (unit 1) (value "5051101097") (footprint "jetson-nano-baseboard-footprints:5051101097")
+    (path "/00000000-0000-0000-0000-0000610accab/2eb2a3b4-7a28-4926-881d-6d9a93269e0e"
+      (reference "J10") (unit 1) (value "Conn_FFC_Molex_5051101097") (footprint "antmicro-footprints:Conn_FFC_Molex_5051101097")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710327"
-      (reference "J11") (unit 1) (value "632723300011") (footprint "jetson-nano-baseboard-footprints:WE_632723300011")
+      (reference "J11") (unit 1) (value "Conn_USB-C_WE_632723300011") (footprint "antmicro-footprints:Conn_USB-C_WE_632723300011")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006210b794"
-      (reference "J12") (unit 1) (value "533980471") (footprint "jetson-nano-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical")
+      (reference "J12") (unit 1) (value "PinHeader_PicoBlade_1x4_P1.25mm_SMD") (footprint "antmicro-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/0c0e845d-c005-4ce1-ba9b-2e365c60f23b"
-      (reference "J13") (unit 1) (value "SM04B-SRSS-TB-LF-SN") (footprint "jetson-nano-baseboard-footprints:SM04B-SRSS-TB-LF-SN")
+      (reference "J13") (unit 1) (value "SM04B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:SM04B-SRSS-TB-LF-SN")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/0558ca48-3e57-4c98-aee4-48121cdd0844"
-      (reference "J14") (unit 1) (value "SM04B-SRSS-TB-LF-SN") (footprint "jetson-nano-baseboard-footprints:SM04B-SRSS-TB-LF-SN")
+      (reference "J14") (unit 1) (value "SM04B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:SM04B-SRSS-TB-LF-SN")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062296cec"
-      (reference "L1") (unit 1) (value "XFL4020-222MEC") (footprint "jetson-nano-baseboard-footprints:XFL4015-122MEC")
+      (reference "L1") (unit 1) (value "L_2u2_3.7A_XFL4020") (footprint "antmicro-footprints:L_Coilcraft_XFL4020")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000061f83fcf"
-      (reference "L2") (unit 1) (value "BLM18SG121TN1D") (footprint "jetson-nano-baseboard-footprints:0603")
+      (reference "L2") (unit 1) (value "FB_120Z_3A_0603") (footprint "antmicro-footprints:FB_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000061fb7fe7"
-      (reference "L3") (unit 1) (value "BLM18SG121TN1D") (footprint "jetson-nano-baseboard-footprints:0603")
+      (reference "L3") (unit 1) (value "FB_120Z_3A_0603") (footprint "antmicro-footprints:FB_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000065d578a2"
-      (reference "L4") (unit 1) (value "IHLP3232DZER3R3M01") (footprint "jetson-nano-baseboard-footprints:IHLP3232DZ")
+      (reference "L4") (unit 1) (value "IHLP3232DZER3R3M01") (footprint "antmicro-footprints:L_Vishay_IHLP3232DZ")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061ee43aa"
-      (reference "L5") (unit 1) (value "LQH32PN2R2NN0L") (footprint "jetson-nano-baseboard-footprints:LQH32PN2R2NN0L")
+      (reference "L5") (unit 1) (value "L_2u2_1.6A_1210") (footprint "antmicro-footprints:L_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062178566"
-      (reference "L6") (unit 1) (value "LQH32PN2R2NN0L") (footprint "jetson-nano-baseboard-footprints:LQH32PN2R2NN0L")
+      (reference "L6") (unit 1) (value "L_2u2_1.6A_1210") (footprint "antmicro-footprints:L_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e71031f"
-      (reference "L7") (unit 1) (value "BLM18SG121TN1D") (footprint "jetson-nano-baseboard-footprints:0603")
+      (reference "L7") (unit 1) (value "FB_120Z_3A_0603") (footprint "antmicro-footprints:FB_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b0"
-      (reference "L8") (unit 1) (value "BLM18SG121TN1D") (footprint "jetson-nano-baseboard-footprints:0603")
+      (reference "L8") (unit 1) (value "FB_120Z_3A_0603") (footprint "antmicro-footprints:FB_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104af"
-      (reference "L9") (unit 1) (value "BLM18SG121TN1D") (footprint "jetson-nano-baseboard-footprints:0603")
+      (reference "L9") (unit 1) (value "FB_120Z_3A_0603") (footprint "antmicro-footprints:FB_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104ab"
-      (reference "L10") (unit 1) (value "BLM18SG121TN1D") (footprint "jetson-nano-baseboard-footprints:0603")
+      (reference "L10") (unit 1) (value "FB_120Z_3A_0603") (footprint "antmicro-footprints:FB_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/539f538a-184d-4878-b52e-5fc210068229"
-      (reference "L11") (unit 1) (value "BLM18SG121TN1D") (footprint "jetson-nano-baseboard-footprints:0603")
+      (reference "L11") (unit 1) (value "FB_120Z_3A_0603") (footprint "antmicro-footprints:FB_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710325"
-      (reference "LED1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:LED0603")
+      (reference "LED1") (unit 1) (value "~") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/14ccce58-4c29-4431-8253-bd47996a5951"
-      (reference "LED2") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:LED0603")
+      (reference "LED2") (unit 1) (value "~") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103fc"
-      (reference "M1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-connector")
+      (reference "M1") (unit 1) (value "Jetson-Nano-new-release") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104e8"
-      (reference "M1") (unit 2) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-connector")
+      (reference "M1") (unit 2) (value "Jetson-Nano-new-release") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e94fcc8"
-      (reference "M1") (unit 3) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-connector")
+      (reference "M1") (unit 3) (value "Jetson-Nano-new-release") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103fa"
-      (reference "M1") (unit 4) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-connector")
+      (reference "M1") (unit 4) (value "Jetson-Nano-new-release") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e71049f"
-      (reference "M1") (unit 5) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-connector")
+      (reference "M1") (unit 5) (value "Jetson-Nano-new-release") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f9"
-      (reference "M1") (unit 6) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-connector")
+      (reference "M1") (unit 6) (value "Jetson-Nano-new-release") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f8"
-      (reference "M1") (unit 7) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-connector")
+      (reference "M1") (unit 7) (value "Jetson-Nano-new-release") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710400"
-      (reference "M2") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-module")
+      (reference "M2") (unit 1) (value "jetson-nano-module") (footprint "antmicro-footprints:jetson-nano-module-5.2H")
     )
     (path "/00000000-0000-0000-0000-000060bdca6d"
-      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "jetson-nano-baseboard-footprints:antmicro-logo_scaled_15mm")
+      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "antmicro-footprints:antmicro-logo_scaled_15mm")
     )
     (path "/00000000-0000-0000-0000-000060bdce33"
-      (reference "N2") (unit 1) (value "oshw_logo") (footprint "jetson-nano-baseboard-footprints:oshw-logo")
+      (reference "N2") (unit 1) (value "oshw_logo") (footprint "antmicro-footprints:oshw-logo")
     )
     (path "/00000000-0000-0000-0000-000060cb08fe"
-      (reference "N3") (unit 1) (value "crc_logo") (footprint "jetson-nano-baseboard-footprints:CRC_logo_15mm")
+      (reference "N3") (unit 1) (value "crc_logo") (footprint "antmicro-footprints:CRC_logo_15mm")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e710432"
-      (reference "NVME1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:LED0603")
+      (reference "NVME1") (unit 1) (value "~") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e71040b"
-      (reference "PWR1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:LED0603")
+      (reference "PWR1") (unit 1) (value "~") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612ccb42"
-      (reference "R1") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R1") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612d19bf"
-      (reference "R2") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R2") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612d2076"
-      (reference "R3") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R3") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612d4ef3"
-      (reference "R4") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R4") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061a2f207"
-      (reference "R5") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R5") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061a3050d"
-      (reference "R6") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R6") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612d5462"
-      (reference "R7") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R7") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612d7613"
-      (reference "R8") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R8") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612d7c22"
-      (reference "R9") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R9") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000612d843d"
-      (reference "R10") (unit 1) (value "R_5R6_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R10") (unit 1) (value "R_5R6_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000619bf000"
-      (reference "R11") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R11") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006156e5a6"
-      (reference "R12") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R12") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060b4b62e"
-      (reference "R13") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R13") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000062cd1118"
-      (reference "R14") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R14") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060bb8854"
-      (reference "R15") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R15") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285634"
-      (reference "R16") (unit 1) (value "R_1k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R16") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060bb8ce1"
-      (reference "R17") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R17") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060dcf79c"
-      (reference "R18") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R18") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060bb9bdf"
-      (reference "R19") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R19") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000627ac795"
-      (reference "R20") (unit 1) (value "R_22R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R20") (unit 1) (value "R_22R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060bb9162"
-      (reference "R21") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R21") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060dcf793"
-      (reference "R22") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R22") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060d0f966"
-      (reference "R23") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R23") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060dcf78a"
-      (reference "R24") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R24") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060dcf781"
-      (reference "R25") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R25") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061801f64"
-      (reference "R26") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R26") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060dba023"
-      (reference "R27") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R27") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060db9b96"
-      (reference "R28") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R28") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060db2f51"
-      (reference "R29") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R29") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006119139a"
-      (reference "R30") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R30") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000611991b4"
-      (reference "R31") (unit 1) (value "R_1M0_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00006096d016/6bb287a3-6cfd-4238-a0ff-17c90b90c562"
+      (reference "R31") (unit 1) (value "R_1M_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000611926d7"
-      (reference "R32") (unit 1) (value "R_1M0_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00006096d016/c5625732-f460-4def-8797-e7504a5823e1"
+      (reference "R32") (unit 1) (value "R_1M_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060db96d5"
-      (reference "R33") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R33") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060e91bd0"
-      (reference "R34") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R34") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060e8d348"
-      (reference "R35") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R35") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285633"
-      (reference "R36") (unit 1) (value "R_1k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R36") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000615719e1"
-      (reference "R37") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R37") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062bc9c4e"
-      (reference "R38") (unit 1) (value "R_220R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R38") (unit 1) (value "R_220R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061fd0846"
-      (reference "R39") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R39") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062bca909"
-      (reference "R40") (unit 1) (value "R_220R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R40") (unit 1) (value "R_220R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000627aeafb"
-      (reference "R41") (unit 1) (value "R_22R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R41") (unit 1) (value "R_22R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062accdbd"
-      (reference "R42") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R42") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062b015f8"
-      (reference "R43") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R43") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228563d"
-      (reference "R44") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R44") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062a91d2c"
-      (reference "R45") (unit 1) (value "R_1k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R45") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061fd0e1c"
-      (reference "R46") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R46") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/200d6e67-38f3-4d1e-8319-ac8e23ec8f39"
-      (reference "R47") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R47") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061db825f"
-      (reference "R48") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R48") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/c4e539be-206e-4e73-ac31-a987a12736e4"
-      (reference "R49") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R49") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/fade4f76-7248-482d-b218-e87f9207630c"
-      (reference "R50") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R50") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062326869"
-      (reference "R51") (unit 1) (value "R_909k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R51") (unit 1) (value "R_909k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062178594"
-      (reference "R52") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R52") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006235066e"
-      (reference "R53") (unit 1) (value "R_200k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R53") (unit 1) (value "R_200k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000622d3478"
-      (reference "R54") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R54") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000622aeb04"
-      (reference "R55") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R55") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006225827f"
-      (reference "R56") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R56") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060ca2e3e"
-      (reference "R57") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R57") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060bba052"
-      (reference "R58") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R58") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060bba2b1"
-      (reference "R59") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R59") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060ca3439"
-      (reference "R60") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R60") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060bba942"
-      (reference "R61") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R61") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062258a24"
-      (reference "R62") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R62") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006263e48d"
-      (reference "R63") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R63") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062613f61"
-      (reference "R64") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R64") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006267eae7"
-      (reference "R65") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R65") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062680fdf"
-      (reference "R66") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R66") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000624e2b82"
-      (reference "R67") (unit 1) (value "R_200k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R67") (unit 1) (value "R_200k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000622fcc96"
-      (reference "R68") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R68") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/0f116ce8-0f7c-414d-9815-7f069a6880d5"
-      (reference "R69") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R69") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/0b35f4c8-4aa9-4613-b798-92db6c196e59"
-      (reference "R70") (unit 1) (value "R_100R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R70") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/3301e67a-7c7a-450c-9c98-82ab5d5c6697"
-      (reference "R71") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R71") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006258a73b"
-      (reference "R72") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R72") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062560a02"
-      (reference "R73") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R73") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b2ef7a"
-      (reference "R74") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R74") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000063bb3136"
-      (reference "R75") (unit 1) (value "R_316k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R75") (unit 1) (value "R_316k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062667aa0"
-      (reference "R76") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R76") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000063f21755"
-      (reference "R77") (unit 1) (value "R_60k4_1%_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R77") (unit 1) (value "R_60k4_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060d13e41"
-      (reference "R78") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R78") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060d6f682"
-      (reference "R79") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R79") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060d7009c"
-      (reference "R80") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R80") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000619c1603"
-      (reference "R81") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R81") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006189f01d"
-      (reference "R82") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R82") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000617c7bcd"
-      (reference "R83") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R83") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228563b"
-      (reference "R84") (unit 1) (value "R_200k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R84") (unit 1) (value "R_200k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228563f"
-      (reference "R85") (unit 1) (value "R_470k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R85") (unit 1) (value "R_470k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228563c"
-      (reference "R86") (unit 1) (value "R_200k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R86") (unit 1) (value "R_200k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000060bb9b36"
-      (reference "R87") (unit 1) (value "R_1k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R87") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061791d28"
-      (reference "R88") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R88") (unit 1) (value "R_2k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000063a44c3e"
-      (reference "R89") (unit 1) (value "R_3R3_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R89") (unit 1) (value "R_3R3_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000063bc129b"
-      (reference "R90") (unit 1) (value "R_26k7_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R90") (unit 1) (value "R_26k7_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062c8bd7e"
-      (reference "R91") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R91") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006173bbe4"
-      (reference "R92") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R92") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000625df619"
-      (reference "R93") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R93") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000644cf065"
-      (reference "R94") (unit 1) (value "R_8k66_1%_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R94") (unit 1) (value "R_8k66_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006228563a"
-      (reference "R95") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R95") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061cfcc0e"
-      (reference "R96") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R96") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000062cd1bdc"
-      (reference "R97") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R97") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006195215f"
-      (reference "R98") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R98") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000619585ce"
-      (reference "R99") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R99") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00006162639d"
-      (reference "R100") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R100") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/b462c7da-0846-4d29-a6b7-e1b211ff4492"
-      (reference "R101") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R101") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/1b7cab3a-885a-41ec-8cc2-79f261a7e22c"
-      (reference "R102") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R102") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000621ebca1"
-      (reference "R103") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R103") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000623d0f0d"
-      (reference "R104") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R104") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000621ee51a"
-      (reference "R105") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R105") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000623d39f5"
-      (reference "R106") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R106") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000621ee91d"
-      (reference "R107") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R107") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000621eed84"
-      (reference "R108") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R108") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000624236c3"
-      (reference "R109") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R109") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062423c0a"
-      (reference "R110") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R110") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000062cd239c"
-      (reference "R111") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R111") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000061ed8249"
-      (reference "R112") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R112") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f4"
-      (reference "R113") (unit 1) (value "100k") (footprint "jetson-nano-baseboard-footprints:0402")
+    (path "/00000000-0000-0000-0000-0000610accab/14a9c38e-8c52-42e4-b467-40ccb30038f6"
+      (reference "R113") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062b62a86"
-      (reference "R114") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R114") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062b5fe4b"
-      (reference "R115") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R115") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062b622bc"
-      (reference "R116") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R116") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061ee8fe6"
-      (reference "R117") (unit 1) (value "R_52k3_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R117") (unit 1) (value "R_52k3_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e2f94a"
-      (reference "R118") (unit 1) (value "R_100k_1%_0402") (footprint "jetson-nano-baseboard-footprints:0402")
+      (reference "R118") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061ff4e81"
-      (reference "R119") (unit 1) (value "R_44k2_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R119") (unit 1) (value "R_44k2_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061f047d6"
-      (reference "R120") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R120") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/49849f9e-3a33-4259-bc82-711333e9a97f"
-      (reference "R121") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R121") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00006256b53a"
-      (reference "R122") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R122") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/32cea347-363b-4396-a724-746664ec6873"
-      (reference "R123") (unit 1) (value "R_120R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R123") (unit 1) (value "R_120R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/5ea125ab-7904-4520-bbcf-52c8097d1129"
-      (reference "R124") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R124") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/ab5101cf-d186-4826-8811-782171da9af7"
-      (reference "R125") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R125") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/4e42ac56-776e-4cf9-aea0-d05f0225a948"
-      (reference "R126") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R126") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/81cdd2a1-5646-457b-8cab-4bd71a399814"
-      (reference "R127") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R127") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000062b8d9b5"
-      (reference "R128") (unit 1) (value "R_220R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R128") (unit 1) (value "R_220R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/5c6ccf72-9b40-49b2-a21c-ca61c4e57d9f"
-      (reference "R129") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R129") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285641"
-      (reference "R130") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R130") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062708db4"
-      (reference "R131") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R131") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-000062df2d52"
-      (reference "R132") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R132") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/ac2532d3-bf72-42de-9dc3-011704d0edc9"
-      (reference "R133") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R133") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/b12ccb6b-75ca-4776-9276-43f97bf8b611"
-      (reference "R134") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R134") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/ffd10605-2c42-4228-861e-8b8cb6221f95"
-      (reference "R135") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R135") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/ef672e2a-3dd8-41e6-a6c5-aae795fe040e"
-      (reference "R136") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R136") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/472d76c9-f5d1-4615-84b0-c11bc32b6131"
-      (reference "R137") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R137") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/8ff61f07-6ba6-4322-95f8-c2e5dd12c4ce"
-      (reference "R138") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R138") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000610accab/2fce8d96-896c-41e0-a483-8c82f643994d"
-      (reference "R139") (unit 1) (value "R_100k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+      (reference "R139") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710410"
-      (reference "REC1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TL3340AF160QG")
+    (path "/00000000-0000-0000-0000-0000610accab/2b5c0559-19ca-49f9-aa8c-c1f8a35dbf41"
+      (reference "REC1") (unit 1) (value "SW_TL3340AF160QG") (footprint "antmicro-footprints:SW_TL3340AF160QG")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710411"
-      (reference "RST1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TL3340AF160QG")
+    (path "/00000000-0000-0000-0000-0000610accab/04824165-3e87-4b9c-bd33-1b5ece149424"
+      (reference "RST1") (unit 1) (value "SW_TL3340AF160QG") (footprint "antmicro-footprints:SW_TL3340AF160QG")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710413"
-      (reference "SP1") (unit 1) (value "9774060151") (footprint "jetson-nano-baseboard-footprints:M2.5-6mm")
+      (reference "SP1") (unit 1) (value "9774060151") (footprint "antmicro-footprints:Spacer_SMD_M2.5_H6mm_Wurth_9774060151")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103fd"
-      (reference "SP2") (unit 1) (value "9774060151") (footprint "jetson-nano-baseboard-footprints:M2.5-6mm")
+      (reference "SP2") (unit 1) (value "9774060151") (footprint "antmicro-footprints:Spacer_SMD_M2.5_H6mm_Wurth_9774060151")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103ee"
-      (reference "SP3") (unit 1) (value "9774060151") (footprint "jetson-nano-baseboard-footprints:M2.5-6mm")
+      (reference "SP3") (unit 1) (value "9774060151") (footprint "antmicro-footprints:Spacer_SMD_M2.5_H6mm_Wurth_9774060151")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710408"
-      (reference "SP4") (unit 1) (value "9774060151") (footprint "jetson-nano-baseboard-footprints:M2.5-6mm")
+      (reference "SP4") (unit 1) (value "9774060151") (footprint "antmicro-footprints:Spacer_SMD_M2.5_H6mm_Wurth_9774060151")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f2"
-      (reference "SP5") (unit 1) (value "9774060151") (footprint "jetson-nano-baseboard-footprints:M2.5-6mm")
+      (reference "SP5") (unit 1) (value "9774060151") (footprint "antmicro-footprints:Spacer_SMD_M2.5_H6mm_Wurth_9774060151")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103ed"
-      (reference "SP6") (unit 1) (value "9774060151") (footprint "jetson-nano-baseboard-footprints:M2.5-6mm")
+      (reference "SP6") (unit 1) (value "9774060151") (footprint "antmicro-footprints:Spacer_SMD_M2.5_H6mm_Wurth_9774060151")
     )
-    (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e710438"
-      (reference "SP7") (unit 1) (value "9774040151") (footprint "jetson-nano-baseboard-footprints:9774060151")
+    (path "/00000000-0000-0000-0000-0000608e1758/3bab7682-47f4-42e9-98b3-d04418f02c72"
+      (reference "SP7") (unit 1) (value "Spacer_H4.0mm_9774040151") (footprint "antmicro-footprints:Spacer_SMD_M2.5_H4mm_Wurth_9774040151")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000606b6957"
-      (reference "T1") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T1") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00006073683d"
-      (reference "T2") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T2") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285632"
-      (reference "T3") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T3") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00006073750d"
-      (reference "T4") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T4") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000060737d03"
-      (reference "T5") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T5") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000060621c00"
-      (reference "T6") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T6") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000617c458b"
-      (reference "T7") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T7") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/7f3c7b37-69b4-4eef-8536-6f867c6d077d"
-      (reference "T8") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T8") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/b556e816-d679-470a-babb-4770ee350e5c"
-      (reference "T9") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+      (reference "T9") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104ea"
-      (reference "TP1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP1") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104a5"
-      (reference "TP2") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP2") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104ef"
-      (reference "TP3") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP3") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104ee"
-      (reference "TP4") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP4") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061f25a67"
-      (reference "TP5") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP5") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104f3"
-      (reference "TP6") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP6") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e710430"
-      (reference "TP7") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP7") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062178577"
-      (reference "TP8") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP8") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104f0"
-      (reference "TP9") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP9") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104eb"
-      (reference "TP10") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP10") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b0aa19"
-      (reference "TP11") (unit 1) (value "Testpad") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP11") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061c25cc1"
-      (reference "TP12") (unit 1) (value "Testpad") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP12") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710404"
-      (reference "TP13") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP13") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710403"
-      (reference "TP14") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP14") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b71859"
-      (reference "TP15") (unit 1) (value "Testpad") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP15") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103a2"
-      (reference "TP16") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP16") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103a1"
-      (reference "TP17") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP17") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710328"
-      (reference "TP18") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP18") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e71032e"
-      (reference "TP19") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP19") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e71042f"
-      (reference "TP20") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP20") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710329"
-      (reference "TP21") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP21") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710402"
-      (reference "TP23") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP23") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710401"
-      (reference "TP24") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP24") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104a0"
-      (reference "TP25") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP25") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104a2"
-      (reference "TP26") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP26") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103ec"
-      (reference "TP27") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP27") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710412"
-      (reference "TP28") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP28") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103eb"
-      (reference "TP29") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP29") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-00005f7a644a"
-      (reference "TP30") (unit 1) (value "TC2030") (footprint "jetson-nano-baseboard-footprints:TC2030")
+      (reference "TP30") (unit 1) (value "TAG-6PIN_2-Alignment-Pins") (footprint "antmicro-footprints:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_2-alignment-holes")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103ea"
-      (reference "TP31") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP31") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e71031d"
-      (reference "TP32") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP32") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104a3"
-      (reference "TP33") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP33") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104a4"
-      (reference "TP34") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP34") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104a6"
-      (reference "TP35") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP35") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104a7"
-      (reference "TP36") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP36") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710406"
-      (reference "TP37") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP37") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710405"
-      (reference "TP38") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP38") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710407"
-      (reference "TP39") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP39") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062d397d9"
-      (reference "TP40") (unit 1) (value "Testpad") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP40") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b3f2b0"
-      (reference "TP41") (unit 1) (value "Testpad") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP41") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285627"
-      (reference "TP42") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP42") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285626"
-      (reference "TP44") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP44") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285625"
-      (reference "TP47") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP47") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061ec62d9"
-      (reference "U1") (unit 1) (value "LM3671MF-3.3/NOPB") (footprint "jetson-nano-baseboard-footprints:SOT-23-5")
+      (reference "U1") (unit 1) (value "LM3671MF-3.3_SOT") (footprint "antmicro-footprints:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062862fa9"
-      (reference "U2") (unit 1) (value "LM62440-Q1") (footprint "jetson-nano-baseboard-footprints:VQFN-14-HR")
+      (reference "U2") (unit 1) (value "LM62440-Q1") (footprint "antmicro-footprints:VQFN-14-HR")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e748d7"
-      (reference "U3") (unit 1) (value "SN74LXC1T45DBVR") (footprint "jetson-nano-baseboard-footprints:SOT-23-6")
+      (reference "U3") (unit 1) (value "SN74LXC1T45DBVR") (footprint "antmicro-footprints:SOT-23-6")
     )
-    (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000061c7982e"
-      (reference "U4") (unit 1) (value "PCA9547BS,118") (footprint "jetson-nano-baseboard-footprints:HVQFN24")
+    (path "/00000000-0000-0000-0000-000060d9f63d/69c59434-0829-4b04-8903-2d5acf6b02e9"
+      (reference "U4") (unit 1) (value "PCA9547_VQFN") (footprint "antmicro-footprints:VQFN-24-1EP_3.8x3.8x1.0mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006217855e"
-      (reference "U5") (unit 1) (value "LM3671MF-3.3/NOPB") (footprint "jetson-nano-baseboard-footprints:SOT-23-5")
+      (reference "U5") (unit 1) (value "LM3671MF-3.3_SOT") (footprint "antmicro-footprints:SOT-23-5")
     )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000628802fc"
-      (reference "U6") (unit 1) (value "SIC477ED-T1-GE3") (footprint "jetson-nano-baseboard-footprints:SIC47XED-T1-GE3")
+    (path "/00000000-0000-0000-0000-0000608dc6e9/0fa8d650-854a-47ae-aa8b-1fd11a1ed9b2"
+      (reference "U6") (unit 1) (value "SIC477ED-T1-GE3") (footprint "antmicro-footprints:SIC47XED-T1-GE3")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/7581498b-521b-4a5b-b18c-b43f806b0a73"
-      (reference "U7") (unit 1) (value "MAX3051EKA") (footprint "jetson-nano-baseboard-footprints:SOT-23-8")
+      (reference "U7") (unit 1) (value "MAX3051EKA") (footprint "antmicro-footprints:SOT-23-8")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/cb690511-a533-4460-ba1c-4ea277eefe1e"
-      (reference "U8") (unit 1) (value "74LVC1G07GV") (footprint "jetson-nano-baseboard-footprints:SOT-753")
+      (reference "U8") (unit 1) (value "74LVC1G07_SOT-753") (footprint "antmicro-footprints:SOT-753")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f7"
-      (reference "USER1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:LED0603")
+      (reference "USER1") (unit 1) (value "~") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f1"
-      (reference "USR1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TL3340AF160QG")
+    (path "/00000000-0000-0000-0000-0000610accab/20316ef2-f427-4201-9528-995d4d73a87a"
+      (reference "USR1") (unit 1) (value "SW_TL3340AF160QG") (footprint "antmicro-footprints:SW_TL3340AF160QG")
     )
   )
 )

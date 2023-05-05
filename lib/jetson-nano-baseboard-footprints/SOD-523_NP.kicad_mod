@@ -10,11 +10,11 @@
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 8fe250a1-61a4-4a8e-b6fc-e08752aae93c)
   )
-  (fp_text user "Copyright (c) 2023 Antmicro" (at -1.276 4.7) (layer "F.Fab") hide
+  (fp_text user "Author: Antmicro" (at -1.276 4.7) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 3e7ed687-ec02-430f-aeae-5c01ffa83ad8)
   )
-  (fp_text user "Apache-2.0 License" (at -1.276 5.9) (layer "F.Fab") hide
+  (fp_text user "License: Apache-2.0" (at -1.276 5.9) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp ec7579d0-ed52-46f5-b187-7e35b80ab1b2)
   )

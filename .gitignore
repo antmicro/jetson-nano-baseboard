@@ -26,4 +26,9 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+
+# Auto Saved Files
+\#auto*
+
+# License Report
+license_report.log
