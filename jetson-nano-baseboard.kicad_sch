@@ -2814,12 +2814,6 @@
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e71036b"
       (reference "#SHIELD01") (unit 1) (value "SHIELD") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710349"
-      (reference "#SHIELD_OTG01") (unit 1) (value "SHIELD_OTG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710347"
-      (reference "#SHIELD_OTG_02") (unit 1) (value "SHIELD_OTG") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f0"
       (reference "BAT1") (unit 1) (value "MS621FE-FL11E") (footprint "jetson-nano-baseboard-footprints:MS621FE-FL11E")
     )
