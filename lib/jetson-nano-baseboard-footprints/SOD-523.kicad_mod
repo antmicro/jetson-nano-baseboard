@@ -35,8 +35,8 @@
   (fp_line (start -0.65 -0.425) (end 0.65 -0.425) (layer "F.Fab") (width 0.1) (tstamp 6402cdaf-4d3c-4248-a59e-902ae1367e60))
   (fp_line (start -0.65 0.425) (end 0.65 0.425) (layer "F.Fab") (width 0.1) (tstamp b52e2bc0-3334-4b4e-839d-ce39fc0fa7e1))
   (fp_line (start -0.65 0.425) (end -0.65 -0.425) (layer "F.Fab") (width 0.1) (tstamp d76f188d-6f40-4d77-8eb8-96f971bdc583))
-  (pad "1" smd roundrect (at -0.9 0) (size 0.48 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4f474e7a-0804-442b-b9a3-f3cbfe1cd317))
-  (pad "2" smd roundrect (at 0.9 0) (size 0.48 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c08b4a84-a69b-4ece-803a-ad54f1122232))
+  (pad "1" smd rect (at -0.85 0) (size 0.4 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4f474e7a-0804-442b-b9a3-f3cbfe1cd317))
+  (pad "2" smd rect (at 0.85 0) (size 0.4 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c08b4a84-a69b-4ece-803a-ad54f1122232))
   (model "${KIPRJMOD}/lib/3d-models/SOD523F.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
