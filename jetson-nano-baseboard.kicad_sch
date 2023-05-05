@@ -3978,8 +3978,8 @@
     (path "/00000000-0000-0000-0000-0000608e1758/7581498b-521b-4a5b-b18c-b43f806b0a73"
       (reference "U7") (unit 1) (value "MAX3051EKA") (footprint "jetson-nano-baseboard-footprints:SOT-23-8")
     )
-    (path "/00000000-0000-0000-0000-0000608df3e5/5efb3400-3c38-46c7-a473-6c5a4e0817f8"
-      (reference "U8") (unit 1) (value "74LVC1G07GV") (footprint "antmicro-footprints:SOT-753")
+    (path "/00000000-0000-0000-0000-0000608df3e5/cb690511-a533-4460-ba1c-4ea277eefe1e"
+      (reference "U8") (unit 1) (value "74LVC1G07GV") (footprint "jetson-nano-baseboard-footprints:SOT-753")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f7"
       (reference "USER1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:LED0603")
