@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.74,
-          "height": 1.1,
-          "width": 2.25
+          "drill": 0.0,
+          "height": 0.762,
+          "width": 0.762
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,10 +45,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.125
+          "min_clearance": 0.25
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -541,7 +547,20 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z90_ext",
-        "nets": [],
+        "nets": [
+          "/USB/C_USBSS_RX1_N",
+          "/USB/C_USBSS_RX1_P",
+          "/USB/C_USBSS_RX2_N",
+          "/USB/C_USBSS_RX2_P",
+          "/USB/C_USBSS_RX6_N",
+          "/USB/C_USBSS_RX6_P",
+          "/USB/C_USBSS_TX1_N",
+          "/USB/C_USBSS_TX1_P",
+          "/USB/C_USBSS_TX2_N",
+          "/USB/C_USBSS_TX2_P",
+          "/USB/C_USBSS_TX6_N",
+          "/USB/C_USBSS_TX6_P"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -564,18 +583,6 @@
           "/USB/CC2",
           "/USB/C_CC1",
           "/USB/C_CC2",
-          "/USB/C_USBSS_RX1_N",
-          "/USB/C_USBSS_RX1_P",
-          "/USB/C_USBSS_RX2_N",
-          "/USB/C_USBSS_RX2_P",
-          "/USB/C_USBSS_RX6_N",
-          "/USB/C_USBSS_RX6_P",
-          "/USB/C_USBSS_TX1_N",
-          "/USB/C_USBSS_TX1_P",
-          "/USB/C_USBSS_TX2_N",
-          "/USB/C_USBSS_TX2_P",
-          "/USB/C_USBSS_TX6_N",
-          "/USB/C_USBSS_TX6_P",
           "/USB/DBG_USB_D_N",
           "/USB/DBG_USB_D_P",
           "/USB/EN_MUX",
