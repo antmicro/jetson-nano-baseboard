@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.762,
-          "width": 0.762
+          "drill": 0.9,
+          "height": 0.9,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -602,7 +602,6 @@
           "/USB/USBSS_TX2_P",
           "OTG_USB_D_N",
           "OTG_USB_D_P",
-          "OTG_USB_VBUS",
           "USB1_D_N",
           "USB1_D_P",
           "USBSS_RX6_N",

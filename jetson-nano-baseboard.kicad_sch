@@ -3153,8 +3153,8 @@
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285628"
       (reference "D13") (unit 1) (value "1N4148WS") (footprint "jetson-nano-baseboard-footprints:SOD-323")
     )
-    (path "/00000000-0000-0000-0000-0000608dc6e9/44611e43-6cfa-43fa-992a-10b45d39c17b"
-      (reference "D14") (unit 1) (value "SMAJ36A") (footprint "jetson-nano-baseboard-footprints:DO-214AC")
+    (path "/00000000-0000-0000-0000-0000608dc6e9/40ef383d-2a8f-40b2-9ed2-94ab1f69b4ee"
+      (reference "D14") (unit 1) (value "SMBJ33A") (footprint "antmicro-footprints:D_SMB")
     )
     (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-00005ee8e781"
       (reference "D15") (unit 1) (value "diode") (footprint "jetson-nano-baseboard-footprints:SOD-323")
