@@ -6,11 +6,10 @@
 
   (title_block
     (title "Jetson Nano Baseboard")
-    (date "2022-02-04")
-    (rev "1.5.1")
+    (date "2023-04-19")
+    (rev "1.6.1")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
-    (comment 2 "Antmicro Ltd")
   )
 
   (lib_symbols
