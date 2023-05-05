@@ -2811,6 +2811,9 @@
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e2f99d"
       (reference "#GND_0167") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000608e1758/7963ee4e-a222-4e29-9415-f6f9ce090c7b"
+      (reference "#GND_?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000608df3e5/e3b6027d-97c0-475f-9cac-c8319bd2b8a4"
       (reference "#GND_?") (unit 1) (value "GND") (footprint "")
     )
@@ -3135,6 +3138,9 @@
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000618f00a3"
       (reference "F2") (unit 1) (value "04671.25NR") (footprint "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467")
     )
+    (path "/00000000-0000-0000-0000-0000608e1758/8d91f38f-d40a-48f4-afcf-97f7a9115523"
+      (reference "F?") (unit 1) (value "04671.25NR") (footprint "jetson-nano-baseboard-footprints:0603-Fuse-Littelfuse-0467")
+    )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b64835"
       (reference "FB1") (unit 1) (value "74279221100") (footprint "jetson-nano-baseboard-footprints:1206-res")
     )
@@ -3215,6 +3221,9 @@
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006210b794"
       (reference "J12") (unit 1) (value "533980471") (footprint "jetson-nano-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000608e1758/0558ca48-3e57-4c98-aee4-48121cdd0844"
+      (reference "J?") (unit 1) (value "SM04B-SRSS-TB-LF-SN") (footprint "jetson-nano-baseboard-footprints:SM04B-SRSS-TB-LF-SN")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062296cec"
       (reference "L1") (unit 1) (value "XFL4020-222MEC") (footprint "jetson-nano-baseboard-footprints:XFL4015-122MEC")

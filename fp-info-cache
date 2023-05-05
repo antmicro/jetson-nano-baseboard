@@ -1,4 +1,4 @@
-2663912184098923
+2665586973360350
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -10954,6 +10954,13 @@ SIC47XED-T1-GE3
 0
 32
 28
+jetson-nano-baseboard-footprints
+SM04B-SRSS-TB-LF-SN
+
+
+0
+6
+6
 jetson-nano-baseboard-footprints
 SOD-323
 
