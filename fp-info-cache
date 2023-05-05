@@ -1,4 +1,4 @@
-2667277180609463
+2672337781614296
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -10787,6 +10787,13 @@ DC_SOCKET
 3
 3
 jetson-nano-baseboard-footprints
+DO-214AC
+
+
+0
+2
+2
+jetson-nano-baseboard-footprints
 Fuse-1206
 
 
@@ -10976,6 +10983,13 @@ SOD-323
 2
 2
 jetson-nano-baseboard-footprints
+SOD-523
+
+
+0
+2
+2
+jetson-nano-baseboard-footprints
 SON-15
 
 
@@ -11003,6 +11017,13 @@ SOT-23-6
 0
 6
 6
+jetson-nano-baseboard-footprints
+SOT-23-8
+http://www.ti.com/lit/ds/symlink/ina219.pdf
+
+0
+8
+8
 jetson-nano-baseboard-footprints
 SOT-23s
 

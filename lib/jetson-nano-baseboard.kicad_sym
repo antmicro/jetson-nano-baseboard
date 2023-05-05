@@ -11091,6 +11091,357 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
+    (symbol "SMAJ36A" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "D" 
+            (id 0) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "SMAJ36A" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "jetson-nano-baseboard-footprints:DO-214AC" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "https://www.mouser.pl/datasheet/2/447/SMAJ_1-1954892.pdf" 
+            (id 3) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "YAGEO" 
+            (id 4) 
+            (at 5.08 15.24 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "SMAJ36A/TR13" 
+            (id 5) 
+            (at 5.08 12.7 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "ki_description" "TVS DIODE, 400W, 30V, SMA" 
+            (id 6) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "SMAJ36A_0_1" 
+            (polyline 
+                (pts 
+                    (xy -1.27 1.27) 
+                    (xy -1.27 -1.27) 
+                    (xy 1.27 0) 
+                    (xy -1.27 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type outline))) 
+            (polyline 
+                (pts 
+                    (xy 2.54 2.54) 
+                    (xy 1.27 1.27) 
+                    (xy 1.27 -1.27) 
+                    (xy 0 -2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "SMAJ36A_1_1" 
+            (pin bidirectional line 
+                (at -5.08 0 0) 
+                (length 3.81) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "A" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin bidirectional line 
+                (at 5.08 0 180) 
+                (length 3.81) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "K" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "ESD5B5_0ST1G" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "D" 
+            (id 0) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "ESD5B5_0ST1G" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "jetson-nano-baseboard-footprints:SOD-523" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "https://www.mouser.pl/datasheet/2/308/ESD5B5_0ST1_D-1805066.pdf" 
+            (id 3) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "ON Semiconductor" 
+            (id 4) 
+            (at 5.08 27.94 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ESD5B5.0ST1G" 
+            (id 5) 
+            (at 5.08 12.7 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (symbol "ESD5B5_0ST1G_0_1" 
+            (polyline 
+                (pts 
+                    (xy 0 1.27) 
+                    (xy 0.635 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "ESD5B5_0ST1G_1_1" 
+            (polyline 
+                (pts 
+                    (xy -1.27 0) 
+                    (xy 0 0)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 -1.27) 
+                    (xy -0.635 -1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 -1.27) 
+                    (xy -0.635 -1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 -1.27) 
+                    (xy 0 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 1.27) 
+                    (xy 0 -1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 1.27 0) 
+                    (xy 0 0)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.54 1.27) 
+                    (xy -2.54 -1.27) 
+                    (xy 0 0) 
+                    (xy -2.54 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type outline))) 
+            (polyline 
+                (pts 
+                    (xy 2.54 -1.27) 
+                    (xy 2.54 1.27) 
+                    (xy 0 0) 
+                    (xy 2.54 -1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type outline))) 
+            (pin bidirectional line 
+                (at -5.08 0 0) 
+                (length 2.54) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin bidirectional line 
+                (at 5.08 0 180) 
+                (length 2.54) 
+                (name "" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "3413_0329_22" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "F" 
+            (id 0) 
+            (at 0 2.54 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "3413_0329_22" 
+            (id 1) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "antmicro-footprints:1206" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "https://us.schurter.com/pdf/english/typ_UST_1206.pdf" 
+            (id 3) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "Schurter Inc." 
+            (id 4) 
+            (at 5.08 27.94 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "3413.0329.22" 
+            (id 5) 
+            (at 5.08 12.7 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (symbol "3413_0329_22_0_1" 
+            (arc 
+                (start 0 0) 
+                (mid -1.27 1.27) 
+                (end -2.54 0) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (arc 
+                (start 0 0) 
+                (mid 1.27 -1.27) 
+                (end 2.54 0) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "3413_0329_22_1_1" 
+            (pin output line 
+                (at -5.08 0 0) 
+                (length 2.54) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin output line 
+                (at 5.08 0 180) 
+                (length 2.54) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "C_100u_1206" 
         (pin_names 
             (offset 1.016)) 
@@ -11534,176 +11885,6 @@
                     (effects 
                         (font 
                             (size 1.778 1.778))))))) 
-    (symbol "PMOS" 
-        (pin_names 
-            (offset 1.016)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "Q" 
-            (id 0) 
-            (at -3.81 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left bottom))) 
-        (property "Value" "PMOS" 
-            (id 1) 
-            (at -3.81 2.54 90) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left bottom))) 
-        (property "Footprint" "jetson-nano-baseboard-footprints:SOT-23s" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Manufacturer" "NXP" 
-            (id 4) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "MPN" "PMV32UP" 
-            (id 5) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "PMOS_0_1" 
-            (polyline 
-                (pts 
-                    (xy -2.54 2.032) 
-                    (xy -2.54 -2.032)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 -1.524) 
-                    (xy 0 -1.524)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 -1.016) 
-                    (xy -2.032 -2.032)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 0.508) 
-                    (xy -2.032 -0.508)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 1.524) 
-                    (xy 0 1.524)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 2.032) 
-                    (xy -2.032 1.016)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 -1.524) 
-                    (xy 0 -2.54)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 0) 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -1.524 -0.508) 
-                    (xy -1.524 0.508) 
-                    (xy -0.762 0) 
-                    (xy -1.524 -0.508)) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -5.08 0 0) 
-                (length 2.54) 
-                (name "G" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254))))) 
-            (pin passive line 
-                (at 0 5.08 270) 
-                (length 2.54) 
-                (name "S" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254))))) 
-            (pin passive line 
-                (at 0 -5.08 90) 
-                (length 2.54) 
-                (name "D" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254))))))) 
     (symbol "HD3SS3220" 
         (pin_names 
             (offset 1.016)) 
@@ -14024,6 +14205,176 @@
                     (effects 
                         (font 
                             (size 1.778 1.778))))))) 
+    (symbol "PMOS" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "Q" 
+            (id 0) 
+            (at -3.81 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left bottom))) 
+        (property "Value" "PMOS" 
+            (id 1) 
+            (at -3.81 2.54 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left bottom))) 
+        (property "Footprint" "jetson-nano-baseboard-footprints:SOT-23s" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Manufacturer" "NXP" 
+            (id 4) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "PMV32UP" 
+            (id 5) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "PMOS_0_1" 
+            (polyline 
+                (pts 
+                    (xy -2.54 2.032) 
+                    (xy -2.54 -2.032)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 -1.524) 
+                    (xy 0 -1.524)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 -1.016) 
+                    (xy -2.032 -2.032)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 0.508) 
+                    (xy -2.032 -0.508)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 1.524) 
+                    (xy 0 1.524)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 2.032) 
+                    (xy -2.032 1.016)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 -1.524) 
+                    (xy 0 -2.54)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 0) 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -1.524 -0.508) 
+                    (xy -1.524 0.508) 
+                    (xy -0.762 0) 
+                    (xy -1.524 -0.508)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -5.08 0 0) 
+                (length 2.54) 
+                (name "G" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254))))) 
+            (pin passive line 
+                (at 0 5.08 270) 
+                (length 2.54) 
+                (name "S" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254))))) 
+            (pin passive line 
+                (at 0 -5.08 90) 
+                (length 2.54) 
+                (name "D" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254))))))) 
     (symbol "antmicro_logo" 
         (pin_names 
             (offset 1.016)) 
