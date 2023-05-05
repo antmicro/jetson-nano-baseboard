@@ -2814,6 +2814,9 @@
     (path "/00000000-0000-0000-0000-0000608df3e5/e3b6027d-97c0-475f-9cac-c8319bd2b8a4"
       (reference "#GND_?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000608df3e5/e55e3978-7398-4dfd-acde-03d7f58a1613"
+      (reference "#GND_?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000608e1758/0f676a0e-a4f6-4bb2-8b08-04fc4ff70e36"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3525,12 +3528,6 @@
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000622fcc96"
       (reference "R68") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006250ac99"
-      (reference "R69") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
-    )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00006250b207"
-      (reference "R70") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
-    )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-0000625b92f1"
       (reference "R71") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
@@ -3708,8 +3705,20 @@
     (path "/00000000-0000-0000-0000-0000608e1758/49849f9e-3a33-4259-bc82-711333e9a97f"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
+    (path "/00000000-0000-0000-0000-0000608df3e5/4e42ac56-776e-4cf9-aea0-d05f0225a948"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-0000608df3e5/53acc000-ba28-489c-bc9a-e090af056b9c"
       (reference "R?") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000608df3e5/5ea125ab-7904-4520-bbcf-52c8097d1129"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000608df3e5/81cdd2a1-5646-457b-8cab-4bd71a399814"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000608df3e5/ab5101cf-d186-4826-8811-782171da9af7"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/b462c7da-0846-4d29-a6b7-e1b211ff4492"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
