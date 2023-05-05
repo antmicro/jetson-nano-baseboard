@@ -33,10 +33,10 @@
   (pad "19" thru_hole circle (at 2.7 -0.175) (size 0.65 0.65) (drill 0.45) (layers *.Cu *.Mask) (tstamp 226952e4-3988-4220-9a00-bfde5e3a85ef))
   (pad "20" thru_hole circle (at 2.7 -3.525) (size 0.65 0.65) (drill 0.45) (layers *.Cu *.Mask) (tstamp cbbabba9-e208-4497-a0af-e708ad24287f))
   (pad "21" thru_hole oval (at -5.5 -1.175 90) (size 2.85 1.4) (drill oval 2.35 0.9) (layers *.Cu *.Mask) (tstamp 9efef231-9589-4b4b-b3bb-978daefa0c4b))
-  (pad "22" thru_hole oval (at -5.2 4.325 90) (size 2.25 1) (drill oval 1.74 0.7) (layers *.Cu *.Mask) (tstamp 0d4fef0e-2782-42c7-97b9-c078be75770b))
-  (pad "23" thru_hole oval (at 5.2 4.325 90) (size 2.25 1) (drill oval 1.74 0.7) (layers *.Cu *.Mask) (tstamp 8dd87335-eecf-4002-8cc9-e9277156cb3a))
+  (pad "22" thru_hole oval (at -5.2 4.325 90) (size 2.25 1.2) (drill oval 1.74 0.7) (layers *.Cu *.Mask) (tstamp 0d4fef0e-2782-42c7-97b9-c078be75770b))
+  (pad "23" thru_hole oval (at 5.2 4.325 90) (size 2.25 1.2) (drill oval 1.74 0.7) (layers *.Cu *.Mask) (tstamp 8dd87335-eecf-4002-8cc9-e9277156cb3a))
   (pad "24" thru_hole oval (at 5.5 -1.175 90) (size 2.85 1.4) (drill oval 2.35 0.9) (layers *.Cu *.Mask) (tstamp f0d7ec1a-2127-4d7d-a45e-0a7265babe7a))
-  (model "${KIPRJMOD}/nano-baseboard-3dmodels/c-2129320-3-b-3d.stpm"
+  (model "${KIPRJMOD}/lib/3d-models/c-2129320-3-b-3d.stp"
     (offset (xyz 0 -7.8 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
