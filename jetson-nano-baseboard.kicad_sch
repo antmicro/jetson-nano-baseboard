@@ -3139,10 +3139,10 @@
       (reference "FB1") (unit 1) (value "74279221100") (footprint "jetson-nano-baseboard-footprints:1206-res")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00006201b686"
-      (reference "FB2") (unit 1) (value "742792022") (footprint "jetson-nano-baseboard-footprints:0805-res")
+      (reference "FB2") (unit 1) (value "74279220181") (footprint "jetson-nano-baseboard-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-0000620c3704"
-      (reference "FB3") (unit 1) (value "742792022") (footprint "jetson-nano-baseboard-footprints:0805-res")
+      (reference "FB3") (unit 1) (value "74279220181") (footprint "jetson-nano-baseboard-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b4"
       (reference "IC2") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:SON-15")
