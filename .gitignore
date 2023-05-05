@@ -1,36 +1,29 @@
-# Altium report files
-*.REP
-*Status Report*
-# Archives (including history) 
-*.zip
-# Temporary data 
-*.dat
-*.Dat
-*.log
-# Unwanted data from Gerber files 
-*.LDP
-*.RUL
-# Previews and additional Altium outputs
-__Previews
-*Project Logs*
-*Project Outputs*
-*History*
-#FreeCAD temp data
-*FCStd1
-# Draftsight backup files
-*bak
-*.PrjPCBStructure
-*.PrjPcbStructure
-# Windows thumbnails
-Thumb*
-# SVN files from collaborative design.
-.svn
-#Open office temporary files
-*ods\#
-#vim swap files
-*.swp
-# old releases
-*release*
-#kicad backups
-*bck
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
