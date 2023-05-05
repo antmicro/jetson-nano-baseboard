@@ -3138,7 +3138,7 @@
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104b7"
       (reference "D4") (unit 1) (value "1N4148WS") (footprint "jetson-nano-baseboard-footprints:SOD-323")
     )
-    (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000061c529c6"
+    (path "/00000000-0000-0000-0000-0000608df3e5/658966d2-c59a-49ab-964f-24a17d3e31bb"
       (reference "D5") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000063492e55"
@@ -3153,7 +3153,7 @@
     (path "/00000000-0000-0000-0000-0000608dc6e9/144a162a-151e-477f-beb6-97a9ab8004a5"
       (reference "D9") (unit 1) (value "ESD5B5_0ST1G") (footprint "jetson-nano-baseboard-footprints:SOD-523_NP")
     )
-    (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061caa79f"
+    (path "/00000000-0000-0000-0000-00006096d016/b9825c0c-d0c2-48cf-a9f2-2a5aadf51d63"
       (reference "D10") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-000061cc12f9"
