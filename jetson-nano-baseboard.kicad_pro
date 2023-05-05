@@ -598,7 +598,6 @@
           "OTG_USB_VBUS",
           "USB1_D_N",
           "USB1_D_P",
-          "USBC_VBUS",
           "USBSS_RX6_N",
           "USBSS_RX6_P",
           "USBSS_TX6_N",
