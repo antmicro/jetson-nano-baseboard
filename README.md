@@ -3,7 +3,7 @@
 Copyright (c) 2020-2023 [Antmicro](https://www.antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-nano-baseboard)
-
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/jetson-nano-baseboard/?github=https%3A%2F%2Fgithub.com%2Fantmicro%2Fjetson-nano-baseboard%2Ftree%2Fmain&tab=features)
 ![Jetson Nano Devboard](/img/jetson-nano-baseboard.png)
 
 ## Overview
