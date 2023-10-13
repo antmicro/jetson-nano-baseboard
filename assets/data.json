@@ -1,0 +1,332 @@
+{
+    "id": "jetson-nano-baseboard",
+    "componentIds": [
+        "seiko-instruments-ms621fe-fl11e",
+        "osram-lg-l29k-g2j1-24-z",
+        "murata-grm155r61a475meaad",
+        "murata-gcm1555c1h101ja16d",
+        "kemet-c0402c470j5gactu",
+        "tdk-c1005x5r1a225k050bc",
+        "tdk-c3216x7r1h106k160ae",
+        "kemet-c0805c476m9pactu",
+        "murata-grm188r61a106ke69d",
+        "johanson-technology-160r15x106kv4e",
+        "murata-grm31cr60j107mea8k",
+        "yageo-cc0402mrx5r5bb106",
+        "murata-grm155r61h474ke11d",
+        "murata-grm155r61h104ke14d",
+        "murata-grm155r71h104ke14d",
+        "murata-gcm155r71e333ka55d",
+        "tdk-c1005x6s1a105k050bc",
+        "tdk-c1608x5r1v475m080ac",
+        "on-semiconductor-esd5b5-0st1g",
+        "littelfuse-smbj33a",
+        "on-semiconductor-1n4148ws",
+        "nexperia-pesd2usb5uv-tr",
+        "texas-instruments-tpd4e05u06qdqarq1",
+        "littelfuse-04671-25nr",
+        "schurter-3413-0329-22",
+        "on-semiconductor-ncp380lsnajaat1g",
+        "texas-instruments-sn74lv1t125dbvr",
+        "nexperia-74hc00pw-118",
+        "texas-instruments-sn74lvc1g126dckr",
+        "atmel-at24cs01-st",
+        "texas-instruments-tpd8s009dsmr",
+        "texas-instruments-tps7a0518pdbvt",
+        "ftdi-chip-ft232rq-reel",
+        "nxp-pca9517adp",
+        "texas-instruments-hd3ss3220rnht",
+        "molex-5051101097",
+        "bel-fuse-si-51005-f",
+        "multicomp-pro-mj-179ph",
+        "wurth-elektronik-68715014522",
+        "wurth-elektronik-68715014022",
+        "amphenol-mdt580m01001",
+        "murata-lqh32pn2r2nn0l",
+        "nvidia-945-13541-0000-0000",
+        "bourns-cr0402-fx-5r60glf",
+        "bourns-cr0402-fx-5232glf",
+        "bourns-cr0402-fx-1200glf",
+        "panasonic-erj2ge0r00x",
+        "bourns-cr0402-fx-4700glf",
+        "bourns-cr0402-fx-1001glf",
+        "bourns-cr0402-fx-22r0glf",
+        "bourns-cr0402-fx-1003glf",
+        "bourns-cr0402-fx-1004glf",
+        "bourns-cr0402-fx-2200glf",
+        "bourns-cr0402-fx-1002glf",
+        "bourns-cr0402-fx-2001glf",
+        "bourns-cr0402-fx-9093glf",
+        "bourns-cr0402-fx-2003glf",
+        "bourns-cr0402-fx-1000glf",
+        "bourns-cr0402-fx-4703glf",
+        "bourns-cr0402-fx-3r30glf",
+        "bourns-cr0402-fx-2672glf",
+        "e-switch-tl3340af160qg",
+        "nexperia-bss138pw",
+        "texas-instruments-lm3671mf-3-3-nopb",
+        "texas-instruments-lmq62440bppqrjrrq1",
+        "texas-instruments-sn74lxc1t45dbvr",
+        "nxp-pca9547bs-118",
+        "vishay-sic477ed-t1-ge3",
+        "maxim-integrated-products-max3051eka",
+        "nexperia-74lvc1g07gv-125"
+    ],
+    "stackup": {
+        "layers": [
+            {
+                "fileName": "layer0.webp"
+            },
+            {
+                "fileName": "layer1.webp"
+            },
+            {
+                "fileName": "layer2.webp"
+            },
+            {
+                "fileName": "layer3.webp"
+            },
+            {
+                "fileName": "layer4.webp"
+            },
+            {
+                "fileName": "layer5.webp"
+            },
+            {
+                "fileName": "layer6.webp"
+            },
+            {
+                "fileName": "layer7.webp"
+            },
+            {
+                "fileName": "layer8.webp"
+            }
+        ]
+    },
+    "previews": [
+        {
+            "id": "top-photo",
+            "description": "Render in top photo view",
+            "fileName": "photoT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "photoT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "photoT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "photoT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "photoT_rightB.webm"
+                },
+                "top-left": {
+                    "fileName": "photoT_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "photoT_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "photoT_rightT.webm"
+                }
+            }
+        },
+        {
+            "id": "top-left",
+            "description": "Render in top left view",
+            "fileName": "leftT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "leftT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "leftT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "leftT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "leftT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "leftT_photoT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "leftT_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "leftT_rightT.webm"
+                }
+            }
+        },
+        {
+            "id": "top-ortho",
+            "description": "Render in top ortho view",
+            "fileName": "orthoT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "orthoT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "orthoT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "orthoT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "orthoT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "orthoT_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "orthoT_leftT.webm"
+                },
+                "top-right": {
+                    "fileName": "orthoT_rightT.webm"
+                }
+            }
+        },
+        {
+            "id": "top-right",
+            "description": "Render in top right view",
+            "fileName": "rightT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "rightT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "rightT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "rightT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "rightT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "rightT_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "rightT_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "rightT_orthoT.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-photo",
+            "description": "Render in bottom photo view",
+            "fileName": "photoB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "photoB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "photoB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "photoB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "photoB_rightT.webm"
+                },
+                "bottom-left": {
+                    "fileName": "photoB_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "photoB_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "photoB_rightB.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-left",
+            "description": "Render in bottom left view",
+            "fileName": "leftB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "leftB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "leftB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "leftB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "leftB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "leftB_photoB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "leftB_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "leftB_rightB.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-ortho",
+            "description": "Render in bottom ortho view",
+            "fileName": "orthoB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "orthoB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "orthoB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "orthoB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "orthoB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "orthoB_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "orthoB_leftB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "orthoB_rightB.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-right",
+            "description": "Render in bottom right view",
+            "fileName": "rightB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "rightB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "rightB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "rightB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "rightB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "rightB_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "rightB_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "rightB_orthoB.webm"
+                }
+            }
+        }
+    ]
+}
