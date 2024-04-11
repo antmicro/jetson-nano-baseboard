@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -55,29 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|127208401|122710001|00000000-0000-0000-0000-00005e79fb27|00000000-0000-0000-0000-0000615f0d6a",
-        "courtyards_overlap|163950001|116240001|00000000-0000-0000-0000-00005e79f813|00000000-0000-0000-0000-000061d3b9a4",
-        "courtyards_overlap|164149999|115640001|00000000-0000-0000-0000-00005e79f813|00000000-0000-0000-0000-0000620100a3",
-        "courtyards_overlap|171549999|115574019|00000000-0000-0000-0000-00005e793115|00000000-0000-0000-0000-00005e79f813",
-        "npth_inside_courtyard|172421000|110850020|d21b3dc3-a287-4409-ba39-a154e48af20d|00000000-0000-0000-0000-0000605bdbdb",
-        "npth_inside_courtyard|172421000|115099020|7eeed563-0a97-4eff-a361-9dcb6d7456c4|00000000-0000-0000-0000-0000605bdbdb",
-        "npth_inside_courtyard|172424000|88762020|26e5f715-843b-4f22-83c7-4648083713b2|00000000-0000-0000-0000-0000605bdbdb",
-        "npth_inside_courtyard|172424000|93011020|cd81984c-8e88-4b3c-9df9-924b9c17c098|00000000-0000-0000-0000-0000605bdbdb",
-        "npth_inside_courtyard|172424330|104272930|b3e8df42-8fcb-437e-bd11-c7ece394cafb|00000000-0000-0000-0000-0000605bdbdb",
-        "npth_inside_courtyard|172424330|108521930|0e58a32d-ecad-41e1-b4a4-c3a0285d69dc|00000000-0000-0000-0000-0000605bdbdb",
-        "pth_inside_courtyard|170183000|125906010|6b79961c-af97-42e9-8c3e-a1c9cf921c60|00000000-0000-0000-0000-00005e79f813",
-        "pth_inside_courtyard|79957390|125906040|2dc9f474-9c88-4d80-9767-73350fd97d0a|00000000-0000-0000-0000-000061b21184",
-        "silk_over_copper|164250000|129906010|00000000-0000-0000-0000-00005e79e6cb|ea8fdd1b-d138-4913-b563-c6ddfccd8d87",
-        "silk_over_copper|167450000|78930000|0072dad0-3553-45ac-a9e5-4d4c34de4c53|3a40a258-098b-4670-beeb-bca4bb178007",
-        "silk_over_copper|167450000|79524000|63f869aa-8716-4fec-a5cb-7a2d5c53ffe9|3a40a258-098b-4670-beeb-bca4bb178007",
-        "silk_over_copper|170183000|126140000|e1554ab2-f69b-4ef9-bd34-c320052dc38d|6b79961c-af97-42e9-8c3e-a1c9cf921c60",
-        "silk_over_copper|170989000|115323020|46941f8a-a30f-4890-8422-4129f6a3ee34|77acbc44-c819-4524-ab83-92a646a55979",
-        "silk_over_copper|170989000|115323020|577648e5-fbdd-4f8e-8b27-d81fe19716e8|77acbc44-c819-4524-ab83-92a646a55979",
-        "silk_over_copper|173850000|129906010|00000000-0000-0000-0000-00005e79e6cb|2a4a6c8a-077b-43f7-bcfa-e2854e20c146",
-        "silk_over_copper|79550000|81699000|2fc5226d-0722-48c2-a842-b59dbbd0ed5f|6b775c36-e47f-4614-a2d3-a388f0693ee1",
-        "silk_over_copper|79550000|81699000|cba137ea-8882-4853-bd1f-d5463019912e|6b775c36-e47f-4614-a2d3-a388f0693ee1"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -85,20 +64,26 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -108,9 +93,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -119,7 +109,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rule_severitieslegacy_courtyards_overlap": true,
@@ -129,18 +118,63 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.127,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
+        "min_text_height": 0.7999999999999999,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.09999999999999999,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
+      "teardrop_options": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [
         0.0,
         0.125,
@@ -166,7 +200,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -350,18 +385,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -371,6 +411,7 @@
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -388,7 +429,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
@@ -402,10 +443,10 @@
         "track_width": 0.125,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
@@ -414,57 +455,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z100_ext",
-        "nets": [
-          "/Display/ML_C_LANE0_N",
-          "/Display/ML_C_LANE0_P",
-          "/Display/ML_C_LANE1_N",
-          "/Display/ML_C_LANE1_P",
-          "/Display/ML_C_LANE2_N",
-          "/Display/ML_C_LANE2_P",
-          "/Display/ML_C_LANE3_N",
-          "/Display/ML_C_LANE3_P",
-          "/Display/TMDS_C1_CLK_N",
-          "/Display/TMDS_C1_CLK_P",
-          "/Display/TMDS_C1_D0_N",
-          "/Display/TMDS_C1_D0_P",
-          "/Display/TMDS_C1_D1_N",
-          "/Display/TMDS_C1_D1_P",
-          "/Display/TMDS_C1_D2_N",
-          "/Display/TMDS_C1_D2_P",
-          "/Display/TMDS_CEC",
-          "/Display/TMDS_CEC_IN",
-          "/Display/TMDS_CLK_C_N",
-          "/Display/TMDS_CLK_C_P",
-          "/Display/TMDS_CLK_N",
-          "/Display/TMDS_CLK_P",
-          "/Display/TMDS_D0_C_N",
-          "/Display/TMDS_D0_C_P",
-          "/Display/TMDS_D0_N",
-          "/Display/TMDS_D0_P",
-          "/Display/TMDS_D1_C_N",
-          "/Display/TMDS_D1_C_P",
-          "/Display/TMDS_D1_N",
-          "/Display/TMDS_D1_P",
-          "/Display/TMDS_D2_C_N",
-          "/Display/TMDS_D2_C_P",
-          "/Display/TMDS_D2_N",
-          "/Display/TMDS_D2_P",
-          "/Display/TMDS_HPD_IN",
-          "/Display/TMDS_SCL",
-          "/Display/TMDS_SCL_5V0",
-          "/Display/TMDS_SDA",
-          "/Display/TMDS_SDA_5V0",
-          "TMDS_HPD"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
@@ -473,37 +472,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z100_in",
-        "nets": [
-          "/Display/EDP0_TX_N",
-          "/Display/EDP0_TX_P",
-          "/Display/EDP1_TX_N",
-          "/Display/EDP1_TX_P",
-          "/Display/EDP2_TX_N",
-          "/Display/EDP2_TX_P",
-          "/Display/EDP3_TX_N",
-          "/Display/EDP3_TX_P",
-          "/Display/EDP_AUX_N",
-          "/Display/EDP_AUX_P",
-          "/Display/EDP_C_AUX_C_N",
-          "/Display/EDP_C_AUX_C_P",
-          "ENET_TRD0_N",
-          "ENET_TRD0_P",
-          "ENET_TRD1_N",
-          "ENET_TRD1_P",
-          "ENET_TRD2_N",
-          "ENET_TRD2_P",
-          "ENET_TRD3_N",
-          "ENET_TRD3_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
@@ -512,16 +489,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z50_ext",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
@@ -530,16 +506,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z85_ext",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
@@ -548,19 +523,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z85_in",
-        "nets": [
-          "PCIE0_CLK_N",
-          "PCIE0_CLK_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
@@ -569,29 +540,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z90_ext",
-        "nets": [
-          "/USB/C_USBSS_RX1_N",
-          "/USB/C_USBSS_RX1_P",
-          "/USB/C_USBSS_RX2_N",
-          "/USB/C_USBSS_RX2_P",
-          "/USB/C_USBSS_RX6_N",
-          "/USB/C_USBSS_RX6_P",
-          "/USB/C_USBSS_TX1_N",
-          "/USB/C_USBSS_TX1_P",
-          "/USB/C_USBSS_TX2_N",
-          "/USB/C_USBSS_TX2_P",
-          "/USB/C_USBSS_TX6_N",
-          "/USB/C_USBSS_TX6_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
@@ -600,46 +557,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z90_in",
-        "nets": [
-          "/USB/CC1",
-          "/USB/CC2",
-          "/USB/C_CC1",
-          "/USB/C_CC2",
-          "/USB/DBG_USB_D_N",
-          "/USB/DBG_USB_D_P",
-          "/USB/EN_MUX",
-          "/USB/USBC_ADDR",
-          "/USB/USBC_FAULT",
-          "/USB/USBC_ID",
-          "/USB/USBC_INTN",
-          "/USB/USBC_SCL",
-          "/USB/USBC_SDA",
-          "/USB/USBSS_RX1_N",
-          "/USB/USBSS_RX1_P",
-          "/USB/USBSS_RX2_N",
-          "/USB/USBSS_RX2_P",
-          "/USB/USBSS_TX1_N",
-          "/USB/USBSS_TX1_P",
-          "/USB/USBSS_TX2_N",
-          "/USB/USBSS_TX2_P",
-          "OTG_USB_D_N",
-          "OTG_USB_D_P",
-          "USB1_D_N",
-          "USB1_D_P",
-          "USBSS_RX6_N",
-          "USBSS_RX6_P",
-          "USBSS_TX6_N",
-          "USBSS_TX6_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -648,19 +574,433 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "supply",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.15,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE0_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE0_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE1_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE1_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE2_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE2_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE3_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/ML_C_LANE3_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_CLK_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_CLK_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_D0_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_D0_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_D1_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_D1_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_D2_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_C1_D2_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_CEC"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_CEC_IN"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_CLK_C_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_CLK_C_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_CLK_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_CLK_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D0_C_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D0_C_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D0_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D0_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D1_C_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D1_C_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D1_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D1_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D2_C_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D2_C_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D2_N"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_D2_P"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_HPD_IN"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_SCL"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_SCL_5V0"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_SDA"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "/Display/TMDS_SDA_5V0"
+      },
+      {
+        "netclass": "Z100_ext",
+        "pattern": "TMDS_HPD"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP0_TX_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP0_TX_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP1_TX_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP1_TX_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP2_TX_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP2_TX_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP3_TX_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP3_TX_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP_AUX_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP_AUX_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP_C_AUX_C_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "/Display/EDP_C_AUX_C_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD0_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD0_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD1_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD1_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD2_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD2_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD3_N"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "ENET_TRD3_P"
+      },
+      {
+        "netclass": "Z85_in",
+        "pattern": "PCIE0_CLK_N"
+      },
+      {
+        "netclass": "Z85_in",
+        "pattern": "PCIE0_CLK_P"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_RX1_N"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_RX1_P"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_RX2_N"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_RX2_P"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_RX6_N"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_RX6_P"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_TX1_N"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_TX1_P"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_TX2_N"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_TX2_P"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_TX6_N"
+      },
+      {
+        "netclass": "Z90_ext",
+        "pattern": "/USB/C_USBSS_TX6_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/CC1"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/CC2"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/C_CC1"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/C_CC2"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/DBG_USB_D_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/DBG_USB_D_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/EN_MUX"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBC_ADDR"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBC_FAULT"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBC_ID"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBC_INTN"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBC_SCL"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBC_SDA"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_RX1_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_RX1_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_RX2_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_RX2_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_TX1_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_TX1_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_TX2_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "/USB/USBSS_TX2_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "OTG_USB_D_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "OTG_USB_D_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "USB1_D_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "USB1_D_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "USBSS_RX6_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "USBSS_RX6_P"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "USBSS_TX6_N"
+      },
+      {
+        "netclass": "Z90_in",
+        "pattern": "USBSS_TX6_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -676,6 +1016,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -707,7 +1049,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "./tmp",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },

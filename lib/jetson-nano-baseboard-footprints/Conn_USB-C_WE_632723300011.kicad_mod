@@ -913,7 +913,7 @@
   (pad "SH" thru_hole oval (at 4.269 1.493) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask) (tstamp e4b76348-b426-4bd0-b623-5f077965c12b))
   (pad "SH" thru_hole oval (at 4.269 -3.237) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask) (tstamp ed57fac5-7f91-4f32-a751-1c334f5e58f8))
   (model "${KIPRJMOD}/lib/3d-models/632723300011.step"
-    (offset (xyz 0 0.0000200000000001 0))
+    (offset (xyz 0 2.00000000001e-05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
