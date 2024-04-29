@@ -1,6 +1,6 @@
 # Antmicro's Open Source Jetson Baseboard
 
-Copyright (c) 2020-2023 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2020-2024 [Antmicro](https://www.antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-nano-baseboard)
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/jetson-nano-baseboard/?github=https%3A%2F%2Fgithub.com%2Fantmicro%2Fjetson-nano-baseboard%2Ftree%2Fmain&tab=features)
@@ -26,7 +26,6 @@ The remaining files are stored in the following directories:
 
 * ``img`` - contains graphics for this README
 * ``doc`` - contains generated schematics and other documentation
-* ``lib`` - contains KiCad component library
 * ``linux-patches`` - contains patches which add camera support for camera modules from Allied Vision (see the BSP section below)
 
 ## Key features
