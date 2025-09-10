@@ -20455,15 +20455,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 145.415 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 170.815 137.795 0)
 			(effects
@@ -20744,15 +20735,6 @@
 		)
 		(property "Val" "0R"
 			(at 284.48 123.825 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 282.575 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)

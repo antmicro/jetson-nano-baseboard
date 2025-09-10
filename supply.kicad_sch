@@ -20228,15 +20228,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 340.995 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 315.595 71.12 0)
 			(effects
@@ -24016,15 +24007,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 114.3 159.385 0)
 			(effects
@@ -26439,15 +26421,6 @@
 		)
 		(property "Val" "44k2"
 			(at 140.97 155.575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30195,15 +30168,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 382.27 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 356.87 99.695 0)
 			(effects
@@ -31252,15 +31216,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 130.175 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 104.775 163.195 0)
 			(effects
@@ -31386,15 +31341,6 @@
 		)
 		(property "Val" "6p"
 			(at 132.08 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 132.08 139.065 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33089,15 +33035,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 149.225 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 174.625 90.17 0)
 			(effects
@@ -33829,15 +33766,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 74.295 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 48.895 100.965 0)
 			(effects
@@ -34052,14 +33980,6 @@
 		)
 		(property "Val" "8k66"
 			(at 137.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 137.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34646,15 +34566,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 142.875 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 163.83 40.64 0)
 			(effects
@@ -34789,14 +34700,6 @@
 		)
 		(property "Val" "1n2"
 			(at 154.305 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 154.305 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34940,15 +34843,6 @@
 		)
 		(property "Val" "270p"
 			(at 151.5491 79.1801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 151.5491 81.717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
