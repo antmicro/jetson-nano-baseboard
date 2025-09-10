@@ -1428,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 218.44 107.95)
+			(xy 218.44 104.14) (xy 218.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 115.57) (xy 218.44 120.015)
+			(xy 218.44 114.3) (xy 218.44 120.015)
 		)
 		(stroke
 			(width 0)
@@ -4011,7 +4011,7 @@
 	)
 	(symbol
 		(lib_id "antmicroDiodesRectifiersSingle:1N4148WS")
-		(at 218.44 107.95 270)
+		(at 218.44 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4025,11 +4025,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 219.7862 105.918 0)
+			(at 217.0938 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4039,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:D_SOD-323F"
-			(at 218.44 107.95 0)
+			(at 218.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +4049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf"
-			(at 218.44 107.95 0)
+			(at 218.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 107.95 0)
+			(at 218.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4067,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 218.44 107.95 0)
+			(at 218.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,11 +4082,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 198.12 129.54 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4097,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 195.58 129.54 0)
+			(at 241.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

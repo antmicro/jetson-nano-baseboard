@@ -8069,10 +8069,28 @@
 		(uuid "18850f6e-e2bf-4d38-9b2b-1788bab9152a")
 	)
 	(junction
+		(at 289.56 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2304d9f5-92fb-47dc-a2b9-09ad954d7b5a")
+	)
+	(junction
 		(at 387.35 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e3d0449-b3b9-467f-b0bd-f4690d2a452b")
+	)
+	(junction
+		(at 289.56 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6817de54-8c99-47f1-ad19-608410f5d0e4")
+	)
+	(junction
+		(at 289.56 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69df2c78-b01f-4fa8-9f48-ba16b0c2cff7")
 	)
 	(junction
 		(at 115.57 53.34)
@@ -8394,6 +8412,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 201.93) (xy 308.61 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097b28ee-702f-496c-8771-bfb62ab7d379")
+	)
+	(wire
+		(pts
 			(xy 207.01 219.71) (xy 193.04 219.71)
 		)
 		(stroke
@@ -8514,7 +8542,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 120.65) (xy 331.47 123.19)
+			(xy 331.47 118.11) (xy 331.47 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8551,6 +8579,16 @@
 			(type default)
 		)
 		(uuid "272e6a48-c221-4a69-89f2-494b567aa211")
+	)
+	(wire
+		(pts
+			(xy 294.64 118.11) (xy 294.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275b30d8-7ad3-4eb0-b14f-1681e18dedf2")
 	)
 	(wire
 		(pts
@@ -8634,6 +8672,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 110.49) (xy 370.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e561c6-100c-4d50-9131-920d70686f22")
+	)
+	(wire
+		(pts
 			(xy 294.64 110.49) (xy 294.64 113.03)
 		)
 		(stroke
@@ -8664,7 +8712,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 199.39) (xy 296.545 199.39)
+			(xy 289.56 199.39) (xy 297.18 199.39)
 		)
 		(stroke
 			(width 0)
@@ -8701,6 +8749,16 @@
 			(type default)
 		)
 		(uuid "3997e2ad-f63d-45fc-92c7-943ecdb51bcd")
+	)
+	(wire
+		(pts
+			(xy 289.56 173.99) (xy 289.56 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a60b0b2-d490-4d73-9240-ae48ae2779d7")
 	)
 	(wire
 		(pts
@@ -8741,6 +8799,16 @@
 			(type default)
 		)
 		(uuid "4272b288-83d5-4e3b-9f4a-6e67fc8916c7")
+	)
+	(wire
+		(pts
+			(xy 307.34 171.45) (xy 308.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dd07ec-c34e-4a2c-aa1c-e4f57f6b6af7")
 	)
 	(wire
 		(pts
@@ -9034,7 +9102,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 186.69) (xy 296.545 186.69)
+			(xy 289.56 186.69) (xy 297.18 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9194,7 +9262,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 201.93) (xy 296.545 201.93)
+			(xy 289.56 201.93) (xy 297.18 201.93)
 		)
 		(stroke
 			(width 0)
@@ -9224,6 +9292,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 186.69) (xy 308.61 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fba019-8496-42a5-9a28-c6de468655ef")
+	)
+	(wire
+		(pts
 			(xy 191.77 204.47) (xy 207.01 204.47)
 		)
 		(stroke
@@ -9234,7 +9312,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.705 184.15) (xy 316.23 184.15)
+			(xy 307.34 184.15) (xy 316.23 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9264,7 +9342,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.705 199.39) (xy 314.96 199.39)
+			(xy 307.34 199.39) (xy 314.96 199.39)
 		)
 		(stroke
 			(width 0)
@@ -9304,7 +9382,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.705 168.91) (xy 316.23 168.91)
+			(xy 307.34 168.91) (xy 316.23 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9314,13 +9392,13 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 120.65) (xy 294.64 123.19)
+			(xy 289.56 189.23) (xy 289.56 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94bd579b-a7ff-48e7-b200-0761248f41d8")
+		(uuid "94e79b07-7ac5-4a70-a6e0-4f9666d543f1")
 	)
 	(wire
 		(pts
@@ -9331,6 +9409,16 @@
 			(type default)
 		)
 		(uuid "9564dd9c-770e-47bb-8008-545018666128")
+	)
+	(wire
+		(pts
+			(xy 308.61 204.47) (xy 289.56 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9826e056-aa36-4911-bfe2-c85b6e1346d0")
 	)
 	(wire
 		(pts
@@ -9384,6 +9472,26 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 186.69) (xy 308.61 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d7ce43-bc1d-4ac2-bf75-ecd935b0ad0c")
+	)
+	(wire
+		(pts
+			(xy 308.61 201.93) (xy 308.61 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a773de4e-b0e0-4e9d-9577-e38d4d3b68f6")
+	)
+	(wire
+		(pts
 			(xy 350.52 72.39) (xy 363.22 72.39)
 		)
 		(stroke
@@ -9394,7 +9502,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 171.45) (xy 296.545 171.45)
+			(xy 289.56 171.45) (xy 297.18 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9534,17 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 110.49) (xy 370.84 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baec355e-1f10-48c9-9d06-b8430c9cbd1d")
-	)
-	(wire
-		(pts
-			(xy 289.56 184.15) (xy 296.545 184.15)
+			(xy 289.56 184.15) (xy 297.18 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9571,6 +9669,16 @@
 			(type default)
 		)
 		(uuid "c29bf5af-8512-43b1-a2f1-6544ecdda98c")
+	)
+	(wire
+		(pts
+			(xy 289.56 204.47) (xy 289.56 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43ecb54-a9e5-47f5-9da3-6c82c3342828")
 	)
 	(wire
 		(pts
@@ -9654,7 +9762,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 201.93) (xy 289.56 209.55)
+			(xy 289.56 201.93) (xy 289.56 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9674,7 +9782,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 168.91) (xy 296.545 168.91)
+			(xy 289.56 168.91) (xy 297.18 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9711,6 +9819,16 @@
 			(type default)
 		)
 		(uuid "cf10ecf1-c628-479e-a68b-830484e8bb8c")
+	)
+	(wire
+		(pts
+			(xy 308.61 171.45) (xy 308.61 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52d7403-4633-45a1-a4db-749598860ef4")
 	)
 	(wire
 		(pts
@@ -9814,7 +9932,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 171.45) (xy 289.56 184.15)
+			(xy 289.56 171.45) (xy 289.56 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9844,7 +9962,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 186.69) (xy 289.56 199.39)
+			(xy 289.56 186.69) (xy 289.56 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9861,6 +9979,16 @@
 			(type default)
 		)
 		(uuid "ecf67037-9cb5-4151-92e1-4e1338fedc1e")
+	)
+	(wire
+		(pts
+			(xy 289.56 173.99) (xy 308.61 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed79f88f-8226-4dfe-ae14-52c47e6c671b")
 	)
 	(wire
 		(pts
@@ -9881,6 +10009,16 @@
 			(type default)
 		)
 		(uuid "ee3cb5c4-c890-4010-9c8c-963ff3377e34")
+	)
+	(wire
+		(pts
+			(xy 289.56 189.23) (xy 308.61 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9ed9dc-adc9-4055-b194-38ed4c6e2c5f")
 	)
 	(wire
 		(pts
@@ -9914,7 +10052,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 120.65) (xy 370.84 123.19)
+			(xy 370.84 118.11) (xy 370.84 123.19)
 		)
 		(stroke
 			(width 0)
@@ -14855,16 +14993,16 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
-		(at 370.84 113.03 270)
+		(at 370.84 118.11 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e7103f7")
 		(property "Reference" "USER1"
-			(at 374.65 116.8399 90)
+			(at 374.65 114.3001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14873,7 +15011,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
-			(at 370.84 113.03 0)
+			(at 370.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14883,7 +15021,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 370.84 113.03 0)
+			(at 370.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,7 +15031,7 @@
 			)
 		)
 		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf"
-			(at 370.84 113.03 0)
+			(at 370.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +15041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 370.84 113.03 0)
+			(at 370.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14911,7 +15049,7 @@
 			)
 		)
 		(property "MPN" "LG L29K-G2J1-24-Z"
-			(at 143.2052 -534.162 0)
+			(at 143.2052 765.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,7 +15059,7 @@
 			)
 		)
 		(property "Manufacturer" "OSRAM"
-			(at 143.2052 -534.162 0)
+			(at 143.2052 765.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14931,7 +15069,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 350.52 135.89 0)
+			(at 350.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14942,7 +15080,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 347.98 135.89 0)
+			(at 347.98 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19670,16 +19808,16 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
-		(at 331.47 113.03 270)
+		(at 331.47 118.11 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e71040b")
 		(property "Reference" "PWR1"
-			(at 334.645 116.8399 90)
+			(at 334.645 114.3001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19688,7 +19826,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
-			(at 331.47 113.03 0)
+			(at 331.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19698,7 +19836,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 331.47 113.03 0)
+			(at 331.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19708,7 +19846,7 @@
 			)
 		)
 		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf"
-			(at 331.47 113.03 0)
+			(at 331.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19718,7 +19856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 113.03 0)
+			(at 331.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19726,7 +19864,7 @@
 			)
 		)
 		(property "MPN" "LG L29K-G2J1-24-Z"
-			(at 103.8352 -501.142 0)
+			(at 103.8352 732.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19736,7 +19874,7 @@
 			)
 		)
 		(property "Manufacturer" "OSRAM"
-			(at 103.8352 -501.142 0)
+			(at 103.8352 732.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19746,7 +19884,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 311.15 135.89 0)
+			(at 311.15 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19757,7 +19895,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 308.61 135.89 0)
+			(at 308.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19784,16 +19922,16 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
-		(at 294.64 113.03 270)
+		(at 294.64 118.11 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e71040f")
 		(property "Reference" "BOOT1"
-			(at 298.45 116.8399 90)
+			(at 298.45 114.3001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19802,7 +19940,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
-			(at 294.64 113.03 0)
+			(at 294.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19812,7 +19950,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 294.64 113.03 0)
+			(at 294.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19822,7 +19960,7 @@
 			)
 		)
 		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf"
-			(at 294.64 113.03 0)
+			(at 294.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19832,7 +19970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 294.64 113.03 0)
+			(at 294.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19840,7 +19978,7 @@
 			)
 		)
 		(property "MPN" "LG L29K-G2J1-24-Z"
-			(at 67.0052 -468.122 0)
+			(at 67.0052 699.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19850,7 +19988,7 @@
 			)
 		)
 		(property "Manufacturer" "OSRAM"
-			(at 67.0052 -468.122 0)
+			(at 67.0052 699.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19860,7 +19998,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 274.32 135.89 0)
+			(at 274.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19871,7 +20009,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 271.78 135.89 0)
+			(at 271.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22437,16 +22575,15 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitorspol:C_Pol_330u_6.3V_KEMET-T520-B")
-		(at 364.49 35.56 0)
+		(at 364.49 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000060b9663e")
 		(property "Reference" "C11"
-			(at 367.665 36.2965 0)
+			(at 367.792 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22455,7 +22592,7 @@
 			)
 		)
 		(property "Value" "C_Pol_330u_6.3V_KEMET-T520-B"
-			(at 364.49 39.37 0)
+			(at 360.68 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22465,7 +22602,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_Pol_EIA-B"
-			(at 369.57 30.48 0)
+			(at 369.57 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22493,7 +22630,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 369.57 25.4 0)
+			(at 374.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22503,7 +22640,7 @@
 			)
 		)
 		(property "MPN" "T520B337M006ATE040"
-			(at 369.57 27.94 0)
+			(at 372.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22513,7 +22650,7 @@
 			)
 		)
 		(property "Val" "330u"
-			(at 367.665 38.8365 0)
+			(at 367.792 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22522,7 +22659,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 378.46 53.34 0)
+			(at 346.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22533,7 +22670,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 378.46 55.88 0)
+			(at 344.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22544,7 +22681,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 378.46 58.42 0)
+			(at 341.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,7 +22691,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 378.46 60.96 0)
+			(at 339.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22580,7 +22717,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitorspol:C_Pol_330u_6.3V_KEMET-T520-B")
-		(at 350.52 35.56 0)
+		(at 350.52 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22588,7 +22725,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060b97865")
 		(property "Reference" "C10"
-			(at 353.695 36.2965 0)
+			(at 353.568 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22597,7 +22734,7 @@
 			)
 		)
 		(property "Value" "C_Pol_330u_6.3V_KEMET-T520-B"
-			(at 350.52 39.37 0)
+			(at 346.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22607,7 +22744,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_Pol_EIA-B"
-			(at 355.6 30.48 0)
+			(at 355.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22635,7 +22772,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 355.6 25.4 0)
+			(at 360.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22645,7 +22782,7 @@
 			)
 		)
 		(property "MPN" "T520B337M006ATE040"
-			(at 355.6 27.94 0)
+			(at 358.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22655,7 +22792,7 @@
 			)
 		)
 		(property "Val" "330u"
-			(at 353.695 38.8365 0)
+			(at 353.568 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22664,7 +22801,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 364.49 53.34 0)
+			(at 332.74 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22675,7 +22812,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 364.49 55.88 0)
+			(at 330.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22686,7 +22823,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 364.49 58.42 0)
+			(at 327.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22696,7 +22833,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 364.49 60.96 0)
+			(at 325.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23254,7 +23391,7 @@
 	)
 	(symbol
 		(lib_id "antmicroPushbuttonSwitches:SW_TL3340AF160QG_SMD")
-		(at 296.545 168.91 0)
+		(at 297.18 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23263,7 +23400,7 @@
 		(fields_autoplaced yes)
 		(uuid "04824165-3e87-4b9c-bd33-1b5ece149424")
 		(property "Reference" "RST1"
-			(at 301.625 160.655 0)
+			(at 302.26 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23272,7 +23409,7 @@
 			)
 		)
 		(property "Value" "SW_TL3340AF160QG_SMD"
-			(at 301.625 163.195 0)
+			(at 302.26 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +23418,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SW_TL3340AF160QG_SMD"
-			(at 321.945 176.53 0)
+			(at 322.58 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23292,7 +23429,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.com/datasheet/2/140/TL3340-2065742.pdf"
-			(at 321.945 179.07 0)
+			(at 322.58 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23303,7 +23440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 296.545 168.91 0)
+			(at 297.18 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23311,7 +23448,7 @@
 			)
 		)
 		(property "MPN" "TL3340AF160QG"
-			(at 321.945 181.61 0)
+			(at 322.58 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23322,7 +23459,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 321.945 184.15 0)
+			(at 322.58 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23333,7 +23470,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 321.945 186.69 0)
+			(at 322.58 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23344,7 +23481,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 321.945 189.23 0)
+			(at 322.58 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23509,7 +23646,7 @@
 	)
 	(symbol
 		(lib_id "antmicroPushbuttonSwitches:SW_TL3340AF160QG_SMD")
-		(at 296.545 199.39 0)
+		(at 297.18 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23518,7 +23655,7 @@
 		(fields_autoplaced yes)
 		(uuid "20316ef2-f427-4201-9528-995d4d73a87a")
 		(property "Reference" "USR1"
-			(at 301.625 191.135 0)
+			(at 302.26 191.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23527,7 +23664,7 @@
 			)
 		)
 		(property "Value" "SW_TL3340AF160QG_SMD"
-			(at 301.625 193.675 0)
+			(at 302.26 193.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23536,7 +23673,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SW_TL3340AF160QG_SMD"
-			(at 321.945 207.01 0)
+			(at 322.58 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23547,7 +23684,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.com/datasheet/2/140/TL3340-2065742.pdf"
-			(at 321.945 209.55 0)
+			(at 322.58 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23558,7 +23695,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 296.545 199.39 0)
+			(at 297.18 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23566,7 +23703,7 @@
 			)
 		)
 		(property "MPN" "TL3340AF160QG"
-			(at 321.945 212.09 0)
+			(at 322.58 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23577,7 +23714,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 321.945 214.63 0)
+			(at 322.58 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23588,7 +23725,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 321.945 217.17 0)
+			(at 322.58 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23599,7 +23736,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 321.945 219.71 0)
+			(at 322.58 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23632,7 +23769,7 @@
 	)
 	(symbol
 		(lib_id "antmicroPushbuttonSwitches:SW_TL3340AF160QG_SMD")
-		(at 296.545 184.15 0)
+		(at 297.18 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23641,7 +23778,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b5c0559-19ca-49f9-aa8c-c1f8a35dbf41")
 		(property "Reference" "REC1"
-			(at 301.625 175.895 0)
+			(at 302.26 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23650,7 +23787,7 @@
 			)
 		)
 		(property "Value" "SW_TL3340AF160QG_SMD"
-			(at 301.625 178.435 0)
+			(at 302.26 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23659,7 +23796,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SW_TL3340AF160QG_SMD"
-			(at 321.945 191.77 0)
+			(at 322.58 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23670,7 +23807,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.com/datasheet/2/140/TL3340-2065742.pdf"
-			(at 321.945 194.31 0)
+			(at 322.58 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23681,7 +23818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 296.545 184.15 0)
+			(at 297.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23689,7 +23826,7 @@
 			)
 		)
 		(property "MPN" "TL3340AF160QG"
-			(at 321.945 196.85 0)
+			(at 322.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23700,7 +23837,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 321.945 199.39 0)
+			(at 322.58 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23711,7 +23848,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 321.945 201.93 0)
+			(at 322.58 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23722,7 +23859,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 321.945 204.47 0)
+			(at 322.58 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
