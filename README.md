@@ -1,6 +1,6 @@
 # Antmicro's Open Source Jetson Baseboard
 
-Copyright (c) 2020-2024 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2020-2025 [Antmicro](https://www.antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-nano-baseboard)
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/jetson-nano-baseboard/?github=https%3A%2F%2Fgithub.com%2Fantmicro%2Fjetson-nano-baseboard%2Ftree%2Fmain&tab=features)
@@ -70,7 +70,7 @@ The default baudrate for serial debug connection is 115200 baud with an 8-bit tr
 
 ### Revision info
 
-The latest revision of the board (1.5.x) includes the design files converted into KiCad.
+1.5.x revision includes the design files converted into KiCad.
 The BOM has been altered so the board can be produced despite the global chip shortage situation.
 Revision 1.5.x changes the I2C multiplexer (PCA9548 -> PCA9547) used for handling the cameras and video accessories. 
 You may need to adjust the devicetree entries for video accessories to make them work with the new I2C multiplexer chip.
