@@ -37,6 +37,7 @@ The remaining files are stored in the following directories:
 * M.2 (key M) connector exposing PCIe x4 interface
 * RTC battery backup
 * EEPROM for storing board ID/SN
+* 100x55mm (3.93 x 2.16 inch) mechanical outline 
 
 ## Getting started
 
