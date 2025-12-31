@@ -1,4 +1,4 @@
-# Antmicro's Open Source Jetson Baseboard
+# Jetson Nano Baseboard
 
 Copyright (c) 2020-2025 [Antmicro](https://www.antmicro.com)
 
@@ -14,8 +14,6 @@ The board can be interfaced with MIPI CSI-2 video devices through a unified Flex
 Please refer to the Product Design Guide for the relevant SoM for more details regarding the supported CSI lane mappings.
 You will find the SoM-related resources in NVIDIA's [Jetson Download Center](https://developer.nvidia.com/embedded/downloads). 
 
-The baseboard, its custom variants designed by Antmicro per customer's specification, and essential accessories can be purchased from [Capable Robot Components](https://capablerobot.com/products/nx-baseboard/).
-
 The design files for this project starting from Rev. 1.5 are provided and maintained in KiCad.
 Older revisions of the board were prepared in Altium Designer and are kept on a separate [branch](https://github.com/antmicro/jetson-nano-baseboard/tree/1.4.7-altium).
 
@@ -25,7 +23,6 @@ The main directory contains the KiCad design files, LICENSE and README.
 The remaining files are stored in the following directories:
 
 * ``img`` - contains graphics for this README
-* ``doc`` - contains generated schematics and other documentation
 * ``linux-patches`` - contains patches which add camera support for camera modules from Allied Vision (see the BSP section below)
 
 ## Key features
@@ -74,10 +71,6 @@ The default baudrate for serial debug connection is 115200 baud with an 8-bit tr
 The BOM has been altered so the board can be produced despite the global chip shortage situation.
 Revision 1.5.x changes the I2C multiplexer (PCA9548 -> PCA9547) used for handling the cameras and video accessories. 
 You may need to adjust the devicetree entries for video accessories to make them work with the new I2C multiplexer chip.
-
-## Block diagram
-
-![Jetson Nano Devboard block diagram](doc/jetson-nano-baseboard-block-diagram.png)
 
 ## License
 
